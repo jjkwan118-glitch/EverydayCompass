@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#175f92">
+<title>Singapore What's On | Everyday Compass</title>
+<style>
+:root{
+  --navy:#123f63; --blue:#176ea6; --blue2:#eaf5fb; --teal:#168a86;
+  --mint:#e8f7f3; --bg:#f4f8fb; --card:#fff; --text:#173247; --muted:#617789;
+  --line:#dbe7ee; --danger:#c84b5d; --amber:#a96800; --shadow:0 8px 26px rgba(28,72,99,.09);
+  --radius:22px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+button,input,select{font:inherit}
+a{color:inherit}
+.wrap{width:min(1180px,calc(100% - 32px));margin:auto}
+.hero{
+  background:linear-gradient(135deg,#123f63 0%,#176ea6 58%,#168a86 100%);
+  color:#fff;padding:28px 0 30px;border-radius:0 0 34px 34px;box-shadow:var(--shadow)
+}
+.eyebrow{font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;opacity:.88}
+h1{font-size:clamp(2rem,5vw,3.25rem);line-height:1.04;margin:7px 0 10px;letter-spacing:-.035em}
+.hero p{max-width:760px;margin:0;color:#eaf7ff;font-size:1.04rem}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.hero-btn{border:1px solid rgba(255,255,255,.34);background:rgba(255,255,255,.12);color:white;padding:11px 15px;border-radius:14px;font-weight:800;cursor:pointer}
+.hero-btn.primary{background:white;color:var(--navy)}
+main{padding:24px 0 60px}
+.quick{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px;margin-bottom:22px}
+.quick-top{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center}
+.search{width:100%;padding:14px 16px;border:1px solid var(--line);border-radius:17px;background:#fbfdfe;color:var(--text);outline:none}
+.search:focus{border-color:#5aa7d4;box-shadow:0 0 0 4px rgba(23,110,166,.12)}
+.view-toggle{display:flex;background:#eef4f7;border-radius:14px;padding:4px}
+.view-toggle button{border:0;background:transparent;padding:9px 12px;border-radius:11px;font-weight:800;color:var(--muted);cursor:pointer}
+.view-toggle button.active{background:#fff;color:var(--navy);box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.chip{border:1px solid var(--line);background:#fff;color:var(--text);padding:8px 12px;border-radius:999px;font-weight:750;cursor:pointer}
+.chip.active{background:var(--navy);border-color:var(--navy);color:#fff}
+.section-head{display:flex;justify-content:space-between;gap:12px;align-items:end;margin:28px 2px 13px}
+.section-head h2{margin:0;font-size:1.5rem;letter-spacing:-.02em}
+.section-head p{margin:3px 0 0;color:var(--muted)}
+.updated{font-size:.86rem;color:var(--muted);white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column}
+.card-body{padding:20px}
+.topline{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.category{font-size:.78rem;font-weight:850;text-transform:uppercase;letter-spacing:.06em;color:var(--blue)}
+.status{font-size:.76rem;font-weight:850;padding:5px 9px;border-radius:999px;background:var(--mint);color:#08706c;white-space:nowrap}
+.status.ending{background:#fff0e2;color:#9b5600}
+.status.upcoming{background:#edf0ff;color:#4e58a7}
+.card h3{font-size:1.32rem;line-height:1.2;margin:8px 0 8px;letter-spacing:-.02em}
+.overview{margin:0 0 12px;color:#40596b}
+.why{background:var(--blue2);border-radius:15px;padding:11px 13px;margin:12px 0;font-size:.93rem}
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:9px 14px;margin-top:14px}
+.meta-item{font-size:.91rem}
+.meta-item b{display:block;font-size:.76rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:1px}
+.prices{margin-top:14px;border-top:1px solid var(--line);padding-top:13px;display:flex;gap:8px;flex-wrap:wrap}
+.price{background:#f7fafc;border:1px solid var(--line);padding:7px 9px;border-radius:11px;font-size:.86rem}
+.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:13px}
+.tag{background:var(--mint);color:#22635f;border-radius:999px;padding:5px 9px;font-size:.78rem;font-weight:750}
+.card-actions{display:flex;gap:9px;flex-wrap:wrap;padding:0 20px 20px;margin-top:auto}
+.btn{border:0;border-radius:13px;padding:10px 13px;font-weight:850;text-decoration:none;cursor:pointer;display:inline-block}
+.btn.primary{background:var(--blue);color:white}
+.btn.secondary{background:#edf4f8;color:var(--navy)}
+.btn.outline{background:white;border:1px solid var(--line);color:var(--navy)}
+.notice{background:#fff8e8;border:1px solid #f0ddb0;color:#76500c;border-radius:16px;padding:12px 14px;margin:0 0 16px}
+.table-wrap{display:none;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+table{width:100%;border-collapse:collapse;min-width:1000px}
+th,td{text-align:left;vertical-align:top;padding:14px;border-bottom:1px solid var(--line)}
+th{background:#eef6fa;color:var(--navy);font-size:.82rem}
+td{font-size:.9rem}
+.footer-note{text-align:center;color:var(--muted);font-size:.87rem;margin-top:32px}
+.hidden{display:none!important}
+@media(max-width:760px){
+  .wrap{width:min(100% - 20px,1180px)}
+  .hero{padding-top:22px;border-radius:0 0 26px 26px}
+  .quick-top{grid-template-columns:1fr}
+  .view-toggle{width:max-content}
+  .grid{grid-template-columns:1fr}
+  .meta{grid-template-columns:1fr}
+  .section-head{align-items:flex-start;flex-direction:column}
+  .updated{white-space:normal}
+  .card-body{padding:17px}
+  .card-actions{padding:0 17px 17px}
+}
+
+.refreshbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.refresh-info{flex:1;min-width:220px;color:var(--muted);font-size:.9rem}
+.refresh-info strong{color:var(--navy)}
+.refresh-btn{border:0;background:var(--teal);color:#fff;padding:10px 14px;border-radius:13px;font-weight:850;cursor:pointer}
+.refresh-btn:disabled{opacity:.55;cursor:wait}
+.refresh-state{font-size:.84rem;font-weight:750;color:var(--teal)}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Everyday Compass · Discover Singapore</div>
+    <h1>Singapore What's On</h1>
+    <p>One easy place to discover ongoing and upcoming exhibitions, cultural events, festivals and weekend happenings — with clear summaries, prices and practical visitor information.</p>
+    <div class="hero-actions">
+      <button class="hero-btn primary" onclick="setFilter('weekend')">⭐ Good This Weekend</button>
+      <button class="hero-btn" onclick="setFilter('free')">Free Events</button>
+      <button class="hero-btn" onclick="setFilter('senior')">Senior-Friendly</button>
+      <button class="hero-btn" onclick="setFilter('wheelchair')">♿ Wheelchair-Friendly</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="quick">
+    <div class="quick-top">
+      <input id="search" class="search" aria-label="Search events" placeholder="🔎 Search event, venue, nostalgia, exhibition..." oninput="applyFilters()">
+      <div class="view-toggle" aria-label="Choose view">
+        <button id="cardsBtn" class="active" onclick="setView('cards')">Cards</button>
+        <button id="tableBtn" onclick="setView('table')">List</button>
+      </div>
+    </div>
+    <div class="filters" id="filters">
+      <button class="chip active" data-filter="all" onclick="setFilter('all')">All</button>
+      <button class="chip" data-filter="weekend" onclick="setFilter('weekend')">This Weekend</button>
+      <button class="chip" data-filter="ongoing" onclick="setFilter('ongoing')">Ongoing</button>
+      <button class="chip" data-filter="upcoming" onclick="setFilter('upcoming')">Upcoming</button>
+      <button class="chip" data-filter="ending" onclick="setFilter('ending')">Ending Soon</button>
+      <button class="chip" data-filter="free" onclick="setFilter('free')">Free</button>
+      <button class="chip" data-filter="senior" onclick="setFilter('senior')">Senior-Friendly</button>
+      <button class="chip" data-filter="wheelchair" onclick="setFilter('wheelchair')">♿ Wheelchair</button>
+      <button class="chip" data-filter="nostalgia" onclick="setFilter('nostalgia')">Nostalgia & Heritage</button>
+      <button class="chip" data-filter="indoor" onclick="setFilter('indoor')">Indoor</button>
+    </div>
+    <div class="refreshbar">
+      <div class="refresh-info">
+        <strong>Events last refreshed:</strong> <span id="lastRefreshed">23 Sep 2026, 6:50 am SGT</span><br>
+        <span>Automatic refresh check: when this page opens and every 6 hours while it remains open.</span>
+      </div>
+      <button class="refresh-btn" id="refreshBtn" onclick="refreshEvents(true)">↻ Refresh events now</button>
+      <span class="refresh-state" id="refreshState">Up to date</span>
+    </div>
+  </section>
+
+  <div class="notice"><b>Updated 23 Sep 2026:</b> Events below were checked against official organiser pages. The page now shows the last refresh date and includes automatic/manual refresh checks. <b>Important:</b> because this is a standalone HTML file, live organiser updates require an <code>events.json</code> feed when published on Everyday Compass; without that feed it safely keeps the latest verified saved events rather than inventing updates.</div>
+
+  <div class="section-head">
+    <div><h2>⭐ Discover what's happening</h2><p>Understand the event at a glance before deciding where to go.</p></div>
+    <div class="updated">Source priority: Official organiser websites</div>
+  </div>
+
+  <section id="cards" class="grid"></section>
+  <section id="tableWrap" class="table-wrap">
+    <table>
+      <thead><tr><th>Event / Exhibition & Overview</th><th>Period</th><th>Time</th><th>Venue</th><th>Admission</th><th>Access</th><th>More</th></tr></thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </section>
+
+  <p class="footer-note"><b>Information checked 23 Sep 2026.</b> Always use the “Official Information” button before travelling because organisers may change timings, prices or programmes.<br>Everyday Compass · Simple, useful information for everyday life in Singapore</p>
+</main>
+
+<script>
+const events=[
+{
+ title:"Singapore TV: From Local to Global",
+ category:"Exhibition · Nostalgia",
+ overview:"A nostalgic journey through Singapore Chinese television dramas from the 1960s to today. Five themed zones feature original costumes, artefacts, photographs, magazines, recreated sets, multimedia and interactive experiences.",
+ why:"A strong pick if you remember local Chinese dramas from the 1970s–1990s and want to revisit familiar programmes, stars, costumes and TV memories.",
+ period:"9 Jul 2026 – 26 Jan 2027", time:"10am – 6pm", venue:"Singapore Chinese Cultural Centre · Creative Box, Level 6",
+ mrt:"Tanjong Pagar MRT", duration:"60–90 min", adult:"Free", senior:"Free", child:"Free",
+ status:"Ongoing", statusClass:"", tags:["ongoing","weekend","free","senior","wheelchair","nostalgia","indoor"],
+ link:"https://singaporeccc.org.sg/events/singapore-tv-from-local-to-global-special-exhibition/"
+},
+{
+ title:"Small Screen, Big Stories: Telemovies of the 1990s",
+ category:"Screening · Nostalgia",
+ overview:"Revisit classic made-for-TV movies that were a familiar Saturday-night feature in Singapore from 1994 to 1997. The 26 September screenings are When a Child Is Born and The Matchmaker’s Match.",
+ why:"Ideal as a companion outing to the Singapore TV exhibition if you enjoy 1990s local television nostalgia.",
+ period:"Selected Saturdays · 29 Aug 2026 – 10 Jan 2027", time:"2–3.30pm & 4.30–6pm", venue:"Singapore Chinese Cultural Centre · Recital Studio, Level 6",
+ mrt:"Tanjong Pagar MRT", duration:"90 min per screening", adult:"$5 refundable fee", senior:"$5 refundable fee", child:"$5 refundable fee",
+ status:"This Weekend", statusClass:"ending", tags:["ongoing","weekend","senior","wheelchair","nostalgia","indoor"],
+ link:"https://singaporeccc.org.sg/events/small-screen-big-stories-telemovies-of-the-1990s/"
+},
+{
+ title:"Bit Bit Forest Mid-Autumn Light Up!",
+ category:"Festival · Light-up",
+ overview:"Giant illuminated Bit Bit Forest bunny inflatables by Hong Kong-based Kau’s Diary transform the Singapore Chinese Cultural Centre Roof Garden and Concourse for Mid-Autumn.",
+ why:"A free, easy-going evening stop for colourful photos and a festive atmosphere, especially if you are already visiting the cultural centre.",
+ period:"11 Sep – 13 Dec 2026", time:"10am – 10pm", venue:"Singapore Chinese Cultural Centre · Roof Garden",
+ mrt:"Tanjong Pagar MRT", duration:"30–60 min", adult:"Free", senior:"Free", child:"Free",
+ status:"Ongoing", statusClass:"", tags:["ongoing","weekend","free","senior","wheelchair"],
+ link:"https://singaporeccc.org.sg/events/bit-bit-forest-mid-autumn-light-up-maff-2026/"
+},
+{
+ title:"Mid-Autumn Festival 2026",
+ category:"Festival · Lights",
+ overview:"Gardens by the Bay lights up with lantern displays across Golden Garden, Dragonfly Lake, Supertree Grove and other areas, plus a marketplace, carnival activities and selected craft programmes.",
+ why:"This is the final weekend, making it a timely choice for an evening outing with lanterns, food stalls and festive performances.",
+ period:"12 – 27 Sep 2026", time:"6pm – 10pm", venue:"Gardens by the Bay · Multiple outdoor locations",
+ mrt:"Gardens by the Bay MRT", duration:"1½–2 hr", adult:"Free festival admission*", senior:"Free festival admission*", child:"Free festival admission*",
+ status:"Ending Soon", statusClass:"ending", tags:["ongoing","weekend","ending","free","senior","wheelchair"],
+ link:"https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/mid-autumn-festival-2026.html"
+},
+{
+ title:"Crossing Borders 2026",
+ category:"Music · Free Performances",
+ overview:"A month of free music and cultural performances from the Middle East, Asia, Europe and the Americas. The 26–27 September weekend includes Okinawan music, Korean dance, Latin American performances and Afro-Brazilian percussion.",
+ why:"Good for a flexible weekend visit because you can choose from several free performances rather than committing to one long ticketed show.",
+ period:"1 – 30 Sep 2026", time:"Various programme times", venue:"Esplanade – Theatres on the Bay",
+ mrt:"Esplanade MRT", duration:"Varies", adult:"Free programmes", senior:"Free programmes", child:"Free programmes",
+ status:"Ending Soon", statusClass:"ending", tags:["ongoing","weekend","ending","free","senior","wheelchair"],
+ link:"https://www.esplanade.com/whats-on/festivals-and-series/crossing-borders/2026"
+},
+{
+ title:"Once Upon a Tide: Singapore's Journey from Settlement to Global City",
+ category:"Exhibition · Singapore History",
+ overview:"Travel through Singapore’s history and explore the changing tides that shaped a trading settlement into today’s global city, with the sea and Singapore’s connections to the world as central themes.",
+ why:"A useful indoor choice for anyone interested in Singapore’s development, identity and history.",
+ period:"24 May 2025 – 9 Oct 2026", time:"10am – 7pm daily", venue:"National Museum of Singapore · B1 Exhibition Galleries",
+ mrt:"Bencoolen / Bras Basah MRT", duration:"60–90 min", adult:"Free for Singapore Citizens & PRs", senior:"Free for Singapore Citizens & PRs", child:"Free for Singapore Citizens & PRs",
+ status:"Ending Soon", statusClass:"ending", tags:["ongoing","weekend","ending","free","senior","wheelchair","nostalgia","indoor"],
+ link:"https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions"
+},
+{
+ title:"Tails from the Coasts: Nature Stories of Singapore",
+ category:"Exhibition · Nature & Heritage",
+ overview:"An exhibition at the National Museum exploring nature stories connected with Singapore’s coasts, adding an environmental perspective to the museum’s Singapore-focused displays.",
+ why:"A free indoor option for Singapore Citizens and Permanent Residents that combines nature, local stories and museum time.",
+ period:"26 Jun – 1 Nov 2026", time:"10am – 7pm daily", venue:"National Museum of Singapore",
+ mrt:"Bencoolen / Bras Basah MRT", duration:"45–75 min", adult:"Free for Singapore Citizens & PRs", senior:"Free for Singapore Citizens & PRs", child:"Free for Singapore Citizens & PRs",
+ status:"Ongoing", statusClass:"", tags:["ongoing","weekend","free","senior","wheelchair","indoor"],
+ link:"https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions"
+},
+{
+ title:"Lai Foong Moi: Crossings",
+ category:"Exhibition · Art & Singapore",
+ overview:"See 1960s Singapore and Malaya through the paintings of Lai Foong Moi, with portraits, landscapes and everyday scenes exploring identity, social change and belonging.",
+ why:"A quieter cultural outing for visitors interested in Singapore and Malayan social history seen through art.",
+ period:"14 Aug 2026 – 3 Oct 2027", time:"Gallery opening hours", venue:"National Gallery Singapore · City Hall Wing, Level 2",
+ mrt:"City Hall MRT", duration:"60–90 min", adult:"Local General Admission: Free", senior:"Local: Free · overseas senior 60+: $5 off standard", child:"Local: Free · age 7–12 overseas: $5 off; 6 & under free",
+ status:"Ongoing", statusClass:"", tags:["ongoing","weekend","free","senior","wheelchair","nostalgia","indoor"],
+ link:"https://www.nationalgallery.sg/sg/en/exhibitions/Lai-Foong-Moi-Crossings.html"
+},
+{
+ title:"Into the Ocean: Journey Beneath",
+ category:"Exhibition · Ocean & Science",
+ overview:"A world-premiere ArtScience Museum exhibition with OceanX that takes visitors from sunlit surface waters into the deep ocean through footage, specimens, research and immersive displays.",
+ why:"A strong indoor choice if you enjoy nature documentaries, marine life, science and immersive museum experiences.",
+ period:"6 Jun – 1 Nov 2026", time:"9am – 6pm daily · last entry 5pm", venue:"ArtScience Museum · Basement 2 Galleries",
+ mrt:"Bayfront MRT", duration:"60–90 min", adult:"SG resident from $19.50", senior:"Concession from $16.50*", child:"Concession from $16.50*",
+ status:"Ongoing", statusClass:"", tags:["ongoing","weekend","senior","wheelchair","indoor"],
+ link:"https://www.marinabaysands.com/museum/exhibitions/into-the-ocean.html"
+},
+{
+ title:"70 Years of RSP: Where Design Meets Humanity",
+ category:"Exhibition · Architecture",
+ overview:"Discover 70 years of Singapore architecture through RSP’s work, including 15 models of familiar projects such as Henderson Waves, Jewel Changi Airport and the Indoor Stadium, plus original drawings and design records.",
+ why:"A free exhibition for anyone curious about how well-known Singapore buildings and public spaces were designed.",
+ period:"12 Aug – 26 Oct 2026", time:"Mon–Sat · 9am – 5pm", venue:"The URA Centre · Level 1 Atrium, 45 Maxwell Road",
+ mrt:"Maxwell MRT", duration:"45–60 min", adult:"Free", senior:"Free", child:"Free",
+ status:"Ongoing", statusClass:"", tags:["ongoing","weekend","free","senior","wheelchair","indoor"],
+ link:"https://www.ura.gov.sg/get-involved/events-and-exhibitions/rsp70-where-design-meets-humanity-sac/"
+},
+{
+ title:"The Albatross File: Singapore’s Independence Declassified",
+ category:"Permanent Exhibition · Singapore History",
+ overview:"Go behind the scenes of Singapore’s merger and separation from Malaysia using newly declassified documents, oral-history accounts and material tracing the crucial years from 1963 to 1965.",
+ why:"A substantial free history exhibition for visitors who want a deeper understanding of how independent Singapore came about.",
+ period:"Permanent exhibition", time:"10am – 9pm · closed Public Holidays", venue:"National Library Building · Level 10",
+ mrt:"Bugis / Bras Basah MRT", duration:"60–90 min", adult:"Free · booking required", senior:"Free · booking required", child:"Free · booking required",
+ status:"Ongoing", statusClass:"", tags:["ongoing","weekend","free","senior","wheelchair","nostalgia","indoor"],
+ link:"https://exhibitions.nlb.gov.sg/current-exhibitions/"
+},
+{
+ title:"Octoburst! – A Children’s Festival 2026",
+ category:"Upcoming · Family & Arts",
+ overview:"Esplanade’s Children’s Day festival returns with free music, storytelling, craft, movement and interactive activities designed for children and families, including inclusive arts experiences.",
+ why:"Worth saving for 2 October if you are planning an outing with children or grandchildren and want mostly free arts activities.",
+ period:"2 Oct 2026", time:"Various programme times", venue:"Esplanade – Theatres on the Bay",
+ mrt:"Esplanade MRT", duration:"Flexible", adult:"Free programmes", senior:"Free programmes", child:"Free programmes",
+ status:"Upcoming", statusClass:"upcoming", tags:["upcoming","free","senior","wheelchair","indoor"],
+ link:"https://www.esplanade.com/whats-on/festivals-and-series/octoburst/2026"
+}
+];
+
+let activeFilter="all";
+
+function eventCard(e){
+ return `<article class="card event" data-tags="${e.tags.join(" ")}" data-search="${(e.title+" "+e.category+" "+e.overview+" "+e.venue).toLowerCase()}">
+   <div class="card-body">
+    <div class="topline"><div class="category">${e.category}</div><span class="status ${e.statusClass}">${e.status}</span></div>
+    <h3>${e.title}</h3>
+    <p class="overview">${e.overview}</p>
+    <div class="why"><b>Why you may like this:</b> ${e.why}</div>
+    <div class="meta">
+      <div class="meta-item"><b>📅 Period</b>${e.period}</div>
+      <div class="meta-item"><b>🕙 Time</b>${e.time}</div>
+      <div class="meta-item"><b>📍 Venue</b>${e.venue}</div>
+      <div class="meta-item"><b>🚇 Nearest MRT</b>${e.mrt}</div>
+      <div class="meta-item"><b>⏱ Suggested visit</b>${e.duration}</div>
+      <div class="meta-item"><b>♿ Accessibility</b>${e.tags.includes("wheelchair")?"Wheelchair-friendly":"Check venue"}</div>
+    </div>
+    <div class="prices">
+      <span class="price"><b>Adult:</b> ${e.adult}</span>
+      <span class="price"><b>Senior:</b> ${e.senior}</span>
+      <span class="price"><b>Child:</b> ${e.child}</span>
+    </div>
+    <div class="tags">${e.tags.filter(x=>["free","nostalgia","indoor","wheelchair"].includes(x)).map(x=>`<span class="tag">${x==="wheelchair"?"♿ Wheelchair":x[0].toUpperCase()+x.slice(1)}</span>`).join("")}</div>
+   </div>
+   <div class="card-actions">
+     <a class="btn primary" href="${e.link}" target="_blank" rel="noopener">Official Information ↗</a>
+     <button class="btn secondary" onclick="alert('Directions module can open here.')">Directions</button>
+     <button class="btn outline" onclick="alert('MyOuting can generate a wheelchair-friendly day plan for this event.')">Plan MyOuting</button>
+   </div>
+ </article>`;
+}
+function tableRow(e){
+ return `<tr class="event" data-tags="${e.tags.join(" ")}" data-search="${(e.title+" "+e.category+" "+e.overview+" "+e.venue).toLowerCase()}">
+ <td><b>${e.title}</b><br><span style="color:#617789">${e.overview}</span></td>
+ <td>${e.period}</td><td>${e.time}</td><td>${e.venue}<br><small>${e.mrt}</small></td>
+ <td>Adult: ${e.adult}<br>Senior: ${e.senior}<br>Child: ${e.child}</td>
+ <td>${e.tags.includes("wheelchair")?"♿ Wheelchair-friendly":"Check venue"}</td>
+ <td><a href="${e.link}" target="_blank" rel="noopener"><b>Official site ↗</b></a></td></tr>`;
+}
+function render(){
+ document.getElementById("cards").innerHTML=events.map(eventCard).join("");
+ document.getElementById("tableBody").innerHTML=events.map(tableRow).join("");
+ applyFilters();
+}
+function setFilter(f){
+ activeFilter=f;
+ document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("active",c.dataset.filter===f));
+ applyFilters();
+ document.querySelector(".quick").scrollIntoView({behavior:"smooth",block:"start"});
+}
+function applyFilters(){
+ const q=document.getElementById("search").value.trim().toLowerCase();
+ document.querySelectorAll(".event").forEach(el=>{
+   const tags=el.dataset.tags.split(" ");
+   const matchesFilter=activeFilter==="all"||tags.includes(activeFilter);
+   const matchesSearch=!q||el.dataset.search.includes(q);
+   el.classList.toggle("hidden",!(matchesFilter&&matchesSearch));
+ });
+}
+function setView(v){
+ const cards=v==="cards";
+ document.getElementById("cards").style.display=cards?"grid":"none";
+ document.getElementById("tableWrap").style.display=cards?"none":"block";
+ document.getElementById("cardsBtn").classList.toggle("active",cards);
+ document.getElementById("tableBtn").classList.toggle("active",!cards);
+}
+
+const REFRESH_INTERVAL_MS = 6 * 60 * 60 * 1000;
+const EVENT_FEED_URL = "./events.json";
+const BUILT_IN_REFRESH = "2026-09-23T06:50:00+08:00";
+
+function formatSGT(iso){
+  try{
+    return new Intl.DateTimeFormat("en-SG",{
+      timeZone:"Asia/Singapore",day:"numeric",month:"short",year:"numeric",
+      hour:"numeric",minute:"2-digit",hour12:true
+    }).format(new Date(iso))+" SGT";
+  }catch(e){ return iso; }
+}
+function updateRefreshDisplay(iso){
+  document.getElementById("lastRefreshed").textContent = formatSGT(iso);
+}
+async function refreshEvents(manual=false){
+  const btn=document.getElementById("refreshBtn");
+  const state=document.getElementById("refreshState");
+  btn.disabled=true;
+  state.textContent=manual?"Checking official-data feed…":"Checking for updates…";
+  try{
+    const res=await fetch(EVENT_FEED_URL+"?t="+Date.now(),{cache:"no-store"});
+    if(!res.ok) throw new Error("No live feed");
+    const feed=await res.json();
+    if(!feed || !Array.isArray(feed.events)) throw new Error("Invalid feed");
+    events.splice(0,events.length,...feed.events);
+    render();
+    const stamp=feed.lastRefreshed || new Date().toISOString();
+    localStorage.setItem("ecEventsLastRefreshed",stamp);
+    updateRefreshDisplay(stamp);
+    state.textContent="Events refreshed";
+  }catch(err){
+    const last=localStorage.getItem("ecEventsLastRefreshed") || BUILT_IN_REFRESH;
+    updateRefreshDisplay(last);
+    state.textContent="Showing latest saved events";
+  }finally{
+    btn.disabled=false;
+  }
+}
+function autoRefreshIfDue(){
+  const last=localStorage.getItem("ecEventsLastChecked");
+  const now=Date.now();
+  if(!last || now-Number(last)>=REFRESH_INTERVAL_MS){
+    localStorage.setItem("ecEventsLastChecked",String(now));
+    refreshEvents(false);
+  }else{
+    updateRefreshDisplay(localStorage.getItem("ecEventsLastRefreshed") || BUILT_IN_REFRESH);
+  }
+}
+
+render();
+autoRefreshIfDue();
+setInterval(autoRefreshIfDue, 60 * 60 * 1000);
+</script>
+</body>
+</html>

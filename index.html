@@ -45,6 +45,15 @@ textarea:focus-visible{outline:3px solid #925300;outline-offset:4px}
 @media(forced-colors:active){.weather,.essential-card{border:1px solid CanvasText}}
 @media print{.weather-refresh{display:none}.weather,.essential-card{break-inside:avoid}.weather{background:white;color:black}.weather-kicker,.weather-updated,.weather-meta{color:black}}
 
+
+/* Singapore What's On */
+.whats-on{margin:34px 0 8px;background:linear-gradient(125deg,#234bc8,#08745e);color:#fff;border-radius:18px;padding:26px 30px;box-shadow:0 12px 28px #234bc820;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center}
+.whats-on .eyebrow{color:#cffff1;margin-bottom:6px}.whats-on h2{font-size:1.65rem;margin:0 0 8px}.whats-on p{margin:0;color:#edf8f5;max-width:720px}
+.whats-on a{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:11px 18px;border-radius:9px;background:#fff;color:#17305c;text-decoration:none;font-weight:800;white-space:nowrap}
+.whats-on a:hover{background:#e9f3ff}
+@media(max-width:700px){.whats-on{grid-template-columns:1fr;padding:23px 20px}.whats-on a{width:100%}}
+@media print{.whats-on{background:white;color:black;border:1px solid var(--line)}.whats-on p{color:black}}
+
 </style>
 </head>
 <body id="top">
@@ -64,6 +73,16 @@ textarea:focus-visible{outline:3px solid #925300;outline-offset:4px}
 <article class="essential-card healthcare"><span class="essential-icon" aria-hidden="true">🏥</span><h3>Healthcare</h3><p>Reach trusted health information, services and caregiver support.</p><div class="essential-links"><a href="https://www.healthhub.sg/" target="_blank" rel="noopener noreferrer external">HealthHub ↗</a><a href="https://www.aic.sg/" target="_blank" rel="noopener noreferrer external">AIC ↗</a></div></article>
 <article class="essential-card links"><span class="essential-icon" aria-hidden="true">🔗</span><h3>Useful Links</h3><p>Browse the organised, searchable collection of trusted Singapore resources.</p><div class="essential-links"><a href="#library">Explore useful links ↓</a></div></article>
 </div></section>
+
+<section class="whats-on" id="whats-on" aria-labelledby="whats-on-title">
+  <div>
+    <p class="eyebrow">Going out &amp; leisure</p>
+    <h2 id="whats-on-title">🎭 Singapore What’s On</h2>
+    <p>Discover current and upcoming exhibitions, festivals, cultural events and weekend happenings — with brief overviews, dates, timings, admission prices, accessibility information and official links.</p>
+  </div>
+  <a href="singapore-whats-on.html">See what’s on →</a>
+</section>
+
 <section class="library" id="library" aria-labelledby="library-title"><div class="section-head"><div><p class="eyebrow">Find your next useful thing</p><h2 id="library-title">Explore the resource library</h2></div><p>All website links open in a new tab ↗</p></div>
 <div class="controls"><div><label for="search">Search tools & resources</label><input id="search" type="search" placeholder="Try health, games, transport or caregiving" autocomplete="off" aria-controls="results"></div><div><label for="type">Resource type</label><select id="type" aria-controls="results"><option value="all">All resources</option><option value="tool">My tools</option><option value="external">External resources</option></select></div></div>
 <div class="filters" id="filters" role="group" aria-label="Filter by category"></div><div class="resultbar"><p id="count" role="status" aria-live="polite" aria-atomic="true"></p><button class="reset" id="reset" type="button">Reset filters</button></div><div id="results" class="cards"></div><div class="empty" id="empty" hidden><h3>No matching resources</h3><p>Try a broader search or use “Reset filters” to see everything.</p></div>
@@ -82,10 +101,11 @@ const categories = [
 ];
 const tools = [
  {id:'learning-world',name:'Fun Learning World',description:'Discover playful activities in language, spelling, maths, matching and puzzles.',url:'https://jjkwan118-glitch.github.io/FunLearningWorld/',categories:['learning','games'],audience:'For children, parents, grandparents & educators',keywords:'preschool kids mathematics spelling puzzles matching educational games',action:'Explore learning activities',featured:true},
- {id:'companion',name:'One Stop Companion',description:'Bring daily-life tools, useful contacts, health resources and ideas for outings together.',url:'https://jjkwan118-glitch.github.io/OneStopCompanion/',categories:['seniors','health','transport','outings','games','learning'],audience:'For adults, seniors & caregivers',keywords:'medicine reminders appointments emergency SOS cognitive games language discounts malls',action:'Open your daily companion',featured:true},
+ {id:'companion',name:'One Stop Companion',description:'Bring daily-life tools, useful contacts, health resources and ideas for outings together.',url:'https://sgkjeajk.github.io/OneStopCompanion/',categories:['seniors','health','transport','outings','games','learning'],audience:'For adults, seniors & caregivers',keywords:'medicine reminders appointments emergency SOS cognitive games language discounts malls',action:'Open your daily companion',featured:true},
  // ADD NEW TOOL HERE — copy an object above, choose a unique id, and set featured:false.
 ];
 const resources = [
+ {id:'whats-on',name:'Singapore What’s On',description:'Find current and upcoming exhibitions, festivals, cultural events and weekend happenings in one easy-to-scan page.',url:'singapore-whats-on.html',categories:['outings'],source:'Everyday Compass',keywords:'events exhibitions weekend happenings festivals culture singapore senior wheelchair free admission prices',note:'Includes event summaries, dates, prices, accessibility and official organiser links.'},
  {id:'healthhub',name:'HealthHub',description:'Explore health information, healthcare services and personal health e-services.',url:'https://www.healthhub.sg/',categories:['health'],source:'Ministry of Health',keywords:'appointments medication hospital clinic wellness',note:'Some e-services require Singpass.'},
  {id:'aic',name:'Agency for Integrated Care',description:'Find care services, caregiver support and financial assistance information.',url:'https://www.aic.sg/',categories:['seniors','health'],source:'Agency for Integrated Care',keywords:'caregiving ageing elderly grants dementia'},
  {id:'nlb',name:'National Library Board',description:'Discover libraries, reading resources, programmes and opportunities to keep learning.',url:'https://www.nlb.gov.sg/main/home',categories:['learning'],source:'National Library Board',keywords:'books ebooks children reading library'},
@@ -104,7 +124,7 @@ const tips = [
 const all = [...tools.map(x=>({...x,type:'tool'})),...resources.map(x=>({...x,type:'external'}))];
 const $ = id=>document.getElementById(id);
 function element(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text!==undefined)el.textContent=text;return el;}
-function destination(item,text){const url=new URL(item.url);if(url.protocol!=='https:')throw new Error('Only HTTPS links are supported');const a=element('a','',text+' ↗');a.href=url.href;a.target='_blank';a.rel='noopener noreferrer external';a.append(element('span','sr',' (opens in a new tab)'));return a;}
+function destination(item,text){const isLocal=!/^https?:/i.test(item.url);const url=isLocal?new URL(item.url,location.href):new URL(item.url);if(!isLocal&&url.protocol!=='https:')throw new Error('Only HTTPS links are supported');const a=element('a','',text+(isLocal?' →':' ↗'));a.href=isLocal?item.url:url.href;if(!isLocal){a.target='_blank';a.rel='noopener noreferrer external';a.append(element('span','sr',' (opens in a new tab)'));}return a;}
 function badge(type){return element('span','badge'+(type==='external'?' external':''),type==='tool'?'My Tool':'External Resource');}
 tools.filter(t=>t.featured).forEach(t=>{const c=element('article','feature');c.append(badge('tool'),element('h3','',t.name),element('p','',t.description),element('span','audience',t.audience),destination(t,t.action));$('featured').append(c);});
 tips.forEach(t=>$('tips').append(element('li','',t)));
