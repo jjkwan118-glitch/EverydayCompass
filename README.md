@@ -60,3 +60,8 @@ Both supplied personal app URLs returned HTTP 200. Their descriptions follow the
 JavaScript syntax; rendering of all 10 library entries; keyword search; combined external-resource and health-category filters; no-results state; reset behavior; navigation anchor targets; keyboard movement from search to the type selector; mobile visual layout with no horizontal overflow; HTTPS destinations and new-tab isolation (`noopener noreferrer`).
 
 Accessibility provisions include a skip link, semantic landmarks and headings, visible focus, native controls and labels, selected filter announcements, live result counts, 48px control heights, reduced-motion support, responsive reflow and forced-colour borders. This is WCAG 2.2 AA-oriented implementation, not a formal conformance certification. No complete screen-reader or third-party accessibility audit was performed.
+
+## Daily News
+The single Show News / Hide News button displays 15 Singapore and 15 World stories from CNA RSS, in publisher feed order. The checked timestamp records successful generation, not the visitor click time. News generation uses only Python standard libraries. Incomplete or failed feed responses leave the previous edition intact and fail the workflow.
+
+GitHub Actions generates and deploys at 06:45, 12:45 and 18:45 Asia/Singapore (22:45, 04:45 and 10:45 UTC). Scheduled starts may be delayed by GitHub. Pushes to main and manual workflow dispatch also generate and deploy. GitHub Pages uses the Actions publishing source. The workflow deploys its artifact directly because commits made with GITHUB_TOKEN do not trigger another Pages build.

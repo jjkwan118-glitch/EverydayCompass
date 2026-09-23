@@ -54,6 +54,19 @@ textarea:focus-visible{outline:3px solid #925300;outline-offset:4px}
 @media(max-width:700px){.whats-on{grid-template-columns:1fr;padding:23px 20px}.whats-on a{width:100%}}
 @media print{.whats-on{background:white;color:black;border:1px solid var(--line)}.whats-on p{color:black}}
 
+
+.news-card{grid-column:1/-1;background:linear-gradient(120deg,#243b77,#5b3ea6);color:#fff;border-radius:18px;padding:24px 28px;box-shadow:0 12px 28px #234bc820}.news-head{display:flex;justify-content:space-between;gap:18px}.news-card h3{margin:0}.news-meta,.news-note{font-size:.84rem;color:#e8e9ff}.news-panels{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}.news-panel{background:#ffffff12;border:1px solid #ffffff38;border-radius:12px;padding:16px}.news-list{padding-left:25px}.news-list li{padding:9px 0;border-top:1px solid #ffffff25}.news-list a{color:#fff;font-weight:800}.news-summary{font-size:.84rem;margin:3px 0}.news-source{font-size:.75rem;color:#d8ddf7}.news-button{background:#fff;color:#243b77;border:0;border-radius:8px;padding:9px 14px;font-weight:800}@media(max-width:760px){.news-panels{grid-template-columns:1fr}.news-head{flex-direction:column}}
+.news-panels[hidden]{display:none!important}
+
+.news-card{background:linear-gradient(120deg,#12346f,#08715d);color:#fff;border-radius:18px;padding:26px 30px;box-shadow:0 12px 28px #234bc820}
+.news-head{align-items:center}.news-card h3{font-size:1.65rem;line-height:1.3;letter-spacing:-.025em;margin:0 0 8px;color:#fff}
+.news-card .weather-kicker{color:#cffff1;font-size:.78rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;margin:0 0 6px}
+.news-meta{margin:0!important;color:#edf8f5!important;font-size:.9rem!important}
+.news-button{min-height:50px;padding:11px 18px;border-radius:9px;background:#fff;color:#17305c;font-weight:800}.news-button:hover{background:#e9f3ff}
+.news-panel{background:#ffffff12;border:1px solid #ffffff38;border-radius:12px;padding:18px}.news-panel h4{font-size:1.08rem;margin:0 0 10px}
+.news-list a{font-size:1rem}.news-summary{font-size:.9rem!important;line-height:1.55}.news-source{font-size:.78rem}.news-note{color:#edf8f5!important}
+@media(max-width:700px){.news-card{padding:23px 20px}.news-actions{width:100%}.news-button{flex:1}}
+.news-schedule{margin-top:3px!important;font-weight:650}
 </style>
 </head>
 <body id="top">
@@ -68,7 +81,7 @@ textarea:focus-visible{outline:3px solid #925300;outline-offset:4px}
 <section class="weather-block" aria-labelledby="two-hour-title"><h4 id="two-hour-title">Next 2 hours</h4><label for="weather-area">Choose an area</label><select id="weather-area"><option>Loading areas…</option></select><p class="weather-main" id="weather-area-forecast">—</p><p class="weather-meta" id="weather-valid-period">Valid period: —</p></section>
 <section class="weather-block" aria-labelledby="psi-title"><h4 id="psi-title">Haze / PSI</h4><p class="psi-value" id="weather-psi">—</p><p class="weather-main" id="weather-psi-status">Checking air quality…</p><p class="weather-meta" id="weather-psi-detail">24-hour PSI across Singapore</p><h4>4-day outlook</h4><div class="forecast-days" id="weather-four-day"><span>Loading…</span></div></section></div>
 <div class="weather-actions"><a href="https://www.weather.gov.sg/weather-forecast-2hrnowcast-2/" target="_blank" rel="noopener noreferrer external">2-hour forecast ↗</a><a href="https://www.weather.gov.sg/weather-forecast-24hrforecast/" target="_blank" rel="noopener noreferrer external">24-hour forecast ↗</a><a href="https://www.weather.gov.sg/weather-forecast-4dayoutlook/" target="_blank" rel="noopener noreferrer external">4-day forecast ↗</a><a href="https://www.haze.gov.sg/" target="_blank" rel="noopener noreferrer external">Haze / PSI ↗</a></div></article>
-<article class="essential-card"><span class="essential-icon" aria-hidden="true">🚆</span><h3>Transport</h3><p>Plan MRT, bus and accessible journeys around Singapore.</p><div class="essential-links"><a href="https://www.lta.gov.sg/content/ltagov/en/getting_around.html" target="_blank" rel="noopener noreferrer external">LTA journeys ↗</a><a href="#library">More transport</a></div></article>
+<article class="news-card"><div class="news-head"><div><h3>📰 Daily News</h3><p id="news-status" class="news-meta" role="status">Latest edition available · click Show News</p><p class="news-meta news-schedule">Refresh daily 6:45 AM, 12:45 PM, 6:45 PM SGT</p></div><button id="news-refresh" class="news-button" type="button" aria-controls="news-panels" aria-expanded="false">Show News</button></div><div class="news-panels" id="news-panels" hidden><section class="news-panel"><h4>🇸🇬 15 Key Singapore Stories</h4><ol id="sg-news" class="news-list"></ol></section><section class="news-panel"><h4>🌍 15 Key World Stories</h4><ol id="world-news" class="news-list"></ol></section></div><p class="news-note">Latest stories from CNA. Select a headline to open the original source.</p></article><article class="essential-card"><span class="essential-icon" aria-hidden="true">🚆</span><h3>Transport</h3><p>Plan MRT, bus and accessible journeys around Singapore.</p><div class="essential-links"><a href="https://www.lta.gov.sg/content/ltagov/en/getting_around.html" target="_blank" rel="noopener noreferrer external">LTA journeys ↗</a><a href="#library">More transport</a></div></article>
 <article class="essential-card emergency"><span class="essential-icon" aria-hidden="true">🆘</span><h3>Emergency / SOS</h3><p class="emergency-number">995 Ambulance &amp; Fire<br>999 Police</p><div class="essential-links"><a href="tel:995">Call 995</a><a href="tel:999">Call 999</a><a href="https://www.scdf.gov.sg/home/about-scdf/emergency-medical-services" target="_blank" rel="noopener noreferrer external">SCDF guidance ↗</a></div></article>
 <article class="essential-card healthcare"><span class="essential-icon" aria-hidden="true">🏥</span><h3>Healthcare</h3><p>Reach trusted health information, services and caregiver support.</p><div class="essential-links"><a href="https://www.healthhub.sg/" target="_blank" rel="noopener noreferrer external">HealthHub ↗</a><a href="https://www.aic.sg/" target="_blank" rel="noopener noreferrer external">AIC ↗</a></div></article>
 <article class="essential-card links"><span class="essential-icon" aria-hidden="true">🔗</span><h3>Useful Links</h3><p>Browse the organised, searchable collection of trusted Singapore resources.</p><div class="essential-links"><a href="#library">Explore useful links ↓</a></div></article>
@@ -132,7 +145,7 @@ let activeCategory='all';
 [{id:'all',name:'All categories'},...categories].forEach(c=>{const b=element('button','',c.name);b.type='button';b.dataset.category=c.id;b.setAttribute('aria-pressed',String(c.id==='all'));b.setAttribute('aria-controls','results');b.addEventListener('click',()=>{activeCategory=c.id;render();});$('filters').append(b);});
 function render(){const terms=$('search').value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);const type=$('type').value;const filtered=all.filter(r=>{const haystack=[r.name,r.description,r.keywords,r.source,r.audience,...r.categories.map(id=>categories.find(c=>c.id===id).name)].filter(Boolean).join(' ').toLocaleLowerCase();return(type==='all'||type===r.type)&&(activeCategory==='all'||r.categories.includes(activeCategory))&&terms.every(t=>haystack.includes(t));});
  $('filters').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.category===activeCategory)));
- $('results').replaceChildren();filtered.forEach(r=>{const c=element('article','card');c.append(badge(r.type),element('h3','',r.name),element('span','category',r.categories.map(id=>categories.find(x=>x.id===id).name).join(' · ')),element('p','',r.description));if(r.note)c.append(element('p','',r.note));c.append(element('p','source',(r.source||'Independent project')+' · '+new URL(r.url).hostname),destination(r,r.type==='tool'?'Open tool':'Visit resource'));$('results').append(c);});
+ $('results').replaceChildren();filtered.forEach(r=>{const c=element('article','card');c.append(badge(r.type),element('h3','',r.name),element('span','category',r.categories.map(id=>categories.find(x=>x.id===id).name).join(' · ')),element('p','',r.description));if(r.note)c.append(element('p','',r.note));c.append(element('p','source',(r.source||'Independent project')+' · '+new URL(r.url,location.href).hostname),destination(r,r.type==='tool'?'Open tool':'Visit resource'));$('results').append(c);});
  $('count').textContent=filtered.length+' of '+all.length+' resources'+(activeCategory==='all'?'':' · '+categories.find(c=>c.id===activeCategory).name);$('empty').hidden=filtered.length!==0;
 }
 
@@ -156,7 +169,50 @@ function updatePsi(data){const item=data.items?.[0];const readings=item?.reading
 function updateFourDay(data){const forecasts=data.records?.[0]?.forecasts||[];const container=$('weather-four-day');container.replaceChildren(...forecasts.slice(0,4).map(item=>{const card=element('div','forecast-day');card.append(element('strong','',item.day.slice(0,3)),document.createTextNode(cleanForecast(item.forecast?.text)+' · '+item.temperature?.low+'–'+item.temperature?.high+'°'));return card;}));}
 async function loadWeather(){const button=$('weather-refresh');button.setAttribute('aria-busy','true');button.disabled=true;$('weather-status').textContent='Refreshing official information…';const entries=Object.entries(weatherEndpoints);const results=await Promise.allSettled(entries.map(([,url])=>fetchWeather(url)));const stamps=[];let successes=0;results.forEach((result,index)=>{if(result.status!=='fulfilled')return;successes++;const [name]=entries[index];const data=result.value;if(name==='temperature'){updateTemperature(data);if(data.readings?.[0]?.timestamp)stamps.push(data.readings[0].timestamp);}if(name==='twoHour'){updateTwoHour(data);if(data.items?.[0]?.update_timestamp)stamps.push(data.items[0].update_timestamp);}if(name==='day'){updateDay(data);if(data.records?.[0]?.updatedTimestamp)stamps.push(data.records[0].updatedTimestamp);}if(name==='fourDay'){updateFourDay(data);if(data.records?.[0]?.updatedTimestamp)stamps.push(data.records[0].updatedTimestamp);}if(name==='psi'){updatePsi(data);if(data.items?.[0]?.updatedTimestamp)stamps.push(data.items[0].updatedTimestamp);}});if(!successes){$('weather-status').textContent='Weather information is temporarily unavailable. Use the official links below.';}else{const latest=stamps.sort((a,b)=>new Date(b)-new Date(a))[0];$('weather-status').textContent=(successes<entries.length?'Some information is temporarily unavailable. ':'')+'Updated '+(latest?formatSgTime(latest):'just now')+' · data.gov.sg / NEA';}button.removeAttribute('aria-busy');button.disabled=false;}
 
-$('weather-area').addEventListener('change',showAreaForecast);$('weather-refresh').addEventListener('click',loadWeather);$('search').addEventListener('input',render);$('type').addEventListener('change',render);$('reset').addEventListener('click',()=>{$('search').value='';$('type').value='all';activeCategory='all';render();$('search').focus();});render();loadWeather();setInterval(loadWeather,15*60*1000);
+
+function drawNews(id,items){const l=$(id);l.replaceChildren(...items.map(x=>{const li=document.createElement("li"),a=document.createElement("a");a.textContent=x.title;a.href=x.url||"#";if(x.url&&x.url!=="#"){a.target="_blank";a.rel="noopener noreferrer external"}li.append(a,element("p","news-summary",x.summary),element("span","news-source",x.source));return li}))}
+let newsEdition;
+function validateNews(d){
+ if(!d || !Number.isFinite(Date.parse(d.generated_at)))throw new Error('Invalid news timestamp');
+ for(const key of ['singapore','world']){
+  if(!Array.isArray(d[key]) || d[key].length!==15)throw new Error('Incomplete edition');
+  if(d[key].some(x=>!x.title || !/^https:\/\//.test(x.url)))throw new Error('Invalid story');
+ }
+ return d;
+}
+function newsStatus(d){
+ const checked=new Intl.DateTimeFormat('en-SG',{timeZone:'Asia/Singapore',hour:'numeric',minute:'2-digit',hour12:true}).format(new Date(d.generated_at)).toUpperCase();
+ $('news-status').textContent='LIVE NEWS REVIEW · checked '+checked+' SGT';
+}
+async function loadNews(show=true){
+ const button=$('news-refresh');
+ button.disabled=true;
+ try{
+  const response=await fetch('data/daily-news.json?ts='+Date.now(),{cache:'no-store'});
+  if(!response.ok)throw new Error('News unavailable');
+  newsEdition=validateNews(await response.json());
+  newsStatus(newsEdition);
+  if(show){
+   drawNews('sg-news',newsEdition.singapore);
+   drawNews('world-news',newsEdition.world);
+   $('news-panels').hidden=false;
+   button.textContent='Hide News';
+   button.setAttribute('aria-expanded','true');
+  }
+ }catch(error){
+  $('news-status').textContent='News is temporarily unavailable. Please try Show News again.';
+ }finally{button.disabled=false;}
+}
+$('weather-area').addEventListener('change',showAreaForecast);$('weather-refresh').addEventListener('click',loadWeather);$('news-refresh').addEventListener('click',async function(){
+  const panels=$('news-panels');
+  if(!panels.hidden){
+    panels.hidden=true;
+    this.textContent='Show News';
+    this.setAttribute('aria-expanded','false');
+    return;
+  }
+  await loadNews();
+});$('search').addEventListener('input',render);$('type').addEventListener('change',render);$('reset').addEventListener('click',()=>{$('search').value='';$('type').value='all';activeCategory='all';render();$('search').focus();});render();loadNews(false);loadWeather();setInterval(loadWeather,15*60*1000);
 </script>
 </body>
 </html>
