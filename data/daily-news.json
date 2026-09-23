@@ -1,6 +1,34 @@
 {
   "singapore": [
     {
+      "title": "How a new conciliation route can resolve years of unpaid divorce maintenance beyond the courtroom",
+      "url": "https://www.channelnewsasia.com/singapore/divorce-maintenance-unpaid-child-support-enforcement-officer-minlaw-6404806",
+      "summary": "Aiming to set ex-spouses on a stable footing and avoid future disputes, maintenance enforcement officers have attended to more than 1,500 cases as of Jul 29.",
+      "source": "CNA",
+      "published": "Thu, 24 Sep 2026 06:00:00 +0800"
+    },
+    {
+      "title": "She was a ‘guardian angel’: Reunions with teacher and former helper stir emotions online",
+      "url": "https://www.channelnewsasia.com/cna-insider/guardian-angel-reunions-finding-teacher-auntie-former-domestic-helper-6404371",
+      "summary": "A teacher’s kindness helped shape Dino Isaac’s life, while a former helper who raised Leticia Peh ended up sacrificing more than the girl imagined. Their reunions, featured in On The Red Dot, have struck a chord with viewers.",
+      "source": "CNA",
+      "published": "Thu, 24 Sep 2026 06:00:00 +0800"
+    },
+    {
+      "title": "StarHub holds talks with Keppel over potential M1 deal",
+      "url": "https://www.channelnewsasia.com/singapore/starhub-keppel-m1-deal-talks-6405831",
+      "summary": "“There is no certainty or assurance” that any M1 deal will materialise, said Starhub and Keppel.",
+      "source": "CNA",
+      "published": "Thu, 24 Sep 2026 00:11:00 +0800"
+    },
+    {
+      "title": "Man who abandoned 71 cats in Bukit Panjang flat given 16 weeks' jail",
+      "url": "https://www.channelnewsasia.com/singapore/animal-abuse-neglect-71-cats-bukit-panjang-16-weeks-jail-6405321",
+      "summary": "Nine of the cats, which were left neglected in the unit for almost two years, died.",
+      "source": "CNA",
+      "published": "Wed, 23 Sep 2026 23:03:14 +0800"
+    },
+    {
       "title": "Police investigating video of man in smart glasses allegedly trailing female students",
       "url": "https://www.channelnewsasia.com/singapore/man-smart-glasses-female-students-police-raffles-institution-6405256",
       "summary": "The incident was said to have taken place along a pedestrian walkway towards Marymount MRT station.",
@@ -76,37 +104,100 @@
       "summary": "Irin Gan, who played eldest Tay daughter Vicky in the 1990s drama Growing Up, recently reunited with her onscreen parents Lim Kay Tong and Wee Soon Hui.",
       "source": "CNA",
       "published": "Wed, 23 Sep 2026 12:27:00 +0800"
-    },
-    {
-      "title": "Terrorism remains a major concern, Singapore to enter next phase of SGSecure movement: PM Wong",
-      "url": "https://www.channelnewsasia.com/singapore/sgsecure-movement-terrorism-major-concern-pm-wong-6403821",
-      "summary": "Marking the 10th anniversary of the SGSecure movement, Prime Minister Lawrence Wong warned Singaporeans against complacency and taking the country’s peace and security for granted.",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 10:28:00 +0800"
-    },
-    {
-      "title": "Meta takes action against 3.7 million scam-linked 'shell pages' and accounts in Singapore police partnership",
-      "url": "https://www.channelnewsasia.com/singapore/spf-meta-facebook-instagram-scams-6402031",
-      "summary": "Meta says the takedowns mark a shift from removing individual accounts to dismantling entire scam networks.",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 09:01:00 +0800"
-    },
-    {
-      "title": "Malaysian man arrested for allegedly masterminding scam, money laundering operations in Singapore",
-      "url": "https://www.channelnewsasia.com/singapore/malaysia-scam-syndicate-mastermind-money-laundering-6403651",
-      "summary": "The 27-year-old man, nicknamed “Da Xiang”, allegedly recruited Malaysians to carry out government official impersonation scams in Singapore.",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 08:34:37 +0800"
-    },
-    {
-      "title": "At 74, she travels two hours to Changi Prison every week to counsel inmates: ‘I don’t want to give up on them’",
-      "url": "https://www.channelnewsasia.com/women/choo-choy-lian-changi-prison-volunteer-6366666",
-      "summary": "Choo Choy Lian has spent 15 years supporting inmates through the difficult process of rehabilitation. Even when some end up back in prison, the prison volunteer believes turning one’s life around takes patience, understanding and another chance.",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 07:19:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "China’s Xi arrives in Washington, kicking off his state visit with rare planeside welcome from Trump",
+      "url": "https://www.channelnewsasia.com/world/china-xi-lands-trump-us-airport-welcome-6406556",
+      "summary": "In his first state visit to the US capital in more than a decade, China's Xi three-day visit is expected to be saturated with pomp, even by White House standards.",
+      "source": "CNA",
+      "published": "Thu, 24 Sep 2026 06:16:00 +0800"
+    },
+    {
+      "title": "Commentary: Return of tensions in the South China Sea was a matter of time",
+      "url": "https://www.channelnewsasia.com/commentary/south-china-sea-philippines-clash-injury-control-6405116",
+      "summary": "Clashes on the water between China and the Philippines have become sharper and more frequent after two years of relative quiet, says Andrew Chubb from the Asia Society Policy Institute.",
+      "source": "CNA",
+      "published": "Thu, 24 Sep 2026 06:00:00 +0800"
+    },
+    {
+      "title": "Commentary: How would AI kill all humans? Here are the top 5 scenarios",
+      "url": "https://www.channelnewsasia.com/commentary/ai-anthropic-kill-humans-superintelligent-6404801",
+      "summary": "Most scenarios involve the concept of “superintelligent” AI, says a professor.",
+      "source": "CNA",
+      "published": "Thu, 24 Sep 2026 05:58:00 +0800"
+    },
+    {
+      "title": "Stocks fall on soaring bond yields, higher oil prices",
+      "url": "https://www.channelnewsasia.com/world/stocks-fall-soaring-bond-yields-higher-oil-prices-6406516",
+      "summary": "",
+      "source": "CNA",
+      "published": "Thu, 24 Sep 2026 05:45:02 +0800"
+    },
+    {
+      "title": "US-backed Board of Peace unveils US$2.5bn Gaza recovery plan",
+      "url": "https://www.channelnewsasia.com/world/gaza-board-peace-recovery-plan-unga-6406456",
+      "summary": "During a meeting on the sidelines of the UN General Assembly, US President Donald Trump’s Board of Peace proposed a US$2.45 billion plan to rebuild Gaza over six months.",
+      "source": "CNA",
+      "published": "Thu, 24 Sep 2026 05:26:38 +0800"
+    },
+    {
+      "title": "US judge weighing Trump's White House ban on media outlets",
+      "url": "https://www.channelnewsasia.com/world/media-outlets-court-hearing-white-house-ban-6406361",
+      "summary": "US media outlets CNN, MS NOW and Politico asked a US court to restore their access to the White House after US President Donald Trump banned them, arguing that the ban violates the First Amendment and the right to a free press.",
+      "source": "CNA",
+      "published": "Thu, 24 Sep 2026 05:04:41 +0800"
+    },
+    {
+      "title": "Europeans warn of rising Russian sabotage but see no imminent NATO attack",
+      "url": "https://www.channelnewsasia.com/world/europe-russia-attacks-ukraine-poland-helicopter-6406281",
+      "summary": "EU foreign policy chief Kaja Kallas said Russia is increasing cyberattacks, sabotage and drone incursions \"to scare Europe into winding down its support for Ukraine.\"",
+      "source": "CNA",
+      "published": "Thu, 24 Sep 2026 04:07:59 +0800"
+    },
+    {
+      "title": "Weinstein resentenced to 15 years in prison for 2006 sex assault",
+      "url": "https://www.channelnewsasia.com/world/weinstein-resentenced-15-years-in-prison-2006-sex-assault-6406131",
+      "summary": "Disgraced Hollywood producer Harvey Weinstein was sentenced to 15 years in prison for sexually assaulting a former production assistant.",
+      "source": "CNA",
+      "published": "Thu, 24 Sep 2026 02:22:05 +0800"
+    },
+    {
+      "title": "Zelenskyy says Ukraine ready for maritime truce and puts onus on Russia to respond",
+      "url": "https://www.channelnewsasia.com/world/zelenskyy-says-ukraine-ready-maritime-truce-and-puts-onus-russia-respond-6406081",
+      "summary": "Ukrainian President Volodymyr Zelenskyy said Ukraine is ready for a ceasefire in the Black Sea and is waiting for Russia’s response.",
+      "source": "CNA",
+      "published": "Thu, 24 Sep 2026 01:46:48 +0800"
+    },
+    {
+      "title": "President tells Trump that Iran will never 'bend at the knee'",
+      "url": "https://www.channelnewsasia.com/world/iran-president-trump-un-us-israel-6405946",
+      "summary": "Iranian President Masoud Pezeshkian accused the US of terrorism and said Iran would not give in to pressure from the US and Israel.",
+      "source": "CNA",
+      "published": "Thu, 24 Sep 2026 01:00:04 +0800"
+    },
+    {
+      "title": "ICC convicts Central African Republic rebel leader",
+      "url": "https://www.channelnewsasia.com/world/icc-convicts-central-african-republic-rebel-leader-6405021",
+      "summary": "",
+      "source": "CNA",
+      "published": "Wed, 23 Sep 2026 23:08:00 +0800"
+    },
+    {
+      "title": "First US-Iran talks in months raise hopes for progress despite no concessions",
+      "url": "https://www.channelnewsasia.com/world/us-iran-talks-hopes-progress-no-concessions-6405111",
+      "summary": "Iranian Foreign Minister Abbas Araghchi and US envoys Steve Witkoff and Jared Kushner communicated through mediators on the sidelines of the UN General Assembly in New York.",
+      "source": "CNA",
+      "published": "Wed, 23 Sep 2026 22:48:00 +0800"
+    },
+    {
+      "title": "El Nino could cause 451,000 extra heat deaths: Research",
+      "url": "https://www.channelnewsasia.com/sustainability/super-el-nino-cause-extra-heat-deaths-research-6404406",
+      "summary": "The estimated toll includes a projected 19,300 additional heat-related deaths in Indonesia and 19,400 in the Philippines, Vietnam, Thailand and Cambodia.",
+      "source": "CNA",
+      "published": "Wed, 23 Sep 2026 22:05:00 +0800"
+    },
     {
       "title": "Iran airlines cancel flights as US sanctions hit",
       "url": "https://www.channelnewsasia.com/world/iran-us-sanctions-airlines-cancel-flights-6405501",
@@ -120,99 +211,8 @@
       "summary": "",
       "source": "CNA",
       "published": "Wed, 23 Sep 2026 19:32:00 +0800"
-    },
-    {
-      "title": "South Korea says Trump welcomes progress in US strategic investment projects",
-      "url": "https://www.channelnewsasia.com/east-asia/south-korea-says-trump-welcomes-progress-in-us-strategic-investment-projects-6403856",
-      "summary": "",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 19:01:00 +0800"
-    },
-    {
-      "title": "No grand deal expected from Xi’s US visit as China seeks ‘strategic stability’: Analysts",
-      "url": "https://www.channelnewsasia.com/world/xi-trump-us-visit-china-seeks-strategic-stability-analysts-6404776",
-      "summary": "The visit will be Chinese President Xi Jinping’s first state visit to the United States in more than a decade.",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 18:03:03 +0800"
-    },
-    {
-      "title": "Greenland welcomes US military pact but trust still shaky",
-      "url": "https://www.channelnewsasia.com/world/greenland-us-military-pact-trust-shaky-6404771",
-      "summary": "\"You can't simply say: 'Okay, we’ve signed this, so now we trust you again.' Trust really needs to be rebuilt within that partnership,\" said a mayor in southern Greenland.",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 17:14:00 +0800"
-    },
-    {
-      "title": "Russia pounds Kyiv with drone strikes after Zelenskyy-Trump talks",
-      "url": "https://www.channelnewsasia.com/world/russia-pounds-kyiv-drone-strikes-after-zelenskyy-trump-talks-6404556",
-      "summary": "",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 17:07:00 +0800"
-    },
-    {
-      "title": "South African house party shooting kills 11, could be gang violence",
-      "url": "https://www.channelnewsasia.com/world/south-african-house-party-shooting-kills-11-could-be-gang-violence-6404281",
-      "summary": "",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 16:32:25 +0800"
-    },
-    {
-      "title": "UK media regulator investigates Pornhub over age checks",
-      "url": "https://www.channelnewsasia.com/business/uk-media-regulator-investigates-pornhub-over-age-checks-6404536",
-      "summary": "",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 16:07:00 +0800"
-    },
-    {
-      "title": "CNA Explains: What does the US-Greenland security deal actually change?",
-      "url": "https://www.channelnewsasia.com/world/greenland-us-deal-military-base-denmark-cna-explains-6401501",
-      "summary": "The US, Denmark and Greenland signed a security pact on Tuesday, granting Washington a stronger military presence on the semi-autonomous Danish territory.",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 11:39:00 +0800"
-    },
-    {
-      "title": "Israel denounces 'grotesque absurdity' of Macron UN remarks on West Bank",
-      "url": "https://www.channelnewsasia.com/world/israel-west-bank-shooting-macron-un-6403701",
-      "summary": "",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 08:44:00 +0800"
-    },
-    {
-      "title": "Taylor Swift announces new song Patient Zero, her first since her wedding",
-      "url": "https://www.channelnewsasia.com/entertainment/taylor-swift-new-song-patient-zero-6403176",
-      "summary": "The song is out on Friday (Sep 25).",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 08:24:00 +0800"
-    },
-    {
-      "title": "Trump, Greenland, Denmark sign deal in bid to end Arctic standoff",
-      "url": "https://www.channelnewsasia.com/world/trump-greenland-denmark-sign-deal-arctic-military-6403576",
-      "summary": "Trump says the deal, which permits a larger US military on Greenland, will give the US \"permanent control over security and all other needs on that territory\".",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 06:52:00 +0800"
-    },
-    {
-      "title": "Oil prices retreat as markets welcome US-Iran talks",
-      "url": "https://www.channelnewsasia.com/world/oil-prices-retreat-markets-welcome-us-iran-talks-6403421",
-      "summary": "",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 05:37:15 +0800"
-    },
-    {
-      "title": "Hayden Panettiere died from accidental overdose involving fentanyl, coroner says",
-      "url": "https://www.channelnewsasia.com/entertainment/hayden-panettiere-fentanyl-death-actor-6402731",
-      "summary": "US actor Hayden Panettiere, 36, was found unresponsive in her South Carolina apartment on Aug 16 and was later pronounced dead.",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 04:47:00 +0800"
-    },
-    {
-      "title": "Sri Lankan court sentences 15 men to life in prison for roles in deadly 2019 Easter bombings",
-      "url": "https://www.channelnewsasia.com/world/sri-lanka-easter-bombings-sentence-men-6403166",
-      "summary": "A Sri Lankan court convicted 15 men over the 2019 Easter bombings and sentenced each to 200 years in prison.",
-      "source": "CNA",
-      "published": "Wed, 23 Sep 2026 03:51:36 +0800"
     }
   ],
-  "generated_at": "2026-09-23T21:42:39+08:00",
+  "generated_at": "2026-09-24T06:50:58+08:00",
   "test_mode": false
 }
