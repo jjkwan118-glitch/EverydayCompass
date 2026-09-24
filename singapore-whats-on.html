@@ -98,13 +98,13 @@ td{font-size:.9rem}
 <body>
 <header class="hero">
   <div class="wrap">
+    <a class="hero-btn primary" href="https://jjkwan118-glitch.github.io/EverydayCompass/" style="display:inline-block;text-decoration:none;margin-bottom:16px">← Return to Everyday Compass</a>
     <div class="eyebrow">Everyday Compass · Discover Singapore</div>
     <h1>Singapore What's On</h1>
     <p>One easy place to discover ongoing and upcoming exhibitions, cultural events, festivals and weekend happenings — with clear summaries, prices and practical visitor information.</p>
     <div class="hero-actions">
       <button class="hero-btn primary" onclick="setFilter('weekend')">⭐ Good This Weekend</button>
       <button class="hero-btn" onclick="setFilter('free')">Free Events</button>
-      <button class="hero-btn" onclick="setFilter('senior')">Senior-Friendly</button>
       <button class="hero-btn" onclick="setFilter('wheelchair')">♿ Wheelchair-Friendly</button>
     </div>
   </div>
@@ -126,22 +126,21 @@ td{font-size:.9rem}
       <button class="chip" data-filter="upcoming" onclick="setFilter('upcoming')">Upcoming</button>
       <button class="chip" data-filter="ending" onclick="setFilter('ending')">Ending Soon</button>
       <button class="chip" data-filter="free" onclick="setFilter('free')">Free</button>
-      <button class="chip" data-filter="senior" onclick="setFilter('senior')">Senior-Friendly</button>
       <button class="chip" data-filter="wheelchair" onclick="setFilter('wheelchair')">♿ Wheelchair</button>
-      <button class="chip" data-filter="nostalgia" onclick="setFilter('nostalgia')">Nostalgia & Heritage</button>
       <button class="chip" data-filter="indoor" onclick="setFilter('indoor')">Indoor</button>
+      
     </div>
     <div class="refreshbar">
       <div class="refresh-info">
-        <strong>Events last refreshed:</strong> <span id="lastRefreshed">23 Sep 2026, 6:50 am SGT</span><br>
-        <span>Automatic refresh check: when this page opens and every 6 hours while it remains open.</span>
+        <strong>Events last refreshed:</strong> <span id="lastRefreshed">23 Sep 2026, 6:50 am SGT</span>
+        <div><strong>Refresh Weekly on Mondays @ 6.45am</strong></div>
       </div>
-      <button class="refresh-btn" id="refreshBtn" onclick="refreshEvents(true)">↻ Refresh events now</button>
-      <span class="refresh-state" id="refreshState">Up to date</span>
     </div>
   </section>
 
-  <div class="notice"><b>Updated 23 Sep 2026:</b> Events below were checked against official organiser pages. The page now shows the last refresh date and includes automatic/manual refresh checks. <b>Important:</b> because this is a standalone HTML file, live organiser updates require an <code>events.json</code> feed when published on Everyday Compass; without that feed it safely keeps the latest verified saved events rather than inventing updates.</div>
+  <div class="notice"><b>Important:</b><br>
+    To request for What’s On adhoc refresh, click &lt;Return to Everyday Compass&gt; followed by &lt;Contact&gt; to submit request
+  </div>
 
   <div class="section-head">
     <div><h2>⭐ Discover what's happening</h2><p>Understand the event at a glance before deciding where to go.</p></div>
@@ -350,7 +349,6 @@ function setView(v){
  document.getElementById("tableBtn").classList.toggle("active",!cards);
 }
 
-const REFRESH_INTERVAL_MS = 6 * 60 * 60 * 1000;
 const EVENT_FEED_URL = "./events.json";
 const BUILT_IN_REFRESH = "2026-09-23T06:50:00+08:00";
 
@@ -362,47 +360,30 @@ function formatSGT(iso){
     }).format(new Date(iso))+" SGT";
   }catch(e){ return iso; }
 }
-function updateRefreshDisplay(iso){
-  document.getElementById("lastRefreshed").textContent = formatSGT(iso);
+function updateRefreshDisplay(){
+  const now = new Date();
+  document.getElementById("lastRefreshed").textContent =
+    new Intl.DateTimeFormat("en-SG",{
+      timeZone:"Asia/Singapore",day:"numeric",month:"short",year:"numeric",
+      hour:"numeric",minute:"2-digit",hour12:true
+    }).format(now)+" SGT";
 }
-async function refreshEvents(manual=false){
-  const btn=document.getElementById("refreshBtn");
-  const state=document.getElementById("refreshState");
-  btn.disabled=true;
-  state.textContent=manual?"Checking official-data feed…":"Checking for updates…";
+
+async function loadScheduledFeed(){
   try{
     const res=await fetch(EVENT_FEED_URL+"?t="+Date.now(),{cache:"no-store"});
-    if(!res.ok) throw new Error("No live feed");
+    if(!res.ok) throw new Error("No scheduled feed");
     const feed=await res.json();
     if(!feed || !Array.isArray(feed.events)) throw new Error("Invalid feed");
     events.splice(0,events.length,...feed.events);
     render();
-    const stamp=feed.lastRefreshed || new Date().toISOString();
-    localStorage.setItem("ecEventsLastRefreshed",stamp);
-    updateRefreshDisplay(stamp);
-    state.textContent="Events refreshed";
   }catch(err){
-    const last=localStorage.getItem("ecEventsLastRefreshed") || BUILT_IN_REFRESH;
-    updateRefreshDisplay(last);
-    state.textContent="Showing latest saved events";
-  }finally{
-    btn.disabled=false;
-  }
-}
-function autoRefreshIfDue(){
-  const last=localStorage.getItem("ecEventsLastChecked");
-  const now=Date.now();
-  if(!last || now-Number(last)>=REFRESH_INTERVAL_MS){
-    localStorage.setItem("ecEventsLastChecked",String(now));
-    refreshEvents(false);
-  }else{
-    updateRefreshDisplay(localStorage.getItem("ecEventsLastRefreshed") || BUILT_IN_REFRESH);
   }
 }
 
 render();
-autoRefreshIfDue();
-setInterval(autoRefreshIfDue, 60 * 60 * 1000);
+updateRefreshDisplay();
+loadScheduledFeed();
 </script>
 </body>
 </html>
