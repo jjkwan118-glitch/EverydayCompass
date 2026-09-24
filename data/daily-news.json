@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "Commentary: Could P1 registration changes be bolder? Focus first on public mandate of primary schools",
+      "url": "https://www.channelnewsasia.com/commentary/p1-registration-phase-2c-changes-parents-6407966",
+      "summary": "Before considering bolder changes, we need to decide how to balance individual competitiveness and our collective values, say SMU’s Jacqueline Ho, NIE’s Jason Tan and NUS’ Vincent Chua.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 06:00:00 +0800"
+    },
+    {
+      "title": "CNA Explains: Smart glasses and the law in Singapore – when does filming a stranger cross the line?",
+      "url": "https://www.channelnewsasia.com/singapore/smart-glasses-filming-public-legal-6407846",
+      "summary": "Filming in public is not automatically illegal, since a person generally has no expectation of privacy in that setting, a lawyer says.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 06:00:00 +0800"
+    },
+    {
       "title": "Scaffold netting outside buildings must be fire-retardant from March 2027",
       "url": "https://www.channelnewsasia.com/singapore/mom-building-scaffold-fire-safety-requirements-construction-6408551",
       "summary": "Earlier this year, the Singapore government said it was reviewing the early observations from Hong Kong's investigation into the Wang Fuk Court fire, which killed 161 people.",
@@ -90,23 +104,79 @@
       "summary": "The collaboration kicks off on Oct 1.",
       "source": "CNA",
       "published": "Thu, 24 Sep 2026 13:16:00 +0800"
-    },
-    {
-      "title": "EV owners invited to vote on differentiated licence plate designs",
-      "url": "https://www.channelnewsasia.com/singapore/ev-licence-plate-design-blue-green-online-voting-onemotoring-6407031",
-      "summary": "The online poll will be available on the OneMotoring website and run from Sep 25 to Oct 9. Only votes from registered EV and PHEV owners will be considered in the final tally.",
-      "source": "CNA",
-      "published": "Thu, 24 Sep 2026 12:01:00 +0800"
-    },
-    {
-      "title": "Actor Jeremy Chan says his back injury was so severe that wife Jesseca Liu had to help him get dressed",
-      "url": "https://www.channelnewsasia.com/entertainment/jeremy-chan-back-injury-jesseca-liu-6406831",
-      "summary": "The 45-year-old actor could barely move for two days – and ended up using his mother-in-law’s walking stick before she did.",
-      "source": "CNA",
-      "published": "Thu, 24 Sep 2026 11:25:47 +0800"
     }
   ],
   "world": [
+    {
+      "title": "At Milan Fashion Week, Fendi, Marni and Jil Sander loosen up their house codes",
+      "url": "https://www.channelnewsasia.com/obsessions/milan-fashion-week-fendi-marni-jil-sander-6408991",
+      "summary": "Maria Grazia Chiuri frees the body at Fendi, Meryll Rogge gives Marni’s quirks a generational spin and Simone Bellotti softens Jil Sander’s minimalism for Spring/Summer 2027.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 06:15:27 +0800"
+    },
+    {
+      "title": "Commentary: A diesel export ban is a bad idea. Trump needs it anyway",
+      "url": "https://www.channelnewsasia.com/commentary/us-diesel-export-ban-trump-iran-ukraie-6408081",
+      "summary": "It would be a short-term fix for Trump’s largely self-inflicted problems, at the expense of US energy production and security, says Liam Denning for Bloomberg Opinion.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 05:59:00 +0800"
+    },
+    {
+      "title": "Commentary: An OpenAI agent hacked an Australian government health data portal. Will anyone be held responsible?",
+      "url": "https://www.channelnewsasia.com/commentary/commentary-openai-agent-hacked-australian-government-health-data-portal-will-anyone-be-held-responsible-6408121",
+      "summary": "This appears to be the first time an AI agent breach of a government system has been made public, says this cybersecurity researcher.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 05:58:00 +0800"
+    },
+    {
+      "title": "Israel's Netanyahu denounces enemies, allies in fiery UN speech",
+      "url": "https://www.channelnewsasia.com/world/israel-netanyahu-un-speed-denounce-enemies-allies-6409471",
+      "summary": "Israel's Prime Minister Benjamin Netanyahu's speech saw dozens of envoys from across the world walk out, some jeering and booing, while Netanyahu's own team stood and applauded.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 05:47:00 +0800"
+    },
+    {
+      "title": "Macklemore hits back with 'Free Palestine Tour' after Sheeran split",
+      "url": "https://www.channelnewsasia.com/world/macklemore-free-palestine-tour-ed-sheeran-6409411",
+      "summary": "US rapper Macklemore announced his own “Free Palestine Tour”, with all proceeds going to organisations supporting Palestinians, after being dropped from Ed Sheeran’s US tour following pro-Palestinian comments earlier this month.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 05:23:05 +0800"
+    },
+    {
+      "title": "Taliban govt says Pakistan strikes kill 4 civilians in Afghanistan",
+      "url": "https://www.channelnewsasia.com/world/pakistan-afghanistan-strikes-four-killed-6409336",
+      "summary": "Afghanistan’s Taliban government said Pakistani airstrikes killed four civilians, while Pakistan said it had targeted militant sites.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 04:54:18 +0800"
+    },
+    {
+      "title": "North Korea rejects call to halt nuclear tests",
+      "url": "https://www.channelnewsasia.com/world/north-korea-nuclear-test-ban-reject-6409251",
+      "summary": "North Korea rejected calls to stop nuclear tests, calling the international statement a “grave political provocation”.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 04:21:45 +0800"
+    },
+    {
+      "title": "Trump-Xi summit in Washington begins with great fanfare but low expectations",
+      "url": "https://www.channelnewsasia.com/world/trump-xi-jinping-meeting-summit-iran-taiwan-ai-6409161",
+      "summary": "“We had a great meeting,” US President Donald Trump said after a bilateral meeting with Chinese President Xi Jinping, earlier hailing a “truly great friendship” with the Chinese leader.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 03:04:00 +0800"
+    },
+    {
+      "title": "New US sanctions shut down Iranian flights",
+      "url": "https://www.channelnewsasia.com/world/new-us-sanctions-shut-down-iranian-flights-6409036",
+      "summary": "The US sanctions aim to stop Iranian airlines from flying worldwide, while Iran warned this could increase tensions in the region.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 01:38:00 +0800"
+    },
+    {
+      "title": "CNN, MS NOW, Politico allowed back in White House after judge's order",
+      "url": "https://www.channelnewsasia.com/world/us-media-outlets-white-house-ban-allowed-in-cnn-msnow-politico-6409006",
+      "summary": "",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 00:43:00 +0800"
+    },
     {
       "title": "Morgan Stanley Asia deals leaked in missent email attachment",
       "url": "https://www.channelnewsasia.com/business/morgan-stanley-deals-leaked-missent-email-6408671",
@@ -115,9 +185,9 @@
       "published": "Thu, 24 Sep 2026 21:48:00 +0800"
     },
     {
-      "title": "Trump-Xi summit: Trump welcomes Xi to White House for high-stakes talks",
+      "title": "Highlights: Trump hails 'tremendous strides' and Xi calls for 'healthy' competition as leaders meet",
       "url": "https://www.channelnewsasia.com/world/trump-xi-jinping-meeting-summit-washington-china-us-6407711",
-      "summary": "This is their second summit in four months, following Trump's state visit to Beijing in May.",
+      "summary": "Donald Trump says the two sides have made progress on key issues, while Xi Jinping says their rivalry should be a \"race\", not a \"wrestle\".",
       "source": "CNA",
       "published": "Thu, 24 Sep 2026 21:00:00 +0800"
     },
@@ -141,78 +211,8 @@
       "summary": "The warning is the first time an adviser to Iran's supreme leader explicitly mentioned the Indian Ocean, home to a strategic US-British military base at Diego Garcia, nearly 4,000km from Iran.",
       "source": "CNA",
       "published": "Thu, 24 Sep 2026 17:28:00 +0800"
-    },
-    {
-      "title": "Who’s coming to dinner? US business bigwigs set for Trump-Xi state banquet, China line-up unclear",
-      "url": "https://www.channelnewsasia.com/world/trump-xi-summit-washington-state-dinner-guest-list-6407731",
-      "summary": "A Chinese CEO delegation was said to be in the works just a week before the Washington summit, but multiple reports now indicate Chinese President Xi Jinping arrived in the US without one.",
-      "source": "CNA",
-      "published": "Thu, 24 Sep 2026 17:26:27 +0800"
-    },
-    {
-      "title": "Trump’s high-level welcome for Xi puts personal diplomacy in focus, analysts say",
-      "url": "https://www.channelnewsasia.com/world/donald-trump-high-level-welcome-xi-jinping-personal-diplomacy-analysts-6407651",
-      "summary": "US President Donald Trump’s rare personal airport welcome for Chinese President Xi Jinping gives Xi valuable political optics, while the leaders’ reciprocal visits signal efforts to keep US-China ties stable, experts tell CNA.",
-      "source": "CNA",
-      "published": "Thu, 24 Sep 2026 16:44:00 +0800"
-    },
-    {
-      "title": "Death of British man on SQ321 caused by cardiac failure resulting from severe turbulence, UK inquest hears",
-      "url": "https://www.channelnewsasia.com/singapore/sq321-turbulence-cardiac-arrest-geoff-kitchen-6407516",
-      "summary": "Mr Geoff Kitchen died on flight SQ321 in May 2024 after the plane experienced a sudden drop in altitude while travelling from London's Heathrow Airport to Singapore.",
-      "source": "CNA",
-      "published": "Thu, 24 Sep 2026 16:43:00 +0800"
-    },
-    {
-      "title": "Greek PM urges 'courage' in talks with UK over Parthenon Marbles",
-      "url": "https://www.channelnewsasia.com/world/greek-pm-urges-courage-in-talks-uk-over-parthenon-marbles-6407806",
-      "summary": "",
-      "source": "CNA",
-      "published": "Thu, 24 Sep 2026 16:41:55 +0800"
-    },
-    {
-      "title": "Israel faces mounting diplomatic pressure ahead of Netanyahu’s UN address",
-      "url": "https://www.channelnewsasia.com/world/israel-faces-mounting-diplomatic-pressure-netanyahu-united-nations-address-6407436",
-      "summary": "Trade measures targeting Israeli settlements and growing criticism over Gaza show signs of a widening divide between Israel and some of its Western allies.",
-      "source": "CNA",
-      "published": "Thu, 24 Sep 2026 15:41:56 +0800"
-    },
-    {
-      "title": "Judge blocks Trump's White House media ban, orders access to be restored",
-      "url": "https://www.channelnewsasia.com/world/judge-block-trump-us-media-white-house-ban-access-restore-6407421",
-      "summary": "",
-      "source": "CNA",
-      "published": "Thu, 24 Sep 2026 14:07:00 +0800"
-    },
-    {
-      "title": "US energy secretary says diesel export ban won't work after Trump backs idea",
-      "url": "https://www.channelnewsasia.com/world/us-trump-diesel-export-ban-midterm-elections-6406986",
-      "summary": "As fuel prices surged over the war in the Middle East, US President Donald Trump on Tuesday expressed support for a diesel export ban.",
-      "source": "CNA",
-      "published": "Thu, 24 Sep 2026 10:40:00 +0800"
-    },
-    {
-      "title": "Meta launches camera-free AI glasses amid privacy pushback",
-      "url": "https://www.channelnewsasia.com/business/meta-new-smart-glasses-camera-free-6406896",
-      "summary": "",
-      "source": "CNA",
-      "published": "Thu, 24 Sep 2026 10:05:00 +0800"
-    },
-    {
-      "title": "Dolly Parton's estate granted temporary restraining order against singer's nephew",
-      "url": "https://www.channelnewsasia.com/entertainment/dolly-parton-nephew-bryan-seaver-restraining-order-6406481",
-      "summary": "The estate accused Bryan Seaver of threatening to commit violence and destroy his aunt’s legacy and business empire in court filings.",
-      "source": "CNA",
-      "published": "Thu, 24 Sep 2026 09:44:00 +0800"
-    },
-    {
-      "title": "China's Xi arrives in US to personal Trump welcome",
-      "url": "https://www.channelnewsasia.com/world/china-xi-jinping-lands-donald-trump-us-airport-welcome-6406556",
-      "summary": "US President Donald Trump's personal airport greeting of Chinese leader Xi Jinping begins three days of pageantry that will include another flyover and a state banquet at the White House.",
-      "source": "CNA",
-      "published": "Thu, 24 Sep 2026 06:16:00 +0800"
     }
   ],
-  "generated_at": "2026-09-24T23:16:15+08:00",
+  "generated_at": "2026-09-25T06:52:05+08:00",
   "test_mode": false
 }
