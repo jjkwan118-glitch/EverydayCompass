@@ -1,0 +1,42 @@
+name: What's On Weekly Refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Monday 6:45 AM Singapore = Sunday 10:45 PM UTC
+    - cron: '45 22 * * 0'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: everyday-compass-pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4 pytest
+      - name: Safety tests
+        run: pytest -q
+      - name: Dry run
+        run: python scripts/update_events.py --dry-run
+      - name: Update feed
+        run: python scripts/update_events.py
+      - name: Commit changed feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add events.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update What's On events"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

@@ -139,7 +139,7 @@ td{font-size:.9rem}
   </section>
 
   <div class="notice"><b>Important:</b><br>
-    To request for What’s On adhoc refresh, click &lt;Return to Everyday Compass&gt; followed by &lt;Contact&gt; to submit request
+    To request for What’s On adhoc request, click <a class="btn primary" href="https://jjkwan118-glitch.github.io/EverydayCompass/" style="margin:6px 4px;text-decoration:none">Everyday Compass</a> followed by &lt;Contact&gt; to submit request
   </div>
 
   <div class="section-head">
@@ -308,8 +308,7 @@ function eventCard(e){
    </div>
    <div class="card-actions">
      <a class="btn primary" href="${e.link}" target="_blank" rel="noopener">Official Information ↗</a>
-     <button class="btn secondary" onclick="alert('Directions module can open here.')">Directions</button>
-     <button class="btn outline" onclick="alert('MyOuting can generate a wheelchair-friendly day plan for this event.')">Plan MyOuting</button>
+     <a class="btn secondary" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(e.venue)}" target="_blank" rel="noopener">Directions</a>
    </div>
  </article>`;
 }
