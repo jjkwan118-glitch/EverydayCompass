@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "What happens after an animal dies at the Singapore Zoo? Meet the vet who investigates every death",
+      "url": "https://www.channelnewsasia.com/singapore/mandai-zoo-pathologist-vet-dr-hsu-chia-da-animal-death-post-mortem-care-6410536",
+      "summary": "Dr Hsu Chia-Da is the only pathologist at Mandai Wildlife Group. CNA follows him inside the post-mortem room to see how clues uncovered after death can help zookeepers and veterinarians improve animal care.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 17:39:00 +0800"
+    },
+    {
+      "title": "Singapore now a 'super-aged' society, with more than 1 in 5 citizens aged 65 and above",
+      "url": "https://www.channelnewsasia.com/singapore/super-aged-society-births-population-growth-marriages-6410521",
+      "summary": "The number of Singaporeans aged 80 and above has also grown by 60 per cent over the past 10 years.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 17:34:02 +0800"
+    },
+    {
       "title": "Singapore parents increasingly value holistic development, but academic concerns persist: IPS study",
       "url": "https://www.channelnewsasia.com/singapore/parents-holistic-education-academic-concerns-ips-6409286",
       "summary": "The study by the Institute of Policy Studies looked at how parental mindsets towards education have changed over the last 10 years.",
@@ -12,7 +26,7 @@
       "url": "https://www.channelnewsasia.com/singapore/expo-worker-electrocuted-death-solar-panel-mom-6410496",
       "summary": "Ramalingam Kumaresan failed to ensure that not more than 20 solar panels were connected in a series. Investigations found that 79 panels were connected, deviating from the plan shared with an electrician on his team.",
       "source": "CNA",
-      "published": "Fri, 25 Sep 2026 16:55:30 +0800"
+      "published": "Fri, 25 Sep 2026 16:55:00 +0800"
     },
     {
       "title": "Potential StarHub-M1 merger could create stronger rival to Singtel but reduce consumer perks, say analysts",
@@ -90,23 +104,23 @@
       "summary": "Former Sembcorp Marine president Wong Weng Sun and former Jurong Shipyard senior general manager Lee Fook Kang were issued stern warnings in lieu of prosecution.",
       "source": "CNA",
       "published": "Fri, 25 Sep 2026 10:24:48 +0800"
-    },
-    {
-      "title": "SGIFF 2026 to open with Korean film The Assassin(s), with Bollywood star Aamir Khan among guests",
-      "url": "https://www.channelnewsasia.com/entertainment/sgiff-2026-aamir-khan-hirokazu-koreeda-films-guests-6409841",
-      "summary": "Running from Oct 21 to Nov 1, SGIFF 2026 brings international film stars to Singapore alongside acclaimed local films, audience talks and new ways to experience cinema.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 10:19:00 +0800"
-    },
-    {
-      "title": "Marymount Bakehouse now has a second outlet at Upper Thomson, with new bakes and pet-friendly seating",
-      "url": "https://www.channelnewsasia.com/dining/marymount-bakehouse-opens-upper-thomson-second-outlet-6405891",
-      "summary": "The homegrown bakery has expanded to Upper Thomson with more room for diners and their pets, plus new sourdough creations ranging from French Onion Soup loaves and a Corn and Crab Chowder levain pie to sourdough-crusted seabass with brown butter pasta.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 07:35:31 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Pact with Saudi and Pakistan could expand to Muslim world, Iran, Turkish speaker says",
+      "url": "https://www.channelnewsasia.com/world/defence-pact-mecca-saudi-pakistan-turkiye-iran-6410701",
+      "summary": "",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 18:08:34 +0800"
+    },
+    {
+      "title": "Snap Insight: Though Trump-Xi summit achieves little, 2026 is a high point in US-China relations",
+      "url": "https://www.channelnewsasia.com/commentary/trump-xi-summit-washington-trade-snap-insight-6410591",
+      "summary": "US-China relations will likely be as good as it gets for some time, says US politics observer Steven Okun.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 17:54:10 +0800"
+    },
     {
       "title": "Iran proposes reopening Hormuz within seven days: Media",
       "url": "https://www.channelnewsasia.com/world/iran-reopen-hormuz-strait-proposal-7-days-us-media-6410576",
@@ -197,22 +211,8 @@
       "summary": "North Korea rejected calls to stop nuclear tests, calling the international statement a “grave political provocation”.",
       "source": "CNA",
       "published": "Fri, 25 Sep 2026 04:21:45 +0800"
-    },
-    {
-      "title": "Trump-Xi summit in Washington begins with great fanfare but low expectations",
-      "url": "https://www.channelnewsasia.com/world/trump-xi-jinping-meeting-summit-iran-taiwan-ai-6409161",
-      "summary": "“We had a great meeting,” US President Donald Trump said after a bilateral meeting with Chinese President Xi Jinping, earlier hailing a “truly great friendship” with the Chinese leader.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 03:04:00 +0800"
-    },
-    {
-      "title": "New US sanctions shut down Iranian flights",
-      "url": "https://www.channelnewsasia.com/world/new-us-sanctions-shut-down-iranian-flights-6409036",
-      "summary": "The US sanctions aim to stop Iranian airlines from flying worldwide, while Iran warned this could increase tensions in the region.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 01:38:00 +0800"
     }
   ],
-  "generated_at": "2026-09-25T17:21:16+08:00",
+  "generated_at": "2026-09-25T18:13:40+08:00",
   "test_mode": false
 }
