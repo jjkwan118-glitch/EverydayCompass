@@ -1,11 +1,18 @@
 {
   "singapore": [
     {
+      "title": "HDB scales up robotics and automation solutions to increase construction productivity at BTO sites",
+      "url": "https://www.channelnewsasia.com/singapore/hdb-robotics-automation-construction-bto-productivity-timeline-6410356",
+      "summary": "The government will also further standardise precast components, with productivity gains that could translate into projects being completed earlier, said Minister for National Development Chee Hong Tat.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 19:51:00 +0800"
+    },
+    {
       "title": "Govt reviewing property purchases by rail planning officers between 2007 and 2011 after working paper allegations",
       "url": "https://www.channelnewsasia.com/singapore/private-properties-mrt-stations-rail-planning-officials-review-nber-paper-6410066",
       "summary": "The statistical patterns are concerning, but do not by themselves establish whether officers had access to non-public information about MRT stations or if it influenced property purchases, says the Public Service Division.",
       "source": "CNA",
-      "published": "Fri, 25 Sep 2026 18:30:19 +0800"
+      "published": "Fri, 25 Sep 2026 18:30:00 +0800"
     },
     {
       "title": "What happens after an animal dies at the Singapore Zoo? Meet the vet who investigates every death",
@@ -26,7 +33,7 @@
       "url": "https://www.channelnewsasia.com/singapore/parents-holistic-education-academic-concerns-ips-6409286",
       "summary": "The study by the Institute of Policy Studies looked at how parental mindsets towards education have changed over the last 10 years.",
       "source": "CNA",
-      "published": "Fri, 25 Sep 2026 17:00:23 +0800"
+      "published": "Fri, 25 Sep 2026 17:00:00 +0800"
     },
     {
       "title": "Supervisor gets jail after worker dies from electrocution during solar panel maintenance at Singapore Expo",
@@ -97,16 +104,30 @@
       "summary": "Science Centre Singapore is hosting a series of events in September to celebrate Mid-Autumn Festival.",
       "source": "CNA",
       "published": "Fri, 25 Sep 2026 11:08:00 +0800"
-    },
-    {
-      "title": "Woman charged with taking part in public gatherings without permit after multiple convictions",
-      "url": "https://www.channelnewsasia.com/singapore/falun-gong-singapore-illegal-gathering-6409946",
-      "summary": "Ng Chye Huay, 62, allegedly took part in six public assemblies in support of the Falun Gong spiritual group without a permit at Merlion Park and Anderson Bridge. She was convicted of similar offences in 2001, 2005 and 2007.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 11:01:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Details on US, China trade talks to come on Monday, says Greer",
+      "url": "https://www.channelnewsasia.com/world/details-us-china-trade-talks-come-monday-says-greer-6411266",
+      "summary": "",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 23:04:00 +0800"
+    },
+    {
+      "title": "Pope Leo warns that AI is creating 'paradise of machines'",
+      "url": "https://www.channelnewsasia.com/world/pope-leo-warns-ai-use-risks-humanity-6410816",
+      "summary": "Pope Leo says \"there is an urgent need for education in ethical discernment\".",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 20:08:00 +0800"
+    },
+    {
+      "title": "Xi’s CEO-free delegation at Trump state dinner spotlights strains in US-China business ties",
+      "url": "https://www.channelnewsasia.com/world/trump-xi-state-dinner-guest-list-business-6410141",
+      "summary": "Chinese President Xi Jinping brought China’s top economic officials to Washington but left its business leaders at home, even as corporate America turned out in force for US President Donald Trump’s state dinner.",
+      "source": "CNA",
+      "published": "Fri, 25 Sep 2026 19:11:00 +0800"
+    },
     {
       "title": "Zelenskyy says Trump made 'final decision' to give Ukraine Patriot licence",
       "url": "https://www.channelnewsasia.com/world/zelenskyy-says-trump-made-final-decision-give-ukraine-patriot-licence-6410706",
@@ -190,29 +211,8 @@
       "summary": "This appears to be the first time an AI agent breach of a government system has been made public, says this cybersecurity researcher.",
       "source": "CNA",
       "published": "Fri, 25 Sep 2026 05:58:00 +0800"
-    },
-    {
-      "title": "Israel's Netanyahu denounces enemies, allies in fiery UN speech",
-      "url": "https://www.channelnewsasia.com/world/israel-netanyahu-un-speed-denounce-enemies-allies-6409471",
-      "summary": "Israel's Prime Minister Benjamin Netanyahu's speech saw dozens of envoys from across the world walk out, some jeering and booing, while Netanyahu's own team stood and applauded.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 05:47:00 +0800"
-    },
-    {
-      "title": "Macklemore hits back with 'Free Palestine Tour' after Ed Sheeran split",
-      "url": "https://www.channelnewsasia.com/entertainment/macklemore-free-palestine-tour-ed-sheeran-6409411",
-      "summary": "US rapper Macklemore announced his own “Free Palestine Tour”, with all proceeds going to organisations supporting Palestinians, after being dropped from Ed Sheeran’s US tour following pro-Palestinian comments earlier this month.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 05:23:00 +0800"
-    },
-    {
-      "title": "Taliban govt says Pakistan strikes kill 4 civilians in Afghanistan",
-      "url": "https://www.channelnewsasia.com/world/pakistan-afghanistan-strikes-four-killed-6409336",
-      "summary": "Afghanistan’s Taliban government said Pakistani airstrikes killed four civilians, while Pakistan said it had targeted militant sites.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 04:54:18 +0800"
     }
   ],
-  "generated_at": "2026-09-25T18:54:43+08:00",
+  "generated_at": "2026-09-25T23:57:44+08:00",
   "test_mode": false
 }
