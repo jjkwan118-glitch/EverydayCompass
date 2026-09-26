@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "Singapore air quality enters unhealthy range in three regions",
+      "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-psi-unhealthy-range-6412536",
+      "summary": "PSI readings have dipped in and out of the unhealthy range over the past weeks.",
+      "source": "CNA",
+      "published": "Sat, 26 Sep 2026 20:06:00 +0800"
+    },
+    {
+      "title": "Defending champion Shanti Pereira tops heats, advances to Asian Games 200m finals",
+      "url": "https://www.channelnewsasia.com/sport/shanti-pereira-asian-games-200m-6412571",
+      "summary": "Shanti Pereira clocked a time of 23.10s and was the top qualifier in the women's 200m heats.",
+      "source": "CNA",
+      "published": "Sat, 26 Sep 2026 19:06:00 +0800"
+    },
+    {
       "title": "Helping the bereaved find closure: Singapore officers deployed to Nepal floods return home",
       "url": "https://www.channelnewsasia.com/singapore/nepal-tibet-floods-singapore-disaster-relief-efforts-6410666",
       "summary": "A total of 35 police and forensic officers were deployed to Nepal to provide specialist support in disaster victim identification and aerial surveillance.",
@@ -90,23 +104,72 @@
       "summary": "StarHub and Keppel have confirmed they are in talks over a potential deal, months after a proposed acquisition of M1 by rival Simba fell through.",
       "source": "CNA",
       "published": "Fri, 25 Sep 2026 16:49:00 +0800"
-    },
-    {
-      "title": "Gan Ching Hwee claims Asian Games silver in 800m freestyle for third medal in Japan",
-      "url": "https://www.channelnewsasia.com/sport/asian-games-gan-ching-hwee-800m-freestyle-6410431",
-      "summary": "The 23-year-old broke her own national record - set just days earlier - by more than three seconds.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 16:28:00 +0800"
-    },
-    {
-      "title": "HDB to review flat conversion scheme after concerns raised over Telok Blangah resale listing",
-      "url": "https://www.channelnewsasia.com/singapore/telok-blangah-jumbo-hdb-resale-flat-conversion-scheme-review-6410286",
-      "summary": "The scheme allows eligible owners of 3-room or smaller HDB flats who require more living space to apply to combine their flat with an adjoining unit to form a larger unit.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 14:49:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Boeing flags 737 MAX software glitch affecting landing navigation feature: Report",
+      "url": "https://www.channelnewsasia.com/world/boeing-737-max-glitch-landing-wsj-reports-6413071",
+      "summary": "A Boeing 737 MAX software glitch could knock out automated flight guidance during landing after a missed approach, adding fresh scrutiny to the jetmaker.",
+      "source": "CNA",
+      "published": "Sun, 27 Sep 2026 05:20:00 +0800"
+    },
+    {
+      "title": "Thousands march in Madrid to protest Spain's housing crisis after eviction of 87-year-old woman",
+      "url": "https://www.channelnewsasia.com/world/madrid-protest-eviction-87-year-old-woman-6413036",
+      "summary": "Maricarmen Abascal's eviction after a 275% rent hike fuels fresh pressure on Pedro Sanchez's government to curb evictions and rising housing costs.",
+      "source": "CNA",
+      "published": "Sun, 27 Sep 2026 04:02:13 +0800"
+    },
+    {
+      "title": "China, US agree to AI dialogue, tariff cuts on US$30 billion in goods during Xi visit",
+      "url": "https://www.channelnewsasia.com/world/china-us-ai-tariff-cuts-xi-6413066",
+      "summary": "The tariff reductions would apply to US exports such as agricultural goods, wood and cosmetics, as well as US imports including small appliances, toys, decorations, said the White House.",
+      "source": "CNA",
+      "published": "Sun, 27 Sep 2026 03:45:00 +0800"
+    },
+    {
+      "title": "Trump predicts Cuba and US will make a deal",
+      "url": "https://www.channelnewsasia.com/world/trump-cuba-us-will-deal-6412811",
+      "summary": "Fuel shortages and blackouts grip Cuba as Donald Trump says the US can strike a deal with Havana without military action.",
+      "source": "CNA",
+      "published": "Sun, 27 Sep 2026 03:19:00 +0800"
+    },
+    {
+      "title": "Hundreds of thousands in Paris cheer Pope Leo in largest event of French tour",
+      "url": "https://www.channelnewsasia.com/world/pope-leo-hundreds-thousands-paris-event-6412851",
+      "summary": "An estimated 800,000 people pack the Champs-Élysées as Pope Leo tells Catholics faith, not material things, brings true happiness.",
+      "source": "CNA",
+      "published": "Sun, 27 Sep 2026 01:45:10 +0800"
+    },
+    {
+      "title": "China pushes back against US on Iran and Cuba in UN speech",
+      "url": "https://www.channelnewsasia.com/asia/china-us-iran-cuba-un-speech-6412806",
+      "summary": "Respect for Gulf sovereignty and an end to pressure on Cuba dominated China’s UN speech, as Chinese Vice President Han Zheng pushed back without naming the US.",
+      "source": "CNA",
+      "published": "Sun, 27 Sep 2026 01:23:00 +0800"
+    },
+    {
+      "title": "Trump rejects Iranian proposal to open Hormuz and end fighting",
+      "url": "https://www.channelnewsasia.com/world/trump-rejects-iran-proposal-strait-hormuz-6412896",
+      "summary": "\"They want to make a deal to open the Hormuz Strait immediately because they're losing so badly,\" US President Donald Trump said.",
+      "source": "CNA",
+      "published": "Sat, 26 Sep 2026 23:40:00 +0800"
+    },
+    {
+      "title": "Six dead after explosion destroys building in Athens",
+      "url": "https://www.channelnewsasia.com/world/athens-greece-building-explosion-deaths-6412761",
+      "summary": "The blast - near some of Athens' most visited sites including the Acropolis and the Temple of Zeus - damaged nearby houses, shops and cars and sent rubble and broken glass as far as three blocks away.",
+      "source": "CNA",
+      "published": "Sat, 26 Sep 2026 21:21:00 +0800"
+    },
+    {
+      "title": "China says it 'respects' Trump's 'super intelligence' switch from AI",
+      "url": "https://www.channelnewsasia.com/asia/china-us-trump-xi-ai-super-intelligence-6412656",
+      "summary": "Beijing's foreign ministry said on Saturday (Sep 26) it \"attaches importance\" to US President Donald Trump's adoption of the term \"super intelligence\".",
+      "source": "CNA",
+      "published": "Sat, 26 Sep 2026 19:43:00 +0800"
+    },
     {
       "title": "CNN blocked from Trump trip on Saturday",
       "url": "https://www.channelnewsasia.com/world/cnn-blocked-trump-trip-ban-press-pool-6412601",
@@ -119,7 +182,7 @@
       "url": "https://www.channelnewsasia.com/world/un-diplomacy-takeaways-6412411",
       "summary": "While no breakthroughs were reached on the world's most intractable conflicts, talks on the Iran and Ukraine wars inched forward and global powers used the venue to debate AI risks with industry leaders.",
       "source": "CNA",
-      "published": "Sat, 26 Sep 2026 18:13:49 +0800"
+      "published": "Sat, 26 Sep 2026 18:13:00 +0800"
     },
     {
       "title": "OpenAI says its AI agents posted user images online in error",
@@ -148,71 +211,8 @@
       "summary": "OpenAI's models accessed publicly available information from US government websites, including those of the Census Bureau and the Securities and Exchange Commission, Bloomberg News reported on Friday (Sep 25).",
       "source": "CNA",
       "published": "Sat, 26 Sep 2026 08:31:00 +0800"
-    },
-    {
-      "title": "TikTok reaches first state settlement over teen safety claims, agrees to user limits",
-      "url": "https://www.channelnewsasia.com/world/tiktok-settlement-alabama-teen-safety-user-limits-6412081",
-      "summary": "The agreement, which came days before a scheduled trial, calls for TikTok to implement changes for teenagers in Alabama including a two-hour daily time limit, pauses after 15 minutes of use and stricter age checks.",
-      "source": "CNA",
-      "published": "Sat, 26 Sep 2026 06:38:00 +0800"
-    },
-    {
-      "title": "Wall Street stocks rise, greeting optimism over possible US-Iran deal",
-      "url": "https://www.channelnewsasia.com/world/wall-street-stocks-rise-greeting-optimism-over-possible-us-iran-deal-6412011",
-      "summary": "",
-      "source": "CNA",
-      "published": "Sat, 26 Sep 2026 05:32:52 +0800"
-    },
-    {
-      "title": "Top court grants Trump bid to use federal database to verify voter rolls",
-      "url": "https://www.channelnewsasia.com/world/trump-supreme-court-elections-database-6411921",
-      "summary": "The US Supreme Court allowed the Trump administration to use a federal database to help states check voter citizenship.",
-      "source": "CNA",
-      "published": "Sat, 26 Sep 2026 04:44:00 +0800"
-    },
-    {
-      "title": "TV networks resume covering White House as press access fight continues",
-      "url": "https://www.channelnewsasia.com/world/cnn-ms-now-politico-ban-white-house-tv-network-press-pool-6411836",
-      "summary": "Trump last week banned CNN, MS NOW and Politico from the White House, before a judge ordered the administration to restore their access.",
-      "source": "CNA",
-      "published": "Sat, 26 Sep 2026 03:33:00 +0800"
-    },
-    {
-      "title": "Sri Lanka extends tenure of judges despite protests",
-      "url": "https://www.channelnewsasia.com/world/sri-lanka-parliament-judge-retirement-increase-6411611",
-      "summary": "Sri Lanka’s parliament approved a two-year increase in judges’ retirement age as part of judicial reforms, saying it will help reduce court delays and speed up trials.",
-      "source": "CNA",
-      "published": "Sat, 26 Sep 2026 00:46:00 +0800"
-    },
-    {
-      "title": "Allies unite behind Saudi Arabia as more Iranian flights restricted",
-      "url": "https://www.channelnewsasia.com/world/saudi-arabia-pakistan-turkiye-iran-flights-6411596",
-      "summary": "Iran warned that blocking its flights could lead to similar restrictions on other countries in the Middle East region.",
-      "source": "CNA",
-      "published": "Sat, 26 Sep 2026 00:23:00 +0800"
-    },
-    {
-      "title": "Details on US, China trade talks to come on Monday, says Greer",
-      "url": "https://www.channelnewsasia.com/world/details-us-china-trade-talks-come-monday-says-greer-6411266",
-      "summary": "",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 23:04:00 +0800"
-    },
-    {
-      "title": "Pope Leo warns that AI is creating 'paradise of machines'",
-      "url": "https://www.channelnewsasia.com/world/pope-leo-warns-ai-use-risks-humanity-6410816",
-      "summary": "Pope Leo says \"there is an urgent need for education in ethical discernment\".",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 20:08:00 +0800"
-    },
-    {
-      "title": "Xi’s CEO-free delegation at Trump state dinner spotlights strains in US-China business ties",
-      "url": "https://www.channelnewsasia.com/world/trump-xi-state-dinner-guest-list-business-6410141",
-      "summary": "Chinese President Xi Jinping brought China’s top economic officials to Washington but left its business leaders at home, even as corporate America turned out in force for US President Donald Trump’s state dinner.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 19:11:00 +0800"
     }
   ],
-  "generated_at": "2026-09-26T18:52:31+08:00",
+  "generated_at": "2026-09-27T06:51:42+08:00",
   "test_mode": false
 }
