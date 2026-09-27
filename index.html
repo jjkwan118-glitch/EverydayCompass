@@ -73,6 +73,7 @@ textarea:focus-visible{outline:3px solid #925300;outline-offset:4px}
 .lang-toggle .flag{font-size:1rem}
 [lang-hidden]{display:none!important}
 @media(max-width:580px){.navgroup{gap:12px;width:100%;justify-content:space-between}.lang-toggle{padding:7px 12px;font-size:.82rem}}
+.translate-wrap{position:relative}.translate-toggle{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:white;color:var(--ink);border-radius:999px;padding:8px 15px;font-weight:750;font-size:.86rem;min-height:42px;white-space:nowrap}.translate-toggle:hover{border-color:var(--blue);background:#edf3ff}.translate-menu{position:absolute;right:0;top:calc(100% + 8px);z-index:50;width:240px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px;box-shadow:0 14px 34px #17274a26}.translate-menu label{margin-bottom:6px}.translate-menu select{min-height:44px}.translate-note{font-size:.76rem;color:var(--muted);margin:8px 2px 0}.translate-menu[hidden]{display:none!important}@media(max-width:580px){.translate-toggle{padding:7px 12px;font-size:.82rem}.translate-menu{position:fixed;left:18px;right:18px;top:auto;width:auto}}
 
 /* Readability adjustment: restore/increase text sizing after bilingual update */
 body{font-size:1.08rem}
@@ -108,7 +109,7 @@ nav a{font-size:1rem}
 </head>
 <body id="top">
 <a class="skip" href="#main" data-i18n="skipLink">Skip to main content</a>
-<header><div class="wrap header"><a class="brand" href="#top" aria-label="Everyday Compass home"><span class="mark" aria-hidden="true">↗</span><span>Everyday Compass<small data-i18n="brandTag">Useful tools &amp; resources</small></span></a><div class="navgroup"><nav aria-label="Main navigation"><a href="#my-tools" data-i18n="navTools">My tools</a><a href="#daily-essentials" data-i18n="navEssentials">Daily essentials</a><a href="#library" data-i18n="navLibrary">Explore resources</a><a href="#about" data-i18n="navAbout">About</a><a href="https://jjkwan118-glitch.github.io/EverydayCompass/contact.html" data-i18n="navContact">Contact</a></nav><button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language / 切换语言"><span class="flag" aria-hidden="true">🌐</span><span id="lang-toggle-label">中文</span></button></div></div></header>
+<header><div class="wrap header"><a class="brand" href="#top" aria-label="Everyday Compass home"><span class="mark" aria-hidden="true">↗</span><span>Everyday Compass<small data-i18n="brandTag">Useful tools &amp; resources</small></span></a><div class="navgroup"><nav aria-label="Main navigation"><a href="#my-tools" data-i18n="navTools">My tools</a><a href="#daily-essentials" data-i18n="navEssentials">Daily essentials</a><a href="#library" data-i18n="navLibrary">Explore resources</a><a href="#about" data-i18n="navAbout">About</a><a href="https://jjkwan118-glitch.github.io/EverydayCompass/contact.html" data-i18n="navContact">Contact</a></nav><div class="translate-wrap"><button id="translate-toggle" class="translate-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="translate-menu">🌍 <span>Translate</span></button><div id="translate-menu" class="translate-menu" hidden><label for="translate-language">Translate page to</label><select id="translate-language"><option value="">Select language…</option><option value="ms">Bahasa Melayu</option><option value="zh-CN">中文（简体）</option><option value="zh-TW">中文（繁體）</option><option value="ta">தமிழ்</option><option value="id">Bahasa Indonesia</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="th">ไทย</option><option value="vi">Tiếng Việt</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="es">Español</option></select><p class="translate-note">Translation opens in a new tab so live features on this page remain unchanged.</p></div></div></div></div></header>
 <main class="wrap" id="main" tabindex="-1">
 <section class="intro" aria-labelledby="welcome"><div><p class="eyebrow" data-i18n="introEyebrow">A little help for every day</p><h1 id="welcome" data-i18n-html="introH1">Your starting point for<br><span>learning, living &amp; exploring.</span></h1><p data-i18n="introPara">Useful tools. Trusted resources. Everyday confidence.</p></div><div class="edition" data-i18n-html="editionText">Made for all generations<br>Rooted in Singapore</div></section>
 <section id="my-tools" aria-labelledby="tools-title"><div class="section-head"><h2 id="tools-title" data-i18n="toolsTitle">Two good places to start</h2><p data-i18n="toolsSub">My tools &middot; created for everyday life</p></div><div class="featured" id="featured"></div></section>
@@ -181,7 +182,8 @@ const $ = id=>document.getElementById(id);
 
 // ---------------------------------------------------------------
 // Language state
-let currentLang = (localStorage.getItem('ec-lang')==='zh') ? 'zh' : 'en';
+let currentLang = 'en';
+
 
 const T = {
 en:{
@@ -507,6 +509,43 @@ render();
 loadNews(false);
 loadWeather();
 setInterval(loadWeather,15*60*1000);
+
+// First visit: English. After a visitor explicitly selects a translation language,
+// remember that choice for later direct visits to the hosted Everyday Compass home page.
+(function(){
+ const saved=localStorage.getItem('ec-translate-lang');
+ const hosted=/^https?:$/.test(location.protocol);
+ const translated=/\.translate\.goog$/i.test(location.hostname);
+ if(saved && hosted && !translated){
+  const canonical='https://jjkwan118-glitch.github.io/EverydayCompass/';
+  location.replace('https://translate.google.com/translate?sl=en&tl='+encodeURIComponent(saved)+'&u='+encodeURIComponent(canonical));
+ }
+})();
+
+// Optional full-page translation. Opens Google Translate in a new tab so this page's live widgets remain intact.
+const translateToggle=$('translate-toggle');
+const translateMenu=$('translate-menu');
+const translateLanguage=$('translate-language');
+if(translateToggle&&translateMenu&&translateLanguage){
+ translateToggle.addEventListener('click',()=>{
+  const opening=translateMenu.hidden;
+  translateMenu.hidden=!opening;
+  translateToggle.setAttribute('aria-expanded',String(opening));
+  if(opening)translateLanguage.focus();
+ });
+ translateLanguage.addEventListener('change',()=>{
+  const lang=translateLanguage.value;
+  if(!lang)return; localStorage.setItem('ec-translate-lang',lang);
+  const pageUrl=(location.protocol==='http:'||location.protocol==='https:')?location.href:'https://jjkwan118-glitch.github.io/EverydayCompass/';
+  const u='https://translate.google.com/translate?sl=en&tl='+encodeURIComponent(lang)+'&u='+encodeURIComponent(pageUrl);
+  window.open(u,'_blank','noopener,noreferrer');
+  translateLanguage.value='';
+  translateMenu.hidden=true;
+  translateToggle.setAttribute('aria-expanded','false');
+ });
+ document.addEventListener('click',e=>{if(!e.target.closest('.translate-wrap')){translateMenu.hidden=true;translateToggle.setAttribute('aria-expanded','false');}});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){translateMenu.hidden=true;translateToggle.setAttribute('aria-expanded','false');translateToggle.focus();}});
+}
 </script>
 
 </body>
