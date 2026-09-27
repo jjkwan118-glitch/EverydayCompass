@@ -1,7 +1,14 @@
 {
   "singapore": [
     {
-      "title": "Singapore's Shanti Pereira retains Asian Games 200m gold, makes history",
+      "title": "More than 23,500 Simba customers affected in data breach involving IC numbers, birth dates",
+      "url": "https://www.channelnewsasia.com/singapore/more-23500-simba-customers-affected-in-data-breach-involving-ic-numbers-birth-dates-6413636",
+      "summary": "\"No credit card or bank account information is at risk,\" the telco said.",
+      "source": "CNA",
+      "published": "Sun, 27 Sep 2026 18:56:00 +0800"
+    },
+    {
+      "title": "'I knew it was my day': Singapore's Shanti Pereira retains Asian Games 200m gold, makes history",
       "url": "https://www.channelnewsasia.com/singapore/shanti-pereira-asian-games-200m-final-6413551",
       "summary": "Pereira is the first woman to win the event twice at the quadrennial event.",
       "source": "CNA",
@@ -97,22 +104,15 @@
       "summary": "Gan Ching Hwee smashed three national records at the 2026 Asian Games, taking silver in her events. Her long-time coach Eugene Chia spoke to CNA about their journey so far.",
       "source": "CNA",
       "published": "Sat, 26 Sep 2026 06:00:00 +0800"
-    },
-    {
-      "title": "HDB scales up robotics and automation solutions to increase construction productivity at BTO sites",
-      "url": "https://www.channelnewsasia.com/singapore/hdb-robotics-automation-construction-bto-productivity-timeline-6410356",
-      "summary": "The government will also further standardise precast components, with productivity gains that could translate into projects being completed earlier, said Minister for National Development Chee Hong Tat.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 19:51:00 +0800"
     }
   ],
   "world": [
     {
-      "title": "Police declare major incident at UK's Fairford air base, used by US air forces",
+      "title": "UK counter-terrorism police probe incident near air base",
       "url": "https://www.channelnewsasia.com/world/major-incident-uk-fairford-base-us-air-force-6413501",
       "summary": "",
       "source": "CNA",
-      "published": "Sun, 27 Sep 2026 16:03:54 +0800"
+      "published": "Sun, 27 Sep 2026 16:03:00 +0800"
     },
     {
       "title": "US Treasury chief Bessent claims successes in isolating Iran",
@@ -213,6 +213,6 @@
       "published": "Sat, 26 Sep 2026 16:24:00 +0800"
     }
   ],
-  "generated_at": "2026-09-27T18:53:28+08:00",
+  "generated_at": "2026-09-27T21:53:50+08:00",
   "test_mode": false
 }
