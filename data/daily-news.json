@@ -1,6 +1,27 @@
 {
   "singapore": [
     {
+      "title": "RSAF moving to new runway as part of Paya Lebar Air Base relocation plans",
+      "url": "https://www.channelnewsasia.com/singapore/rsaf-new-runway-changi-east-paya-lebar-air-base-relocation-6413306",
+      "summary": "Then-Defence Minister Ng En Hen said in 2015 that Changi Air Base East would have to be expanded to replace Paya Lebar Air Base.",
+      "source": "CNA",
+      "published": "Sun, 27 Sep 2026 12:37:00 +0800"
+    },
+    {
+      "title": "Singapore proposes UN framework for global AI safeguards",
+      "url": "https://www.channelnewsasia.com/singapore/un-ai-safeguards-singapore-national-statement-6413236",
+      "summary": "Foreign Affairs Minister Vivian Balakrishnan says countries need common rules, testing standards and potentially a new international institution to manage AI risks.",
+      "source": "CNA",
+      "published": "Sun, 27 Sep 2026 10:08:00 +0800"
+    },
+    {
+      "title": "Should seniors be hopping and stomping? Why explosive exercises may help prevent fractures and falls",
+      "url": "https://www.channelnewsasia.com/wellness/plyometric-exercises-seniors-jumping-hopping-balance-falls-6377871",
+      "summary": "Plyometric exercises aren’t just box jumps and pogo hops. Experts explain how gentler versions can help older adults train their balance, reaction time, speed and bone strength – and how to get started safely.",
+      "source": "CNA",
+      "published": "Sun, 27 Sep 2026 08:13:47 +0800"
+    },
+    {
       "title": "Singapore air quality enters unhealthy range in three regions",
       "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-psi-unhealthy-range-6412536",
       "summary": "PSI readings have dipped in and out of the unhealthy range over the past weeks.",
@@ -83,30 +104,16 @@
       "summary": "The number of Singaporeans aged 80 and above has also grown by 60 per cent over the past 10 years.",
       "source": "CNA",
       "published": "Fri, 25 Sep 2026 17:34:00 +0800"
-    },
-    {
-      "title": "Singapore parents increasingly value holistic development, but academic concerns persist: IPS study",
-      "url": "https://www.channelnewsasia.com/singapore/parents-holistic-education-academic-concerns-ips-6409286",
-      "summary": "The study by the Institute of Policy Studies looked at how parental mindsets towards education have changed over the last 10 years.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 17:00:00 +0800"
-    },
-    {
-      "title": "Supervisor gets jail after worker dies from electrocution during solar panel maintenance at Singapore Expo",
-      "url": "https://www.channelnewsasia.com/singapore/expo-worker-electrocuted-death-solar-panel-mom-6410496",
-      "summary": "Ramalingam Kumaresan failed to ensure that not more than 20 solar panels were connected in a series. Investigations found that 79 panels were connected, deviating from the plan shared with an electrician on his team.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 16:55:00 +0800"
-    },
-    {
-      "title": "Potential StarHub-M1 merger could create stronger rival to Singtel but reduce consumer perks, say analysts",
-      "url": "https://www.channelnewsasia.com/singapore/telco-singtel-starhub-m1-simba-price-competition-6410531",
-      "summary": "StarHub and Keppel have confirmed they are in talks over a potential deal, months after a proposed acquisition of M1 by rival Simba fell through.",
-      "source": "CNA",
-      "published": "Fri, 25 Sep 2026 16:49:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "US Treasury chief Bessent claims successes in isolating Iran",
+      "url": "https://www.channelnewsasia.com/world/us-treasury-chief-bessent-claims-successes-in-isolating-iran-6413211",
+      "summary": "",
+      "source": "CNA",
+      "published": "Sun, 27 Sep 2026 08:51:01 +0800"
+    },
     {
       "title": "Boeing flags 737 MAX software glitch affecting landing navigation feature: Report",
       "url": "https://www.channelnewsasia.com/world/boeing-737-max-glitch-landing-wsj-reports-6413071",
@@ -150,7 +157,7 @@
       "published": "Sun, 27 Sep 2026 01:23:00 +0800"
     },
     {
-      "title": "Trump rejects Iranian proposal to open Hormuz and end fighting",
+      "title": "Trump rejects Iran's Hormuz proposal; Tehran calls for diplomacy",
       "url": "https://www.channelnewsasia.com/world/trump-rejects-iran-proposal-strait-hormuz-6412896",
       "summary": "\"They want to make a deal to open the Hormuz Strait immediately because they're losing so badly,\" US President Donald Trump said.",
       "source": "CNA",
@@ -204,15 +211,8 @@
       "summary": "US President Donald Trump and Chinese President Xi Jinping confirmed that they would meet a third and fourth time this year at international summits in China and the United States.",
       "source": "CNA",
       "published": "Sat, 26 Sep 2026 13:59:00 +0800"
-    },
-    {
-      "title": "OpenAI's models accessed US government websites: Report",
-      "url": "https://www.channelnewsasia.com/world/openai-access-us-government-websites-6412186",
-      "summary": "OpenAI's models accessed publicly available information from US government websites, including those of the Census Bureau and the Securities and Exchange Commission, Bloomberg News reported on Friday (Sep 25).",
-      "source": "CNA",
-      "published": "Sat, 26 Sep 2026 08:31:00 +0800"
     }
   ],
-  "generated_at": "2026-09-27T06:51:42+08:00",
+  "generated_at": "2026-09-27T12:49:41+08:00",
   "test_mode": false
 }
