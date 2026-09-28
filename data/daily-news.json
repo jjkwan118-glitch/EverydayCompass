@@ -1,18 +1,67 @@
 {
   "singapore": [
     {
+      "title": "Commentary: What happens after retrenchment may matter more than the headline number",
+      "url": "https://www.channelnewsasia.com/commentary/singapore-retrenchments-jobs-pmet-pay-cut-career-conversion-6415396",
+      "summary": "How quickly displaced workers find another job, and what happens to their earnings afterwards, may offer a fuller picture of Singapore’s labour market adjustment, says NTU’s Chua Yeow Hwee.",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 06:00:00 +0800"
+    },
+    {
+      "title": "Sold for S$5 per post: Inside the persistent scourge of fake positive reviews online",
+      "url": "https://www.channelnewsasia.com/singapore/fake-reviews-online-google-carousell-supplier-6415126",
+      "summary": "CNA found six businesses that have commissioned two suppliers to solicit fake reviews to improve their online presence, including a law firm, funeral home and a private investigator.",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 06:00:00 +0800"
+    },
+    {
+      "title": "Police confirm death of 24-year-old Muay Thai fighter hospitalised after Singapore tournament",
+      "url": "https://www.channelnewsasia.com/singapore/muay-thai-fight-hope-inspire-fitness-6394246",
+      "summary": "The fighter was taken unconscious to hospital after participating in the AMC 13 Fight for Hope tournament at the National Stadium on Sep 12.",
+      "source": "CNA",
+      "published": "Mon, 28 Sep 2026 22:20:00 +0800"
+    },
+    {
+      "title": "Air quality in four Singapore regions in unhealthy range",
+      "url": "https://www.channelnewsasia.com/singapore/air-quality-haze-unhealthy-regions-sep-29-6413481",
+      "summary": "As of 6am on Tuesday, the PSI readings for the central, southern, western and eastern regions were 151, 128, 135 and 125, respectively.",
+      "source": "CNA",
+      "published": "Mon, 28 Sep 2026 20:10:00 +0800"
+    },
+    {
+      "title": "ERP 2 data used to detect suspected offences involving 31 Malaysian cross-border taxis",
+      "url": "https://www.channelnewsasia.com/singapore/erp-2-lta-malaysian-taxis-obu-data-enforcement-6415566",
+      "summary": "The drivers have been notified of their offences and reminded of the relevant penalties, with formal enforcement action to follow.",
+      "source": "CNA",
+      "published": "Mon, 28 Sep 2026 19:48:00 +0800"
+    },
+    {
+      "title": "Man to be charged over AI-generated photo of crocodile at Pandan Reservoir",
+      "url": "https://www.channelnewsasia.com/singapore/man-charged-crocodile-ai-generated-image-pandan-reservoir-police-6415546",
+      "summary": "The 30-year-old will be charged with communicating a false message and obstructing the course of justice.",
+      "source": "CNA",
+      "published": "Mon, 28 Sep 2026 19:07:00 +0800"
+    },
+    {
+      "title": "Singapore leaders offer condolences over death of Mahathir's wife",
+      "url": "https://www.channelnewsasia.com/singapore/malaysia-siti-hasmah-mahathir-wife-dies-singapore-leaders-condolences-6415106",
+      "summary": "Singapore Prime Minister Lawrence Wong called Dr Siti Hasmah Mohamad Ali a \"pioneer in her field\" for contributing to healthcare, education and social causes in Malaysia.",
+      "source": "CNA",
+      "published": "Mon, 28 Sep 2026 19:01:00 +0800"
+    },
+    {
       "title": "IT team lead attached to State Courts installed remote desktop app risking 18,000 files, gets jail",
       "url": "https://www.channelnewsasia.com/singapore/it-team-lead-remote-desktop-state-court-risk-files-jail-6415386",
-      "summary": "Janarthanan Tamil Kovan had granted his foreign acquaintance remote access to the government-managed laptop as Janarthanan wanted to use it to take a cyber security examination.",
+      "summary": "Janarthanan Tamil Kovan had granted his foreign acquaintance remote access to the government-managed laptop as Janarthanan wanted to use it to take a cybersecurity examination.",
       "source": "CNA",
-      "published": "Mon, 28 Sep 2026 18:11:14 +0800"
+      "published": "Mon, 28 Sep 2026 18:11:00 +0800"
     },
     {
       "title": "NTUC Health launches digital platform to bring active ageing programmes online",
       "url": "https://www.channelnewsasia.com/singapore/ntuc-health-digital-active-ageing-platform-getsetup-sg-seniors-active-ageing-livestreaming-6415316",
       "summary": "Seniors can tune in to livestreamed cooking, exercise and other programmes, with recorded sessions also available for those unable to attend classes in person.",
       "source": "CNA",
-      "published": "Mon, 28 Sep 2026 17:36:54 +0800"
+      "published": "Mon, 28 Sep 2026 17:36:00 +0800"
     },
     {
       "title": "New ERP 2 road markings, signs to be rolled out from October",
@@ -55,58 +104,79 @@
       "summary": "Chng Hak-Peng will take over as National Gallery Singapore's CEO, while Dr Eugene Tan will step away from the Gallery to focus on leading Singapore Art Museum as CEO & Director.",
       "source": "CNA",
       "published": "Mon, 28 Sep 2026 16:04:00 +0800"
-    },
-    {
-      "title": "Man, 69, convicted of breaching neighbours' protection order by singing and making noise",
-      "url": "https://www.channelnewsasia.com/singapore/man-convicted-neighbour-protection-order-singing-6415181",
-      "summary": "Heng Choo Hwi said he had the liberty to do his \"own things\" but the judge said one's liberty is subject to the law.",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 16:02:48 +0800"
-    },
-    {
-      "title": "Singapore reshapes government teams, steps up hiring as it builds nuclear energy capabilities",
-      "url": "https://www.channelnewsasia.com/singapore/nuclear-energy-government-teams-hiring-specialist-training-6415011",
-      "summary": "Agencies are recruiting nuclear specialists, while research capacity is growing and new training programmes are being developed.",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 15:42:20 +0800"
-    },
-    {
-      "title": "CDL to divest S$6 billion over 3 years, CEO pledges 'unwavering focus' on execution of new strategy",
-      "url": "https://www.channelnewsasia.com/singapore/cdl-kwek-family-divestments-investments-6414536",
-      "summary": "If completed, the divestments would represent around one-sixth of the company's existing assets.",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 14:11:00 +0800"
-    },
-    {
-      "title": "Singapore semiconductor industry commits over S$500m to R&D as global chip race intensifies",
-      "url": "https://www.channelnewsasia.com/singapore/semiconductor-chips-industry-research-development-6410456",
-      "summary": "This exceeds the more than S$400 million spent on such efforts between 2020 and 2025, according to the Agency for Science, Technology and Research (A*STAR).",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 13:53:02 +0800"
-    },
-    {
-      "title": "Supermarket unit pricing pilot to be expanded from Oct 1 to cover more operators, grocery items",
-      "url": "https://www.channelnewsasia.com/singapore/supermarket-unit-pricing-pilot-expanded-oct-1-6414786",
-      "summary": "The programme allows customers to see the price per unit of measurement of a product, making it easier to compare value across different product sizes and brands.",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 12:42:59 +0800"
-    },
-    {
-      "title": "Taxi, private-hire drivers can switch to bus driving under new career pathway amid AV rollout",
-      "url": "https://www.channelnewsasia.com/singapore/taxi-phv-bus-drivers-career-switch-autonomous-vehicles-6413401",
-      "summary": "Training will run two to six months and can be taken part-time, with a shorter track for drivers who already hold a Class 4 licence.",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 11:00:00 +0800"
-    },
-    {
-      "title": "Avengers: Doomsday tickets now available for purchase in Singapore",
-      "url": "https://www.channelnewsasia.com/entertainment/avengers-doomsday-tickets-singapore-6414586",
-      "summary": "Tickets for Infinity Vision-certified screenings for the upcoming blockbuster Avengers: Doomsday are now on sale.",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 10:58:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Commentary: Football’s enduring controversies show why journalism matters",
+      "url": "https://www.channelnewsasia.com/commentary/fifa-world-cup-investigation-sale-journalism-6415526",
+      "summary": "Without professional journalism, the world wouldn’t have known about FIFA president Gianni Infantino's proposal to sell off the World Cup until it was too late, says Stig Orskov, CEO of the World Association of News Publishers.",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 05:58:00 +0800"
+    },
+    {
+      "title": "US stocks fall, bond yields rise as Middle East war drags on",
+      "url": "https://www.channelnewsasia.com/world/us-stocks-fall-bond-yields-rise-middle-east-war-drags-6416821",
+      "summary": "",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 05:51:44 +0800"
+    },
+    {
+      "title": "UK examines foreign state involvement in suspected airbase plot, releases suspects",
+      "url": "https://www.channelnewsasia.com/world/uk-examines-foreign-state-involvement-in-suspected-airbase-plot-releases-suspects-6416761",
+      "summary": "British police are investigating a suspected plot to attack RAF Fairford, a base used by US bombers, with five British men arrested and released on bail.",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 05:04:50 +0800"
+    },
+    {
+      "title": "Trump's AI meeting with tech CEOs to focus on finding balance, US House speaker says",
+      "url": "https://www.channelnewsasia.com/world/trump-ai-slowdown-meeting-tech-ceos-6416731",
+      "summary": "US President Donald Trump is set to meet major AI executives as lawmakers debate how to balance rapid innovation with government oversight and safety.",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 04:42:25 +0800"
+    },
+    {
+      "title": "Russia pummels Kyiv in latest deadly daytime attack",
+      "url": "https://www.channelnewsasia.com/world/russia-pummels-kyiv-in-latest-deadly-daytime-attack-6416656",
+      "summary": "Russian drones struck Ukraine's National Academy of Sciences in Kyiv, killing one person and wounding others.",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 04:13:50 +0800"
+    },
+    {
+      "title": "Lebanon says Israeli army set off large explosion in south",
+      "url": "https://www.channelnewsasia.com/world/israel-army-south-lebanon-explosion-6416566",
+      "summary": "Lebanese authorities accused Israel of carrying out explosions in villages in southern Lebanon, while Israel said its forces had destroyed \"more than 600 terrorist infrastructure sites.\"",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 03:05:40 +0800"
+    },
+    {
+      "title": "Iran supreme leader says US will be forced out of Middle East: state TV",
+      "url": "https://www.channelnewsasia.com/world/iran-khamenei-us-middle-east-6416471",
+      "summary": "“They have only brought harm upon themselves,” Iran’s Supreme Leader Mojtaba Khamenei said, claiming the United States will eventually be forced out of the Middle East.",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 01:49:20 +0800"
+    },
+    {
+      "title": "US deportations triggering 'cascade' of rights abuses: UN experts",
+      "url": "https://www.channelnewsasia.com/world/us-deportations-third-country-un-rights-abuse-6416356",
+      "summary": "The experts said the US has agreements with more than 35 countries and has deported at least 23,000 third-country nationals.",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 01:22:59 +0800"
+    },
+    {
+      "title": "US says no China arms sale plans after envoy cites Trump offer",
+      "url": "https://www.channelnewsasia.com/east-asia/us-says-no-china-arms-sale-plans-trump-offer-6414436",
+      "summary": "The State Department said in a statement to the New York Times that US law prohibits arms sales to China.",
+      "source": "CNA",
+      "published": "Mon, 28 Sep 2026 23:16:00 +0800"
+    },
+    {
+      "title": "Pope Leo urges concessions for peace as Ukraine war drags on",
+      "url": "https://www.channelnewsasia.com/world/pope-leo-urges-concessions-peace-ukraine-war-drags-6415531",
+      "summary": "",
+      "source": "CNA",
+      "published": "Mon, 28 Sep 2026 21:43:13 +0800"
+    },
     {
       "title": "Death toll in South Africa bar shooting rises to 18",
       "url": "https://www.channelnewsasia.com/world/south-africa-bar-shooting-death-toll-rise-6415341",
@@ -122,7 +192,7 @@
       "published": "Mon, 28 Sep 2026 17:24:18 +0800"
     },
     {
-      "title": "Iran has no plans to negotiate with US: State media",
+      "title": "Iran says its UN delegation does not plan further US talks",
       "url": "https://www.channelnewsasia.com/world/iran-us-no-plans-negotiate-un-general-assembly-6415251",
       "summary": "Iran is demanding a seven-day ceasefire across the Middle East, the lifting of oil sanctions and an end to the United States naval blockade.",
       "source": "CNA",
@@ -141,78 +211,8 @@
       "summary": "US President Donald Trump's offer was in response to China's concern over weapons sales to Taiwan, the US ambassador to China said.",
       "source": "CNA",
       "published": "Mon, 28 Sep 2026 12:13:00 +0800"
-    },
-    {
-      "title": "China says US trade truce extension creates space to advance talks",
-      "url": "https://www.channelnewsasia.com/east-asia/china-us-trade-truce-extension-trump-xi-jinping-6414681",
-      "summary": "",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 11:21:00 +0800"
-    },
-    {
-      "title": "Trump confirms meeting with Anthropic's Amodei, repeats dismissal of AI fears",
-      "url": "https://www.channelnewsasia.com/world/us-trump-meet-anthropic-amodei-ai-regulation-6413916",
-      "summary": "",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 07:31:00 +0800"
-    },
-    {
-      "title": "Houthis say Saudi strikes on Yemen's Taiz leave dozens of casualties",
-      "url": "https://www.channelnewsasia.com/world/yemen-taiz-strikes-houthis-saudi-arabia-6414126",
-      "summary": "",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 07:08:21 +0800"
-    },
-    {
-      "title": "South Korea demands apology from Ukraine over North Korean prisoners of war disclosure",
-      "url": "https://www.channelnewsasia.com/east-asia/north-korea-prisoners-war-ukraine-transfer-disclosure-6414156",
-      "summary": "South Korea accused Kyiv of disclosing the transfer of two North Korean prisoners of war and then falsely denying that the two sides had agreed to keep the move confidential.",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 06:48:00 +0800"
-    },
-    {
-      "title": "Commentary: Dystopia, Inc - would you like your news with or without hallucinations?",
-      "url": "https://www.channelnewsasia.com/commentary/ai-world-news-day-fact-check-fake-images-6412936",
-      "summary": "AI rarely pays for the expensively-produced professional journalism it hoovers up, says AFP Global News Director Phil Chetwynd on World News Day (Sep 28).",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 05:59:00 +0800"
-    },
-    {
-      "title": "Trump expects new Iran talks despite rejecting deal offer",
-      "url": "https://www.channelnewsasia.com/world/trump-iran-talks-rejects-deal-6414031",
-      "summary": "Iranian officials had brought a plan for a seven-day truce followed by the reopening of the Strait of Hormuz to the United Nations General Assembly.",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 02:12:00 +0800"
-    },
-    {
-      "title": "Russian strikes on Ukraine kill 8",
-      "url": "https://www.channelnewsasia.com/world/russian-strikes-ukraine-kill-8-6413936",
-      "summary": "",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 01:46:00 +0800"
-    },
-    {
-      "title": "Trump says men arrested at UK air base used by US were looking to do 'big damage'",
-      "url": "https://www.channelnewsasia.com/world/major-incident-uk-fairford-base-us-air-force-6413501",
-      "summary": "Five men are held on terrorism suspicion after armed police stopped three vans near RAF Fairford, prompting evacuations and a bomb disposal search.",
-      "source": "CNA",
-      "published": "Sun, 27 Sep 2026 16:03:00 +0800"
-    },
-    {
-      "title": "US Treasury chief Bessent claims successes in isolating Iran",
-      "url": "https://www.channelnewsasia.com/world/us-treasury-chief-bessent-claims-successes-in-isolating-iran-6413211",
-      "summary": "",
-      "source": "CNA",
-      "published": "Sun, 27 Sep 2026 08:51:01 +0800"
-    },
-    {
-      "title": "Boeing flags 737 MAX software glitch affecting landing navigation feature: Report",
-      "url": "https://www.channelnewsasia.com/world/boeing-737-max-glitch-landing-wsj-reports-6413071",
-      "summary": "A Boeing 737 MAX software glitch could knock out automated flight guidance during landing after a missed approach, adding fresh scrutiny to the jetmaker.",
-      "source": "CNA",
-      "published": "Sun, 27 Sep 2026 05:20:00 +0800"
     }
   ],
-  "generated_at": "2026-09-28T18:56:18+08:00",
+  "generated_at": "2026-09-29T06:52:46+08:00",
   "test_mode": false
 }
