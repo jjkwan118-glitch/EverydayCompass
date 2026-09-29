@@ -1,11 +1,32 @@
 {
   "singapore": [
     {
+      "title": "From serial collectors to reluctant recyclers: How Singapore’s beverage container return scheme is shifting habits",
+      "url": "https://www.channelnewsasia.com/singapore/beverage-container-return-scheme-changing-recycling-habits-6418401",
+      "summary": "As the transition period for the Beverage Container Return Scheme draws to a close, how has the scheme changed consumer behaviour, and will this translate into better recycling habits in the long run?",
+      "source": "CNA",
+      "published": "Wed, 30 Sep 2026 06:00:00 +0800"
+    },
+    {
+      "title": "Goh Jin Hian testifies in false trading trial, says he believed market-making services 'completely legal'",
+      "url": "https://www.channelnewsasia.com/singapore/goh-jin-hian-market-maker-false-trading-trial-6418416",
+      "summary": "\"I was very sensitive to anything wrong being done because of the reputation of the individuals in the board and even to my own reputation,\" Dr Goh Jin Hian said as he took the stand.",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 21:20:00 +0800"
+    },
+    {
+      "title": "Brunei's crown prince visits Singapore, leaders discuss deepening bilateral cooperation",
+      "url": "https://www.channelnewsasia.com/singapore/brunei-crown-prince-singapore-visit-bilateral-relations-mou-6418531",
+      "summary": "Brunei and Singapore also signed a memorandum of understanding to further cooperation on maritime and port development, said the Ministry of Foreign Affairs.",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 20:09:00 +0800"
+    },
+    {
       "title": "Singapore Writers Festival 2026: Amitav Ghosh, Silvia Moreno-Garcia and Rachel Smythe among highlights",
       "url": "https://www.channelnewsasia.com/living/singapore-writers-festival-2026-swf-authors-programmes-highlights-6417681",
       "summary": "Running from Nov 13 to 22, this year's Singapore Writers Festival will feature more than 300 writers, speakers and moderators in over 200 programmes, including a new Crime & Mystery Spotlight, literary walks and multilingual events.",
       "source": "CNA",
-      "published": "Tue, 29 Sep 2026 18:50:10 +0800"
+      "published": "Tue, 29 Sep 2026 18:50:00 +0800"
     },
     {
       "title": "Youth offending rate rises in Singapore, driven by jump in cheating offences",
@@ -50,9 +71,9 @@
       "published": "Tue, 29 Sep 2026 16:51:00 +0800"
     },
     {
-      "title": "Singapore’s Loh Kean Yew takes historic Asian Games silver after defeat by world No 1 Kunlavut",
+      "title": "As it happened: Singapore’s Loh Kean Yew takes historic Asian Games silver after defeat by world No 1 Kunlavut",
       "url": "https://www.channelnewsasia.com/sport/asian-games-badminton-loh-kean-yew-kunlavut-vitidsarn-mens-singles-final-live-6415651",
-      "summary": "Loh, the world number 13, was attempting to win Singapore's first Asiad gold in the sport.",
+      "summary": "Loh, who was bidding to win Singapore's first Asiad badminton gold, lost 12-21, 16-21 in the final.",
       "source": "CNA",
       "published": "Tue, 29 Sep 2026 16:24:00 +0800"
     },
@@ -68,7 +89,7 @@
       "url": "https://www.channelnewsasia.com/entertainment/presidents-challenge-night-2026-avantgardey-johnny-hates-jazz-6417301",
       "summary": "The fundraising show will return on Oct 25 with the theme Uplift and Inspire, featuring performances by artistes including Nathan Hartono, Iman Fandi and Gareth Fernandez, as well as President Tharman Shanmugaratnam playing the kompang alongside actress Zoe Tay.",
       "source": "CNA",
-      "published": "Tue, 29 Sep 2026 14:56:31 +0800"
+      "published": "Tue, 29 Sep 2026 14:56:00 +0800"
     },
     {
       "title": "Construction begins for Singapore’s long-delayed fourth egg farm",
@@ -83,136 +104,115 @@
       "summary": "The man allegedly deleted the AI-generated images of the crocodile and the log history on an AI app from his mobile phone.",
       "source": "CNA",
       "published": "Tue, 29 Sep 2026 12:34:38 +0800"
-    },
-    {
-      "title": "Singapore Airlines unveils new and refreshed in-flight dishes, including poached lobster and beef short rib sambal percik",
-      "url": "https://www.channelnewsasia.com/travel/singapore-airlines-sia-new-dishes-chefs-selection-6417341",
-      "summary": "The dishes are being introduced under the airline's new in-flight menu category: SIA Chefs' Selection.",
-      "source": "CNA",
-      "published": "Tue, 29 Sep 2026 12:32:00 +0800"
-    },
-    {
-      "title": "Twice's Tzuyu to visit Singapore as part of collaboration with Williams F1 and anime Dan Da Dan",
-      "url": "https://www.channelnewsasia.com/entertainment/twice-tzuyu-williams-f1-dan-da-dan-6417126",
-      "summary": "The K-pop superstar will reportedly be at the Singapore Grand Prix to join the Atlassian Williams F1 team to celebrate the collaboration.",
-      "source": "CNA",
-      "published": "Tue, 29 Sep 2026 10:48:00 +0800"
-    },
-    {
-      "title": "Worker dies after falling from height at Tanjong Rhu BTO construction site",
-      "url": "https://www.channelnewsasia.com/singapore/worker-dies-fall-tanjong-rhu-road-bto-construction-site-6417106",
-      "summary": "The 22-year-old had been carrying out concrete casting works at the Tanjong Rhu Riverfront II worksite when he fell from the 12th storey.",
-      "source": "CNA",
-      "published": "Tue, 29 Sep 2026 10:21:41 +0800"
     }
   ],
   "world": [
     {
-      "title": "How AI ‘world models’ are helping robots learn to adapt in the real world",
-      "url": "https://www.channelnewsasia.com/world/artificial-intelligence-world-models-robots-6416196",
-      "summary": "The technology aims to give machines an understanding of their surroundings, allowing them to anticipate how conditions could change and decide how to respond.",
+      "title": "Commentary: Forget another big US-Iran deal. They need to start small",
+      "url": "https://www.channelnewsasia.com/commentary/iran-war-us-trump-deal-strait-hormuz-power-6418116",
+      "summary": "Safe passage through the Strait of Hormuz remains the obvious first test. It is easy to observe and hard to fake, says international security professor Stefan Wolff.",
       "source": "CNA",
-      "published": "Tue, 29 Sep 2026 16:51:40 +0800"
+      "published": "Wed, 30 Sep 2026 06:00:00 +0800"
     },
     {
-      "title": "US forces exit Iraq after two decades, leaving opening for Iran",
-      "url": "https://www.channelnewsasia.com/world/us-forces-exit-iraq-after-two-decades-leaving-opening-iran-6417721",
+      "title": "Oil down, but stocks lower as bond yields rise",
+      "url": "https://www.channelnewsasia.com/world/oil-down-stocks-lower-bond-yields-rise-6419856",
       "summary": "",
       "source": "CNA",
-      "published": "Tue, 29 Sep 2026 14:44:04 +0800"
+      "published": "Wed, 30 Sep 2026 05:47:28 +0800"
     },
     {
-      "title": "Prosecutor reopens probe into Cornell gang rape allegations after accuser files lawsuit",
-      "url": "https://www.channelnewsasia.com/world/cornell-gang-rape-accusation-lawsuit-prosecutor-reopens-probe-6416271",
+      "title": "Saudi crown prince, UAE vice president meet in Riyadh: official media",
+      "url": "https://www.channelnewsasia.com/world/saudi-crown-prince-uae-vice-president-meet-in-riyadh-official-media-6419821",
+      "summary": "The meeting comes amid tensions over Yemen and repeated Houthi attacks on Saudi Arabia.",
+      "source": "CNA",
+      "published": "Wed, 30 Sep 2026 05:33:49 +0800"
+    },
+    {
+      "title": "Saudi Arabia resumes Yanbu oil loading after pipeline restart",
+      "url": "https://www.channelnewsasia.com/world/saudi-arabia-yanbu-oil-pipeline-aramco-resume-6419751",
+      "summary": "The pipeline was shut down after a Sep 11 drone attack, but operations resumed last week, allowing Saudi oil giant Aramco to restart oil loadings from Yanbu.",
+      "source": "CNA",
+      "published": "Wed, 30 Sep 2026 05:09:54 +0800"
+    },
+    {
+      "title": "Spain aims to ban evictions until 2030 amid housing protests",
+      "url": "https://www.channelnewsasia.com/world/spain-eviction-ban-housing-protests-madrid-6419546",
+      "summary": "The ban follows protests over the eviction of an 87-year-old woman in Madrid and is part of several proposals that still need parliamentary approval.",
+      "source": "CNA",
+      "published": "Wed, 30 Sep 2026 02:56:15 +0800"
+    },
+    {
+      "title": "Israel kills senior Hamas commander in Gaza strike",
+      "url": "https://www.channelnewsasia.com/world/israel-gaza-hamas-commander-killed-strike-6419301",
+      "summary": "Israeli airstrikes killed Hamas commander Izz al-Din Al-Beik and at least three others in Gaza.",
+      "source": "CNA",
+      "published": "Wed, 30 Sep 2026 01:14:37 +0800"
+    },
+    {
+      "title": "Israel PM says 'indications' enemies will try to attack ahead of elections",
+      "url": "https://www.channelnewsasia.com/world/israel-elections-netanyahu-enemies-attack-6419221",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu's warning prompted opposition leader Yair Lapid to seek an urgent security briefing.",
+      "source": "CNA",
+      "published": "Wed, 30 Sep 2026 00:18:48 +0800"
+    },
+    {
+      "title": "UK PM to set out 'options' for EU ties around 2026 summit",
+      "url": "https://www.channelnewsasia.com/world/uk-pm-set-out-options-eu-ties-around-2026-summit-6419066",
       "summary": "",
       "source": "CNA",
-      "published": "Tue, 29 Sep 2026 11:19:00 +0800"
+      "published": "Tue, 29 Sep 2026 23:32:12 +0800"
     },
     {
-      "title": "Pope says concerns about AI 'should be taken seriously'",
-      "url": "https://www.channelnewsasia.com/world/pope-leo-xiv-concerns-ai-taken-seriously-6417136",
+      "title": "Trump says working with Xi on AI would hurt US companies",
+      "url": "https://www.channelnewsasia.com/world/trump-white-house-host-tech-executives-anthropic-nvidia-6418261",
+      "summary": "Pressure is rising on the Trump administration to take action after OpenAI and Anthropic reported their AI agents had gone rogue and hacked into customers' systems without instructions to do so.",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 22:49:00 +0800"
+    },
+    {
+      "title": "Spotify, Claude recover after brief outage in US, Singapore",
+      "url": "https://www.channelnewsasia.com/world/spotify-claude-down-us-downdetector-6418981",
+      "summary": "An Anthropic spokesperson said issues affecting Claude services had been mitigated, while Spotify said earlier on X it was aware of \"some issues\" and was investigating.",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 22:33:00 +0800"
+    },
+    {
+      "title": "Australia orders government technology stocktake after AI hack",
+      "url": "https://www.channelnewsasia.com/world/australia-orders-government-technology-stocktake-after-ai-hack-6418956",
       "summary": "",
       "source": "CNA",
-      "published": "Tue, 29 Sep 2026 09:46:00 +0800"
+      "published": "Tue, 29 Sep 2026 22:23:00 +0800"
     },
     {
-      "title": "Anthropic warns AI may pose 'existential risks to humanity' in IPO filing",
-      "url": "https://www.channelnewsasia.com/business/anthropic-ai-existential-risks-humanity-ipo-filing-6417036",
+      "title": "Iran threatens new strikes as it awaits US response to Hormuz plan",
+      "url": "https://www.channelnewsasia.com/world/iran-new-strikes-threat-hormuz-us-response-6418906",
+      "summary": "\"In a region where we cannot sell oil, no one else will sell oil either; or if our security is not guaranteed, no infrastructure will remain safe,\" said Iran's chief negotiator according to a video released by state TV.",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 22:22:00 +0800"
+    },
+    {
+      "title": "Iran's Revolutionary Guards woo US voters with open letter",
+      "url": "https://www.channelnewsasia.com/world/irans-revolutionary-guards-woo-us-voters-open-letter-6418436",
+      "summary": "The 25-page open letter addressed to the American people urges them to oppose US support for Israel and foreign wars, arguing that Iran and the US could coexist if US policy changed",
+      "source": "CNA",
+      "published": "Tue, 29 Sep 2026 21:11:00 +0800"
+    },
+    {
+      "title": "Swiss archaeologists redraw Roman maps after drought discoveries",
+      "url": "https://www.channelnewsasia.com/world/swiss-archaeologists-redraw-roman-maps-drought-6418636",
       "summary": "",
       "source": "CNA",
-      "published": "Tue, 29 Sep 2026 08:17:00 +0800"
+      "published": "Tue, 29 Sep 2026 20:22:00 +0800"
     },
     {
-      "title": "Commentary: Football’s enduring controversies show why journalism matters",
-      "url": "https://www.channelnewsasia.com/commentary/fifa-world-cup-investigation-sale-journalism-6415526",
-      "summary": "Without professional journalism, the world wouldn’t have known about FIFA president Gianni Infantino's proposal to sell off the World Cup until it was too late, says Stig Orskov, CEO of the World Association of News Publishers.",
+      "title": "NATO, EU allies rally to Estonia after 'act of sabotage' blamed on Russia",
+      "url": "https://www.channelnewsasia.com/world/estonia-blames-russia-sabotage-arson-attack-drone-manufacturer-6418361",
+      "summary": "Estonia says Russia was responsible for an Aug 15 arson attack against the Estonian defence company Milrem Robotics, which makes ground drones used in Ukraine.",
       "source": "CNA",
-      "published": "Tue, 29 Sep 2026 05:58:00 +0800"
-    },
-    {
-      "title": "US stocks fall, bond yields rise as Middle East war drags on",
-      "url": "https://www.channelnewsasia.com/world/us-stocks-fall-bond-yields-rise-middle-east-war-drags-6416821",
-      "summary": "",
-      "source": "CNA",
-      "published": "Tue, 29 Sep 2026 05:51:44 +0800"
-    },
-    {
-      "title": "UK examines foreign state involvement in suspected airbase plot, releases suspects",
-      "url": "https://www.channelnewsasia.com/world/uk-examines-foreign-state-involvement-in-suspected-airbase-plot-releases-suspects-6416761",
-      "summary": "British police are investigating a suspected plot to attack RAF Fairford, a base used by US bombers, with five British men arrested and released on bail.",
-      "source": "CNA",
-      "published": "Tue, 29 Sep 2026 05:04:00 +0800"
-    },
-    {
-      "title": "Trump's AI meeting with tech CEOs to focus on finding balance, US House speaker says",
-      "url": "https://www.channelnewsasia.com/world/trump-ai-slowdown-meeting-tech-ceos-6416731",
-      "summary": "US President Donald Trump is set to meet major AI executives as lawmakers debate how to balance rapid innovation with government oversight and safety.",
-      "source": "CNA",
-      "published": "Tue, 29 Sep 2026 04:42:25 +0800"
-    },
-    {
-      "title": "Russia pummels Kyiv in latest deadly daytime attack",
-      "url": "https://www.channelnewsasia.com/world/russia-pummels-kyiv-in-latest-deadly-daytime-attack-6416656",
-      "summary": "Russian drones struck Ukraine's National Academy of Sciences in Kyiv, killing one person and wounding others.",
-      "source": "CNA",
-      "published": "Tue, 29 Sep 2026 04:13:00 +0800"
-    },
-    {
-      "title": "Lebanon says Israeli army set off large explosion in south",
-      "url": "https://www.channelnewsasia.com/world/israel-army-south-lebanon-explosion-6416566",
-      "summary": "Lebanese authorities accused Israel of carrying out explosions in villages in southern Lebanon, while Israel said its forces had destroyed \"more than 600 terrorist infrastructure sites.\"",
-      "source": "CNA",
-      "published": "Tue, 29 Sep 2026 03:05:40 +0800"
-    },
-    {
-      "title": "Iran supreme leader says US will be forced out of Middle East",
-      "url": "https://www.channelnewsasia.com/world/iran-khamenei-us-middle-east-6416471",
-      "summary": "“They have only brought harm upon themselves,” Iran’s Supreme Leader Mojtaba Khamenei said, claiming the US would eventually be forced out of the Middle East.",
-      "source": "CNA",
-      "published": "Tue, 29 Sep 2026 01:49:00 +0800"
-    },
-    {
-      "title": "US deportations triggering 'cascade' of rights abuses: UN experts",
-      "url": "https://www.channelnewsasia.com/world/us-deportations-third-country-un-rights-abuse-6416356",
-      "summary": "The experts said the US has agreements with more than 35 countries and has deported at least 23,000 third-country nationals.",
-      "source": "CNA",
-      "published": "Tue, 29 Sep 2026 01:22:59 +0800"
-    },
-    {
-      "title": "US says no China arms sale plans after envoy cites Trump offer",
-      "url": "https://www.channelnewsasia.com/east-asia/us-says-no-china-arms-sale-plans-trump-offer-6414436",
-      "summary": "The State Department said in a statement to the New York Times that US law prohibits arms sales to China.",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 23:16:00 +0800"
-    },
-    {
-      "title": "Pope Leo urges concessions for peace as Ukraine war drags on",
-      "url": "https://www.channelnewsasia.com/world/pope-leo-urges-concessions-peace-ukraine-war-drags-6415531",
-      "summary": "",
-      "source": "CNA",
-      "published": "Mon, 28 Sep 2026 21:43:13 +0800"
+      "published": "Tue, 29 Sep 2026 20:20:00 +0800"
     }
   ],
-  "generated_at": "2026-09-29T18:56:34+08:00",
+  "generated_at": "2026-09-30T06:52:31+08:00",
   "test_mode": false
 }
