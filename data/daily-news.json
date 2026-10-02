@@ -1,6 +1,83 @@
 {
   "singapore": [
     {
+      "title": "CNA clinches 4 gold, 4 silver at 2026 w3 Awards",
+      "url": "https://www.channelnewsasia.com/singapore/cna-clinches-4-gold-4-silver-2026-w3-awards-6426576",
+      "summary": "The accolades were for CNA's podcasts on a range of topics, and an interactive and video on its visual journalist's journey to track down his father's killer.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 18:38:00 +0800"
+    },
+    {
+      "title": "HPV9 vaccine to be added to national immunisation schedules from January 2027",
+      "url": "https://www.channelnewsasia.com/singapore/hpv-gerdasil-9-vaccine-national-immunisation-schedules-chas-medisave-6426516",
+      "summary": "HPV9 will replace HPV2 for female students who have yet to start or complete their vaccination series under the Health Promotion Board's school-based programme.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 18:36:10 +0800"
+    },
+    {
+      "title": "More than 16,000 seniors to benefit from new active ageing framework",
+      "url": "https://www.channelnewsasia.com/singapore/active-ageing-framework-methodist-welfare-services-16000-seniors-6426406",
+      "summary": "The initiative will guide programmes across Methodist Welfare Services’ seven Active Ageing Centres, with a focus on keeping seniors socially connected.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 17:35:08 +0800"
+    },
+    {
+      "title": "Johor Bahru-Singapore RTS Link passenger service delayed to February 2027",
+      "url": "https://www.channelnewsasia.com/singapore/johor-bahru-singapore-rts-link-delayed-6423591",
+      "summary": "More time is needed to complete testing, obtain independent safety certification and secure regulatory approvals before the cross-border rail service can open, Singapore and Malaysia authorities said on Friday (Oct 2).",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 17:00:00 +0800"
+    },
+    {
+      "title": "Johor Bahru-Singapore RTS Link timeline: A project 16 years in the making",
+      "url": "https://www.channelnewsasia.com/singapore/rts-link-johor-bahru-singapore-rail-timeline-16-years-6423671",
+      "summary": "A look back at the more than 16-year journey of the Johor Bahru-Singapore RTS Link.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 17:00:00 +0800"
+    },
+    {
+      "title": "Trailer driver arrested after fatal accident with cyclist in Defu industrial area",
+      "url": "https://www.channelnewsasia.com/singapore/trailer-driver-arrested-cyclist-accident-defu-6426396",
+      "summary": "A 62-year-old woman was pronounced dead at the scene.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 16:28:35 +0800"
+    },
+    {
+      "title": "Sengkang West LRT Inner Loop to resume train services on Oct 4, two weeks ahead of schedule",
+      "url": "https://www.channelnewsasia.com/singapore/sengkang-west-inner-loop-lrt-punggol-resume-6426211",
+      "summary": "The loop has been closed since Apr 19 for upgrading works to expand the Sengkang-Punggol LRT depot.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 16:06:00 +0800"
+    },
+    {
+      "title": "Lions' Malaysia mauling a ‘reality check’ ahead of Asian Cup, fans need to be realistic, say observers",
+      "url": "https://www.channelnewsasia.com/singapore/asian-cup-asean-fifa-lions-malaysia-6426361",
+      "summary": "Thursday’s 6-0 loss was the culmination of a FIFA ASEAN Cup performance which proved a stark contrast to the team’s showing at the ASEAN Hyundai Cup earlier this year, where it made the semi-finals and also broke a 14-year winless run against giants Thailand.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 16:01:00 +0800"
+    },
+    {
+      "title": "Workers who died after inhaling toxic gas did not wear respirators or follow safety protocol, inspector testifies",
+      "url": "https://www.channelnewsasia.com/singapore/choa-chu-kang-waterworks-hydrogen-sulphide-6426236",
+      "summary": "Mr Srinivasan Sivaraman and Mr Izzat Naqiuddin Dowod died in May 2024 after inhaling hydrogen sulphide, a by-product of the water treatment process.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 15:28:15 +0800"
+    },
+    {
+      "title": "CNA Explains: What is the Gale-Shapley algorithm and how is it powering Singapore’s dating platform for public officers?",
+      "url": "https://www.channelnewsasia.com/singapore/firstdate-gale-shapley-algorithm-govtech-dating-platform-6424666",
+      "summary": "A mathematical algorithm developed more than 60 years ago is powering FirstDate. Here’s how it finds “stable” matches.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 14:51:00 +0800"
+    },
+    {
+      "title": "Anya Hindmarch's Universal Bag now available for sale at FairPrice Finest, also comes in new small size",
+      "url": "https://www.channelnewsasia.com/style-beauty/anya-hindmarch-universal-bag-fairprice-finest-singapore-6426071",
+      "summary": "The new mini bag will cost S$25 while the regular-sized bag will cost S$30.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 14:24:00 +0800"
+    },
+    {
       "title": "Allergic to prawns? A Singapore trial is studying whether you can build up a tolerance",
       "url": "https://www.channelnewsasia.com/wellness/prawn-allergy-singapore-first-trial-oral-immunotherapy-6425956",
       "summary": "Prawn allergy can mean more than simply skipping the crustacean on your plate, especially when shellfish is common in Singapore cooking. Could gradually exposing the body to prawn offer another way to manage the allergy?",
@@ -27,86 +104,30 @@
       "summary": "Its new flagship boutique at Terminal 3's departure transit lounge also offers exclusive tea blends and a takeaway counter serving tea-infused ice cream and sorbet.",
       "source": "CNA",
       "published": "Fri, 02 Oct 2026 10:51:00 +0800"
-    },
-    {
-      "title": "Why so many people in sunny Singapore have Vitamin D deficiency – and what you should know",
-      "url": "https://www.channelnewsasia.com/wellness/vitamin-d-deficiency-singapore-levels-sunlight-supplements-6406856",
-      "summary": "Interpreting your blood test isn’t as straightforward as it seems – and getting more sun isn’t necessarily the solution.",
-      "source": "CNA",
-      "published": "Fri, 02 Oct 2026 07:22:52 +0800"
-    },
-    {
-      "title": "Singapore navy launches new Sentinel-class offshore patrol vessel that can be adapted for different missions",
-      "url": "https://www.channelnewsasia.com/singapore/offshore-patrol-vessel-sentinel-security-navy-mindef-6423416",
-      "summary": "This is the first of four offshore patrol vessels built to meet the increased demands and wider scope of maritime security operations, said Singapore's Ministry of Defence.",
-      "source": "CNA",
-      "published": "Fri, 02 Oct 2026 06:10:24 +0800"
-    },
-    {
-      "title": "Acquitted of rape on appeal, ex-Wah!Banana actor reflects on the 3 years lost behind bars",
-      "url": "https://www.channelnewsasia.com/singapore/lev-panfilov-acquitted-rape-recount-ordeal-jail-grief-6418146",
-      "summary": "When he first heard about the rape investigation, Mr Lev Panfilov thought it would quickly blow over. Instead, he would take five years to prove his innocence, during which he spent a \"dark\" time in jail.",
-      "source": "CNA",
-      "published": "Fri, 02 Oct 2026 06:00:00 +0800"
-    },
-    {
-      "title": "Five Singapore films receive Golden Horse nominations",
-      "url": "https://www.channelnewsasia.com/singapore/singapore-films-taipei-golden-horse-film-festival-nominations-6424346",
-      "summary": "The films are We Are All Strangers, The Violinist, Ah Girl, Buah and She Said.",
-      "source": "CNA",
-      "published": "Thu, 01 Oct 2026 23:06:00 +0800"
-    },
-    {
-      "title": "First EC tender under new rules draws record-high bid from developers",
-      "url": "https://www.channelnewsasia.com/singapore/canberra-drive-ec-tender-new-rules-record-high-bid-6424671",
-      "summary": "The government had changed the rules for ECs in hopes that it would drive down developers’ bids.",
-      "source": "CNA",
-      "published": "Thu, 01 Oct 2026 22:16:00 +0800"
-    },
-    {
-      "title": "No decision made on expanding dating platform for Singapore public officers beyond pilot: GovTech",
-      "url": "https://www.channelnewsasia.com/singapore/firstdate-singapore-government-dating-platform-6424471",
-      "summary": "Noting several differences between GovTech's platform and conventional dating apps, two unmarried public officers in the age group targeted by the pilot told CNA they are thinking of giving it a shot.",
-      "source": "CNA",
-      "published": "Thu, 01 Oct 2026 21:15:00 +0800"
-    },
-    {
-      "title": "78-year-old woman fined for repeatedly feeding pigeons, hitting surveillance officer",
-      "url": "https://www.channelnewsasia.com/singapore/woman-78-fined-feed-pigeons-hit-officer-6424011",
-      "summary": "The woman was seen by enforcement officers feeding birds with cut papaya, bread and grains.",
-      "source": "CNA",
-      "published": "Thu, 01 Oct 2026 18:08:43 +0800"
-    },
-    {
-      "title": "Maintenance firm fined after elderly woman fell down faulty Hougang escalator, fracturing spine",
-      "url": "https://www.channelnewsasia.com/singapore/9g-fined-elderly-fall-hougang-escalator-6423946",
-      "summary": "The escalator had been serviced improperly, and one of its handrails was not moving along with its steps at the time of the incident.",
-      "source": "CNA",
-      "published": "Thu, 01 Oct 2026 18:04:33 +0800"
-    },
-    {
-      "title": "'Filled with a lot of pride': Singapore's Shanti Pereira returns home after making history at Asian Games",
-      "url": "https://www.channelnewsasia.com/singapore/shanti-pereira-asian-games-history-gold-medal-home-6423751",
-      "summary": "Shanti Pereira is the first woman to retain the Asian Games 200m title.",
-      "source": "CNA",
-      "published": "Thu, 01 Oct 2026 17:16:00 +0800"
-    },
-    {
-      "title": "PUB says AI detection tools gave 'inconclusive' results on Pandan Reservoir crocodile image",
-      "url": "https://www.channelnewsasia.com/singapore/fake-crocodile-image-pandan-reservoir-ai-generated-pub-6423711",
-      "summary": "The man charged over an AI-generated crocodile image that triggered search operations at Pandan Reservoir worked for PUB's reservoir maintenance contractor, and the picture was reported by his supervisor.",
-      "source": "CNA",
-      "published": "Thu, 01 Oct 2026 15:33:00 +0800"
-    },
-    {
-      "title": "Singapore eyes role in global fusion energy industry",
-      "url": "https://www.channelnewsasia.com/singapore/fusion-energy-jobs-talent-engineering-manufacturing-plasma-tan-see-leng-6423101",
-      "summary": "Singapore has built up expertise and a strong talent pipeline in areas relevant to fusion, such as precision engineering, advanced manufacturing and plasma diagnostics, says Energy, Trade and Industry Minister Tan See Leng.",
-      "source": "CNA",
-      "published": "Thu, 01 Oct 2026 14:24:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Hundreds of French high schools shut as new violence erupts",
+      "url": "https://www.channelnewsasia.com/world/france-student-protests-schools-shut-violence-6426581",
+      "summary": "The students say their school hours are excessively long, conditions are inadequate including overheated classrooms, and that there are too many staff absences.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 17:39:00 +0800"
+    },
+    {
+      "title": "'I could not let all those people die': Wounded flydubai pilot describes moment he realised plane was going down",
+      "url": "https://www.channelnewsasia.com/asia/flydubai-indian-pilot-smit-machchhar-modi-6426451",
+      "summary": "\"I could feel that the aircraft was going down. I knew this was the last push,\" says flydubai pilot Smit Machchhar during a call with Indian Prime Minister Narendra Modi.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 17:21:00 +0800"
+    },
+    {
+      "title": "Emerging fashion players take centre stage at BRICS+ Fashion Summit",
+      "url": "https://www.channelnewsasia.com/world/brics-fashion-summit-emerging-fashion-players-centre-stage-6426231",
+      "summary": "Designers and fashion businesses from countries such as India and China are forging new connections as they seek a bigger place in an industry long dominated by Western players.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 15:33:17 +0800"
+    },
     {
       "title": "South Korea's Lee threatens action against Ukraine over transfer of North Korean soldiers",
       "url": "https://www.channelnewsasia.com/east-asia/south-korea-ukraine-north-korea-prisoners-further-measures-apology-6425866",
@@ -190,29 +211,8 @@
       "summary": "Russian President Vladimir Putin said Moscow would resort to all weapons in its arsenal, including nuclear ones, if its territory of Kaliningrad were attacked.",
       "source": "CNA",
       "published": "Fri, 02 Oct 2026 04:02:00 +0800"
-    },
-    {
-      "title": "Christa Pike gets 'life-saving medical care' after surviving Tennessee execution",
-      "url": "https://www.channelnewsasia.com/world/christa-pike-hospital-execution-tennessee-6425326",
-      "summary": "Christa Pike survived a failed execution attempt in Tennessee and is receiving “life-saving medical care” in hospital, according to her lawyers.",
-      "source": "CNA",
-      "published": "Fri, 02 Oct 2026 03:38:00 +0800"
-    },
-    {
-      "title": "Indian embassy in UAE says wounded flydubai captain in good health",
-      "url": "https://www.channelnewsasia.com/world/flydubai-captain-pilot-hospital-india-6425166",
-      "summary": "Indian Ambassador Deepak Mittal visited injured Flydubai pilot Smit Machchhar in hospital, saying he was in “good health and recovering well” after being attacked by his co-pilot.",
-      "source": "CNA",
-      "published": "Fri, 02 Oct 2026 01:55:00 +0800"
-    },
-    {
-      "title": "Israeli airline El Al says will run flights to return Israelis from Dubai",
-      "url": "https://www.channelnewsasia.com/world/flydubai-israel-flights-el-al-airline-6425056",
-      "summary": "Israeli airline El Al will fly Israelis home from Dubai after flydubai suspended flights following an incident on a Tel Aviv-bound plane.",
-      "source": "CNA",
-      "published": "Fri, 02 Oct 2026 01:29:00 +0800"
     }
   ],
-  "generated_at": "2026-10-02T12:52:59+08:00",
+  "generated_at": "2026-10-02T18:56:31+08:00",
   "test_mode": false
 }
