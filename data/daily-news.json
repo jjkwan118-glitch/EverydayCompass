@@ -1,6 +1,27 @@
 {
   "singapore": [
     {
+      "title": "Allergic to prawns? A Singapore trial is studying whether you can build up a tolerance",
+      "url": "https://www.channelnewsasia.com/wellness/prawn-allergy-singapore-first-trial-oral-immunotherapy-6425956",
+      "summary": "Prawn allergy can mean more than simply skipping the crustacean on your plate, especially when shellfish is common in Singapore cooking. Could gradually exposing the body to prawn offer another way to manage the allergy?",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 12:27:00 +0800"
+    },
+    {
+      "title": "Haw Ror Villa, the Halloween event by Hell's Museum, returns with 4 scare zones for 22 nights",
+      "url": "https://www.channelnewsasia.com/living/haw-ror-villa-5-halloween-6425896",
+      "summary": "Last year's edition of Haw Ror Villa was supposed to be the last. However, organisers have resurrected the Halloween event this year due to overwhelming demand.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 11:31:00 +0800"
+    },
+    {
+      "title": "Gavin Teo joins Mediacorp’s The Celebrity Agency: 'I’m looking forward to this new chapter'",
+      "url": "https://www.channelnewsasia.com/entertainment/gavin-teo-mediacorp-celebrity-agency-6425906",
+      "summary": "The actor also tells 8days.sg if the recent video of him holding a girl's hand was a \"publicity stunt\" for this announcement.",
+      "source": "CNA",
+      "published": "Fri, 02 Oct 2026 11:02:37 +0800"
+    },
+    {
       "title": "TWG Tea opens its first tea museum at Changi Airport with over 170 pieces of antique teaware",
       "url": "https://www.channelnewsasia.com/dining/twg-tea-museum-changi-airport-terminal-3-6423081",
       "summary": "Its new flagship boutique at Terminal 3's departure transit lounge also offers exclusive tea blends and a takeaway counter serving tea-infused ice cream and sorbet.",
@@ -45,7 +66,7 @@
     {
       "title": "No decision made on expanding dating platform for Singapore public officers beyond pilot: GovTech",
       "url": "https://www.channelnewsasia.com/singapore/firstdate-singapore-government-dating-platform-6424471",
-      "summary": "The FirstDate pilot is currently limited to public officers aged 21 to 35 who are not married.",
+      "summary": "Noting several differences between GovTech's platform and conventional dating apps, two unmarried public officers in the age group targeted by the pilot told CNA they are thinking of giving it a shot.",
       "source": "CNA",
       "published": "Thu, 01 Oct 2026 21:15:00 +0800"
     },
@@ -83,32 +104,11 @@
       "summary": "Singapore has built up expertise and a strong talent pipeline in areas relevant to fusion, such as precision engineering, advanced manufacturing and plasma diagnostics, says Energy, Trade and Industry Minister Tan See Leng.",
       "source": "CNA",
       "published": "Thu, 01 Oct 2026 14:24:00 +0800"
-    },
-    {
-      "title": "Singapore Airlines cancels flights to and from Dubai until Dec 1",
-      "url": "https://www.channelnewsasia.com/singapore/sia-flight-cancel-dubai-scoot-jeddah-6423611",
-      "summary": "Scoot separately announced flight cancellations to and from Jeddah until Dec 2.",
-      "source": "CNA",
-      "published": "Thu, 01 Oct 2026 14:01:00 +0800"
-    },
-    {
-      "title": "IMDA and TikTok launch Singapore microdrama programme for media professionals",
-      "url": "https://www.channelnewsasia.com/entertainment/imda-tiktok-microdrama-programme-singapore-6423341",
-      "summary": "From vertical live-action to AI animation, a new IMDA-TikTok programme aims to equip Singapore’s media professionals with the skills and tools to tap the fast-growing global microdrama market.",
-      "source": "CNA",
-      "published": "Thu, 01 Oct 2026 13:45:00 +0800"
-    },
-    {
-      "title": "Woman jailed over scheme that lured dating app users to rigged mahjong games",
-      "url": "https://www.channelnewsasia.com/singapore/woman-conspiracy-cheat-mahjong-games-rigged-jail-6423461",
-      "summary": "The victim would be invited to a game where the other three players had been trained in mahjong and worked in concert to make him lose.",
-      "source": "CNA",
-      "published": "Thu, 01 Oct 2026 13:18:00 +0800"
     }
   ],
   "world": [
     {
-      "title": "South Korea warns 'further measures' if Ukraine refuses public apology",
+      "title": "South Korea's Lee threatens action against Ukraine over transfer of North Korean soldiers",
       "url": "https://www.channelnewsasia.com/east-asia/south-korea-ukraine-north-korea-prisoners-further-measures-apology-6425866",
       "summary": "",
       "source": "CNA",
@@ -213,6 +213,6 @@
       "published": "Fri, 02 Oct 2026 01:29:00 +0800"
     }
   ],
-  "generated_at": "2026-10-02T11:01:40+08:00",
+  "generated_at": "2026-10-02T12:52:59+08:00",
   "test_mode": false
 }
