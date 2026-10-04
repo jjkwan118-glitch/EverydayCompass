@@ -7,10 +7,10 @@ on:
     - cron: '45 22 * * *'
     - cron: '45 4 * * *'
     - cron: '45 10 * * *'
-    # Backup checks 1 hour later; skip if that refresh window already completed.
-    - cron: '45 23 * * *'
-    - cron: '45 5 * * *'
-    - cron: '45 11 * * *'
+    # Backup checks 2 hours later; skip if that refresh window already completed.
+    - cron: '45 0 * * *'
+    - cron: '45 6 * * *'
+    - cron: '45 12 * * *'
 
 permissions:
   contents: write
@@ -38,16 +38,16 @@ jobs:
 
           event = os.environ.get("GITHUB_EVENT_NAME", "")
           scheduled = os.environ.get("GITHUB_EVENT_SCHEDULE", "")
-          backup_crons = {"45 23 * * *", "45 5 * * *", "45 11 * * *"}
+          backup_crons = {"45 0 * * *", "45 6 * * *", "45 12 * * *"}
 
           needed = True
           if event == "schedule" and scheduled in backup_crons:
               sgt = timezone(timedelta(hours=8))
               now = datetime.now(sgt)
               targets = {
-                  "45 23 * * *": now.replace(hour=6, minute=45, second=0, microsecond=0),
-                  "45 5 * * *": now.replace(hour=12, minute=45, second=0, microsecond=0),
-                  "45 11 * * *": now.replace(hour=18, minute=45, second=0, microsecond=0),
+                  "45 0 * * *": now.replace(hour=6, minute=45, second=0, microsecond=0),
+                  "45 6 * * *": now.replace(hour=12, minute=45, second=0, microsecond=0),
+                  "45 12 * * *": now.replace(hour=18, minute=45, second=0, microsecond=0),
               }
               try:
                   with open("data/daily-news.json", encoding="utf-8") as fh:
