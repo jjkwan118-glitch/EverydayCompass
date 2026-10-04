@@ -1,6 +1,182 @@
 {
-  "updated_at": "2026-09-23T06:50:00+08:00",
+  "updated_at": "2026-10-04T09:05:22+08:00",
   "events": [
+    {
+      "title": "70 Years of RSP: Where Design Meets Humanity",
+      "category": "Exhibition · Architecture",
+      "overview": "Discover 70 years of Singapore architecture through RSP’s work, including 15 models of familiar projects such as Henderson Waves, Jewel Changi Airport and the Indoor Stadium, plus original drawings and design records.",
+      "why": "A free exhibition for anyone curious about how well-known Singapore buildings and public spaces were designed.",
+      "period": "12 Aug – 26 Oct 2026",
+      "time": "Mon–Sat · 9am – 5pm",
+      "venue": "The URA Centre · Level 1 Atrium, 45 Maxwell Road",
+      "mrt": "Maxwell MRT",
+      "duration": "45–60 min",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing",
+        "weekend",
+        "free",
+        "senior",
+        "wheelchair",
+        "indoor"
+      ],
+      "link": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/rsp70-where-design-meets-humanity-sac/"
+    },
+    {
+      "title": "Bit Bit Forest Mid-Autumn Light Up!",
+      "category": "Festival · Light-up",
+      "overview": "Giant illuminated Bit Bit Forest bunny inflatables by Hong Kong-based Kau’s Diary transform the Singapore Chinese Cultural Centre Roof Garden and Concourse for Mid-Autumn.",
+      "why": "A free, easy-going evening stop for colourful photos and a festive atmosphere, especially if you are already visiting the cultural centre.",
+      "period": "11 Sep – 13 Dec 2026",
+      "time": "10am – 10pm",
+      "venue": "Singapore Chinese Cultural Centre · Roof Garden",
+      "mrt": "Tanjong Pagar MRT",
+      "duration": "30–60 min",
+      "adult": "Free",
+      "senior": "Free",
+      "child": "Free",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing",
+        "weekend",
+        "free",
+        "senior",
+        "wheelchair"
+      ],
+      "link": "https://singaporeccc.org.sg/events/bit-bit-forest-mid-autumn-light-up-maff-2026/"
+    },
+    {
+      "title": "Crossing Borders 2026",
+      "category": "Music · Free Performances",
+      "overview": "A month of free music and cultural performances from the Middle East, Asia, Europe and the Americas. The 26–27 September weekend includes Okinawan music, Korean dance, Latin American performances and Afro-Brazilian percussion.",
+      "why": "Good for a flexible weekend visit because you can choose from several free performances rather than committing to one long ticketed show.",
+      "period": "1 – 30 Sep 2026",
+      "time": "Various programme times",
+      "venue": "Esplanade – Theatres on the Bay",
+      "mrt": "Esplanade MRT",
+      "duration": "Varies",
+      "adult": "Free programmes",
+      "senior": "Free programmes",
+      "child": "Free programmes",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ongoing",
+        "weekend",
+        "ending",
+        "free",
+        "senior",
+        "wheelchair"
+      ],
+      "link": "https://www.esplanade.com/whats-on/festivals-and-series/crossing-borders/2026"
+    },
+    {
+      "title": "Into the Ocean: Journey Beneath",
+      "category": "Exhibition · Ocean & Science",
+      "overview": "A world-premiere ArtScience Museum exhibition with OceanX that takes visitors from sunlit surface waters into the deep ocean through footage, specimens, research and immersive displays.",
+      "why": "A strong indoor choice if you enjoy nature documentaries, marine life, science and immersive museum experiences.",
+      "period": "6 Jun – 1 Nov 2026",
+      "time": "9am – 6pm daily · last entry 5pm",
+      "venue": "ArtScience Museum · Basement 2 Galleries",
+      "mrt": "Bayfront MRT",
+      "duration": "60–90 min",
+      "adult": "SG resident from $19.50",
+      "senior": "Concession from $16.50*",
+      "child": "Concession from $16.50*",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing",
+        "weekend",
+        "senior",
+        "wheelchair",
+        "indoor"
+      ],
+      "link": "https://www.marinabaysands.com/museum/exhibitions/into-the-ocean.html"
+    },
+    {
+      "title": "Lai Foong Moi: Crossings",
+      "category": "Exhibition · Art & Singapore",
+      "overview": "See 1960s Singapore and Malaya through the paintings of Lai Foong Moi, with portraits, landscapes and everyday scenes exploring identity, social change and belonging.",
+      "why": "A quieter cultural outing for visitors interested in Singapore and Malayan social history seen through art.",
+      "period": "14 Aug 2026 – 3 Oct 2027",
+      "time": "Gallery opening hours",
+      "venue": "National Gallery Singapore · City Hall Wing, Level 2",
+      "mrt": "City Hall MRT",
+      "duration": "60–90 min",
+      "adult": "Local General Admission: Free",
+      "senior": "Local: Free · overseas senior 60+: $5 off standard",
+      "child": "Local: Free · age 7–12 overseas: $5 off; 6 & under free",
+      "status": "Ongoing",
+      "statusClass": "",
+      "tags": [
+        "ongoing",
+        "weekend",
+        "free",
+        "senior",
+        "wheelchair",
+        "nostalgia",
+        "indoor"
+      ],
+      "link": "https://www.nationalgallery.sg/sg/en/exhibitions/Lai-Foong-Moi-Crossings.html"
+    },
+    {
+      "title": "Mid-Autumn Festival 2026",
+      "category": "Festival · Lights",
+      "overview": "Gardens by the Bay lights up with lantern displays across Golden Garden, Dragonfly Lake, Supertree Grove and other areas, plus a marketplace, carnival activities and selected craft programmes.",
+      "why": "This is the final weekend, making it a timely choice for an evening outing with lanterns, food stalls and festive performances.",
+      "period": "12 – 27 Sep 2026",
+      "time": "6pm – 10pm",
+      "venue": "Gardens by the Bay · Multiple outdoor locations",
+      "mrt": "Gardens by the Bay MRT",
+      "duration": "1½–2 hr",
+      "adult": "Free festival admission*",
+      "senior": "Free festival admission*",
+      "child": "Free festival admission*",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ongoing",
+        "weekend",
+        "ending",
+        "free",
+        "senior",
+        "wheelchair"
+      ],
+      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/mid-autumn-festival-2026.html"
+    },
+    {
+      "title": "Once Upon a Tide: Singapore's Journey from Settlement to Global City",
+      "category": "Exhibition · Singapore History",
+      "overview": "Travel through Singapore’s history and explore the changing tides that shaped a trading settlement into today’s global city, with the sea and Singapore’s connections to the world as central themes.",
+      "why": "A useful indoor choice for anyone interested in Singapore’s development, identity and history.",
+      "period": "24 May 2025 – 9 Oct 2026",
+      "time": "10am – 7pm daily",
+      "venue": "National Museum of Singapore · B1 Exhibition Galleries",
+      "mrt": "Bencoolen / Bras Basah MRT",
+      "duration": "60–90 min",
+      "adult": "Free for Singapore Citizens & PRs",
+      "senior": "Free for Singapore Citizens & PRs",
+      "child": "Free for Singapore Citizens & PRs",
+      "status": "Ending Soon",
+      "statusClass": "ending",
+      "tags": [
+        "ongoing",
+        "weekend",
+        "ending",
+        "free",
+        "senior",
+        "wheelchair",
+        "nostalgia",
+        "indoor"
+      ],
+      "link": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions"
+    },
     {
       "title": "Singapore TV: From Local to Global",
       "category": "Exhibition · Nostalgia",
@@ -53,107 +229,6 @@
       "link": "https://singaporeccc.org.sg/events/small-screen-big-stories-telemovies-of-the-1990s/"
     },
     {
-      "title": "Bit Bit Forest Mid-Autumn Light Up!",
-      "category": "Festival · Light-up",
-      "overview": "Giant illuminated Bit Bit Forest bunny inflatables by Hong Kong-based Kau’s Diary transform the Singapore Chinese Cultural Centre Roof Garden and Concourse for Mid-Autumn.",
-      "why": "A free, easy-going evening stop for colourful photos and a festive atmosphere, especially if you are already visiting the cultural centre.",
-      "period": "11 Sep – 13 Dec 2026",
-      "time": "10am – 10pm",
-      "venue": "Singapore Chinese Cultural Centre · Roof Garden",
-      "mrt": "Tanjong Pagar MRT",
-      "duration": "30–60 min",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Ongoing",
-      "statusClass": "",
-      "tags": [
-        "ongoing",
-        "weekend",
-        "free",
-        "senior",
-        "wheelchair"
-      ],
-      "link": "https://singaporeccc.org.sg/events/bit-bit-forest-mid-autumn-light-up-maff-2026/"
-    },
-    {
-      "title": "Mid-Autumn Festival 2026",
-      "category": "Festival · Lights",
-      "overview": "Gardens by the Bay lights up with lantern displays across Golden Garden, Dragonfly Lake, Supertree Grove and other areas, plus a marketplace, carnival activities and selected craft programmes.",
-      "why": "This is the final weekend, making it a timely choice for an evening outing with lanterns, food stalls and festive performances.",
-      "period": "12 – 27 Sep 2026",
-      "time": "6pm – 10pm",
-      "venue": "Gardens by the Bay · Multiple outdoor locations",
-      "mrt": "Gardens by the Bay MRT",
-      "duration": "1½–2 hr",
-      "adult": "Free festival admission*",
-      "senior": "Free festival admission*",
-      "child": "Free festival admission*",
-      "status": "Ending Soon",
-      "statusClass": "ending",
-      "tags": [
-        "ongoing",
-        "weekend",
-        "ending",
-        "free",
-        "senior",
-        "wheelchair"
-      ],
-      "link": "https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/mid-autumn-festival-2026.html"
-    },
-    {
-      "title": "Crossing Borders 2026",
-      "category": "Music · Free Performances",
-      "overview": "A month of free music and cultural performances from the Middle East, Asia, Europe and the Americas. The 26–27 September weekend includes Okinawan music, Korean dance, Latin American performances and Afro-Brazilian percussion.",
-      "why": "Good for a flexible weekend visit because you can choose from several free performances rather than committing to one long ticketed show.",
-      "period": "1 – 30 Sep 2026",
-      "time": "Various programme times",
-      "venue": "Esplanade – Theatres on the Bay",
-      "mrt": "Esplanade MRT",
-      "duration": "Varies",
-      "adult": "Free programmes",
-      "senior": "Free programmes",
-      "child": "Free programmes",
-      "status": "Ending Soon",
-      "statusClass": "ending",
-      "tags": [
-        "ongoing",
-        "weekend",
-        "ending",
-        "free",
-        "senior",
-        "wheelchair"
-      ],
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/crossing-borders/2026"
-    },
-    {
-      "title": "Once Upon a Tide: Singapore's Journey from Settlement to Global City",
-      "category": "Exhibition · Singapore History",
-      "overview": "Travel through Singapore’s history and explore the changing tides that shaped a trading settlement into today’s global city, with the sea and Singapore’s connections to the world as central themes.",
-      "why": "A useful indoor choice for anyone interested in Singapore’s development, identity and history.",
-      "period": "24 May 2025 – 9 Oct 2026",
-      "time": "10am – 7pm daily",
-      "venue": "National Museum of Singapore · B1 Exhibition Galleries",
-      "mrt": "Bencoolen / Bras Basah MRT",
-      "duration": "60–90 min",
-      "adult": "Free for Singapore Citizens & PRs",
-      "senior": "Free for Singapore Citizens & PRs",
-      "child": "Free for Singapore Citizens & PRs",
-      "status": "Ending Soon",
-      "statusClass": "ending",
-      "tags": [
-        "ongoing",
-        "weekend",
-        "ending",
-        "free",
-        "senior",
-        "wheelchair",
-        "nostalgia",
-        "indoor"
-      ],
-      "link": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions"
-    },
-    {
       "title": "Tails from the Coasts: Nature Stories of Singapore",
       "category": "Exhibition · Nature & Heritage",
       "overview": "An exhibition at the National Museum exploring nature stories connected with Singapore’s coasts, adding an environmental perspective to the museum’s Singapore-focused displays.",
@@ -177,81 +252,6 @@
         "indoor"
       ],
       "link": "https://www.nationalmuseum.nhb.gov.sg/whats-on/exhibition/exhibitions"
-    },
-    {
-      "title": "Lai Foong Moi: Crossings",
-      "category": "Exhibition · Art & Singapore",
-      "overview": "See 1960s Singapore and Malaya through the paintings of Lai Foong Moi, with portraits, landscapes and everyday scenes exploring identity, social change and belonging.",
-      "why": "A quieter cultural outing for visitors interested in Singapore and Malayan social history seen through art.",
-      "period": "14 Aug 2026 – 3 Oct 2027",
-      "time": "Gallery opening hours",
-      "venue": "National Gallery Singapore · City Hall Wing, Level 2",
-      "mrt": "City Hall MRT",
-      "duration": "60–90 min",
-      "adult": "Local General Admission: Free",
-      "senior": "Local: Free · overseas senior 60+: $5 off standard",
-      "child": "Local: Free · age 7–12 overseas: $5 off; 6 & under free",
-      "status": "Ongoing",
-      "statusClass": "",
-      "tags": [
-        "ongoing",
-        "weekend",
-        "free",
-        "senior",
-        "wheelchair",
-        "nostalgia",
-        "indoor"
-      ],
-      "link": "https://www.nationalgallery.sg/sg/en/exhibitions/Lai-Foong-Moi-Crossings.html"
-    },
-    {
-      "title": "Into the Ocean: Journey Beneath",
-      "category": "Exhibition · Ocean & Science",
-      "overview": "A world-premiere ArtScience Museum exhibition with OceanX that takes visitors from sunlit surface waters into the deep ocean through footage, specimens, research and immersive displays.",
-      "why": "A strong indoor choice if you enjoy nature documentaries, marine life, science and immersive museum experiences.",
-      "period": "6 Jun – 1 Nov 2026",
-      "time": "9am – 6pm daily · last entry 5pm",
-      "venue": "ArtScience Museum · Basement 2 Galleries",
-      "mrt": "Bayfront MRT",
-      "duration": "60–90 min",
-      "adult": "SG resident from $19.50",
-      "senior": "Concession from $16.50*",
-      "child": "Concession from $16.50*",
-      "status": "Ongoing",
-      "statusClass": "",
-      "tags": [
-        "ongoing",
-        "weekend",
-        "senior",
-        "wheelchair",
-        "indoor"
-      ],
-      "link": "https://www.marinabaysands.com/museum/exhibitions/into-the-ocean.html"
-    },
-    {
-      "title": "70 Years of RSP: Where Design Meets Humanity",
-      "category": "Exhibition · Architecture",
-      "overview": "Discover 70 years of Singapore architecture through RSP’s work, including 15 models of familiar projects such as Henderson Waves, Jewel Changi Airport and the Indoor Stadium, plus original drawings and design records.",
-      "why": "A free exhibition for anyone curious about how well-known Singapore buildings and public spaces were designed.",
-      "period": "12 Aug – 26 Oct 2026",
-      "time": "Mon–Sat · 9am – 5pm",
-      "venue": "The URA Centre · Level 1 Atrium, 45 Maxwell Road",
-      "mrt": "Maxwell MRT",
-      "duration": "45–60 min",
-      "adult": "Free",
-      "senior": "Free",
-      "child": "Free",
-      "status": "Ongoing",
-      "statusClass": "",
-      "tags": [
-        "ongoing",
-        "weekend",
-        "free",
-        "senior",
-        "wheelchair",
-        "indoor"
-      ],
-      "link": "https://www.ura.gov.sg/get-involved/events-and-exhibitions/rsp70-where-design-meets-humanity-sac/"
     },
     {
       "title": "The Albatross File: Singapore’s Independence Declassified",
@@ -278,31 +278,48 @@
         "indoor"
       ],
       "link": "https://exhibitions.nlb.gov.sg/current-exhibitions/"
-    },
-    {
-      "title": "Octoburst! – A Children’s Festival 2026",
-      "category": "Upcoming · Family & Arts",
-      "overview": "Esplanade’s Children’s Day festival returns with free music, storytelling, craft, movement and interactive activities designed for children and families, including inclusive arts experiences.",
-      "why": "Worth saving for 2 October if you are planning an outing with children or grandchildren and want mostly free arts activities.",
-      "period": "2 Oct 2026",
-      "time": "Various programme times",
-      "venue": "Esplanade – Theatres on the Bay",
-      "mrt": "Esplanade MRT",
-      "duration": "Flexible",
-      "adult": "Free programmes",
-      "senior": "Free programmes",
-      "child": "Free programmes",
-      "status": "Upcoming",
-      "statusClass": "upcoming",
-      "tags": [
-        "upcoming",
-        "free",
-        "senior",
-        "wheelchair",
-        "indoor"
-      ],
-      "link": "https://www.esplanade.com/whats-on/festivals-and-series/octoburst/2026"
     }
   ],
-  "source_report": {}
+  "source_report": {
+    "sccc": {
+      "status": "fallback",
+      "count": 0,
+      "error": "zero usable events; preserving previous source records"
+    },
+    "gardens": {
+      "status": "fallback",
+      "count": 0,
+      "error": "zero usable events; preserving previous source records"
+    },
+    "esplanade": {
+      "status": "fallback",
+      "count": 0,
+      "error": "zero usable Esplanade events; preserving previous source records"
+    },
+    "national_museum": {
+      "status": "fallback",
+      "count": 0,
+      "error": "zero usable events; preserving previous source records"
+    },
+    "national_gallery": {
+      "status": "fallback",
+      "count": 0,
+      "error": "zero usable events; preserving previous source records"
+    },
+    "artscience": {
+      "status": "fallback",
+      "count": 0,
+      "error": "HTTPSConnectionPool(host='www.marinabaysands.com', port=443): Read timed out. (read timeout=30)"
+    },
+    "ura": {
+      "status": "fallback",
+      "count": 0,
+      "error": "zero usable events; preserving previous source records"
+    },
+    "nlb": {
+      "status": "fallback",
+      "count": 0,
+      "error": "zero usable events; preserving previous source records"
+    }
+  }
 }
