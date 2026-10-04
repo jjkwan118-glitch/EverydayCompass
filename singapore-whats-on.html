@@ -359,13 +359,8 @@ function formatSGT(iso){
     }).format(new Date(iso))+" SGT";
   }catch(e){ return iso; }
 }
-function updateRefreshDisplay(){
-  const now = new Date();
-  document.getElementById("lastRefreshed").textContent =
-    new Intl.DateTimeFormat("en-SG",{
-      timeZone:"Asia/Singapore",day:"numeric",month:"short",year:"numeric",
-      hour:"numeric",minute:"2-digit",hour12:true
-    }).format(now)+" SGT";
+function updateRefreshDisplay(iso=BUILT_IN_REFRESH){
+  document.getElementById("lastRefreshed").textContent = formatSGT(iso);
 }
 
 async function loadScheduledFeed(){
@@ -376,6 +371,7 @@ async function loadScheduledFeed(){
     if(!feed || !Array.isArray(feed.events)) throw new Error("Invalid feed");
     events.splice(0,events.length,...feed.events);
     render();
+    if(feed.updated_at) updateRefreshDisplay(feed.updated_at);
   }catch(err){
   }
 }
