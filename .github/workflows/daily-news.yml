@@ -1,8 +1,6 @@
 name: Daily News Update and Deploy
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
   schedule:
     # UTC: Singapore is UTC+8. GitHub scheduled starts can be delayed.
