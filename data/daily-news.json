@@ -108,6 +108,13 @@
   ],
   "world": [
     {
+      "title": "Iranian UN delegation duo 'kicked out' of US: State Dept",
+      "url": "https://www.channelnewsasia.com/world/iran-delegates-unga-us-kick-out-6430311",
+      "summary": "",
+      "source": "CNA",
+      "published": "Sun, 04 Oct 2026 10:00:50 +0800"
+    },
+    {
       "title": "Israel targets top Hamas leader in deadly Gaza strike on anniversary",
       "url": "https://www.channelnewsasia.com/world/israel-hamas-gaza-conflict-6430286",
       "summary": "The Israeli airstrike on an apartment building in Gaza killed five people, four of them women, local officials said.",
@@ -204,15 +211,8 @@
       "summary": "The lawyers accused Correction Department officials of shrugging off prior warnings that pre-existing medical conditions would make placing IV lines especially difficult.",
       "source": "CNA",
       "published": "Sat, 03 Oct 2026 07:03:00 +0800"
-    },
-    {
-      "title": "Commentary: Russia’s new jet‑powered drones mark latest evolution in air war above Ukraine",
-      "url": "https://www.channelnewsasia.com/commentary/russia-ukraine-air-war-drone-6426651",
-      "summary": "The air war over Ukraine has become more stand-off in nature, say academics.",
-      "source": "CNA",
-      "published": "Sat, 03 Oct 2026 06:00:00 +0800"
     }
   ],
-  "generated_at": "2026-10-04T08:59:29+08:00",
+  "generated_at": "2026-10-04T10:57:13+08:00",
   "test_mode": false
 }
