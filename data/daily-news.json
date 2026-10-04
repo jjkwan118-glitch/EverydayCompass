@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "Air quality briefly returns to unhealthy range in central Singapore",
+      "url": "https://www.channelnewsasia.com/singapore/air-quality-unhealthy-range-central-singapore-haze-6430901",
+      "summary": "The 24-hour PSI re-entered the unhealthy range in the central region at 9pm on Sunday and improved to the moderate range two hours later.",
+      "source": "CNA",
+      "published": "Sun, 04 Oct 2026 21:35:00 +0800"
+    },
+    {
       "title": "Priority queues, trained staff at polyclinics among proposals to support people with intellectual disabilities",
       "url": "https://www.channelnewsasia.com/singapore/polyclinic-staff-training-intellectual-disabilities-autism-task-force-6423641",
       "summary": "The task force also recommended introducing future care planning across adult disability services to help people with disabilities and their families plan ahead.",
@@ -97,20 +104,13 @@
       "summary": "Eight years after his last show in Singapore, The Weeknd made a triumphant return on Friday (Oct 2) with powerhouse vocals, dazzling lasers and a larger-than-life production that proved just how far he has come as a performer.",
       "source": "CNA",
       "published": "Sat, 03 Oct 2026 07:39:00 +0800"
-    },
-    {
-      "title": "From photojournalism ambitions to property, Josh Hu took an unexpected route into the family business",
-      "url": "https://www.channelnewsasia.com/people/josh-hu-mber-singapore-property-6410541",
-      "summary": "AW & Sons’ Josh Hu once wanted to be a photojournalist. Today, he channels that creative instinct into property projects shaped by their location rather than a fixed formula.",
-      "source": "CNA",
-      "published": "Sat, 03 Oct 2026 07:14:08 +0800"
     }
   ],
   "world": [
     {
-      "title": "Iran tells US there is no military solution to Middle East war",
-      "url": "https://www.channelnewsasia.com/world/iran-us-war-middle-east-no-military-solution-6430636",
-      "summary": "",
+      "title": "Iran says Strait of Hormuz will not reopen until conditions are met",
+      "url": "https://www.channelnewsasia.com/world/iran-us-war-strait-hormuz-not-reopen-conditions-6430636",
+      "summary": "Iran presented a proposal during the UN General Assembly that would allow the Strait of Hormuz to be reopened within seven days if the conditions were met.",
       "source": "CNA",
       "published": "Sun, 04 Oct 2026 18:12:00 +0800"
     },
@@ -213,6 +213,6 @@
       "published": "Sat, 03 Oct 2026 08:47:00 +0800"
     }
   ],
-  "generated_at": "2026-10-04T18:55:00+08:00",
+  "generated_at": "2026-10-05T01:18:58+08:00",
   "test_mode": false
 }
