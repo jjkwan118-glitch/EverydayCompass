@@ -1,6 +1,27 @@
 {
   "singapore": [
     {
+      "title": "There's a magic school at Orchard Towers and I tried being a magician for an hour – here's how it went",
+      "url": "https://www.channelnewsasia.com/living/institute-illusions-magic-school-singapore-6413711",
+      "summary": "CNA Lifestyle recently stopped by Institute Illusions to see if we could unlock our inner David Copperfield. Or at least do a card trick.",
+      "source": "CNA",
+      "published": "Sun, 04 Oct 2026 06:56:51 +0800"
+    },
+    {
+      "title": "Meet a 25-year-old third-generation zookeeper whose family has worked at the zoo since it opened 53 years ago",
+      "url": "https://www.channelnewsasia.com/women/third-generation-zookeeper-river-wonders-mandai-6395241",
+      "summary": "Her grandfather joined Singapore Zoo when it opened in 1973. Her father followed suit at Night Safari in 1994. Now, Rutraajni Gurusamy Kaunder is making her own mark at River Wonders, caring for more than 200 animals.",
+      "source": "CNA",
+      "published": "Sun, 04 Oct 2026 06:56:23 +0800"
+    },
+    {
+      "title": "Air quality back to moderate across Singapore after central region hits unhealthy range",
+      "url": "https://www.channelnewsasia.com/singapore/haze-moderate-air-quality-central-region-6429496",
+      "summary": "There remains a risk of smoke haze affecting Singapore, with the 24-hour PSI forecast to be in the high-moderate to low-unhealthy range, the National Environment Agency said on Saturday.",
+      "source": "CNA",
+      "published": "Sat, 03 Oct 2026 23:16:26 +0800"
+    },
+    {
       "title": "Islamic religious education providers teaching 10 or more must register with MUIS",
       "url": "https://www.channelnewsasia.com/singapore/muis-islamic-religious-classes-rules-6428861",
       "summary": "The requirements cover regular Islamic instruction conducted in person or online, including qualifying home classes and Umrah and Hajj preparatory classes run by travel agencies.",
@@ -83,30 +104,37 @@
       "summary": "Preliminary investigations found that the drugs were transiting through Singapore and bound for another country.",
       "source": "CNA",
       "published": "Fri, 02 Oct 2026 19:45:41 +0800"
-    },
-    {
-      "title": "CNA clinches 4 gold, 4 silver at 2026 w3 Awards",
-      "url": "https://www.channelnewsasia.com/singapore/cna-clinches-4-gold-4-silver-2026-w3-awards-6426576",
-      "summary": "The accolades were for CNA's podcasts on a range of topics, and an interactive and video on its visual journalist's journey to track down his father's killer.",
-      "source": "CNA",
-      "published": "Fri, 02 Oct 2026 18:38:00 +0800"
-    },
-    {
-      "title": "HPV9 vaccine, or Gardasil 9, to be added to national immunisation schedules from January 2027",
-      "url": "https://www.channelnewsasia.com/singapore/hpv-vaccine-gardasil-9-subsidies-6426516",
-      "summary": "The HPV9 vaccine, which offers broader protection against cervical cancer than HPV2, will be fully subsidised for eligible Singaporean children.",
-      "source": "CNA",
-      "published": "Fri, 02 Oct 2026 18:36:00 +0800"
-    },
-    {
-      "title": "More than 16,000 seniors to benefit from new active ageing framework",
-      "url": "https://www.channelnewsasia.com/singapore/active-ageing-framework-methodist-welfare-services-16000-seniors-6426406",
-      "summary": "The initiative will guide programmes across Methodist Welfare Services’ seven Active Ageing Centres, with a focus on keeping seniors socially connected.",
-      "source": "CNA",
-      "published": "Fri, 02 Oct 2026 17:35:08 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Tennessee prison chief resigns after failed execution",
+      "url": "https://www.channelnewsasia.com/world/christa-pike-execution-tennessee-prison-chief-resigns-6429626",
+      "summary": "The failed execution of convicted murderer Christa Pike was the second failed execution in Tennessee this year.",
+      "source": "CNA",
+      "published": "Sun, 04 Oct 2026 08:05:00 +0800"
+    },
+    {
+      "title": "Commentary: AI can be more comforting than a person. Here's what humans can learn from it",
+      "url": "https://www.channelnewsasia.com/commentary/ai-chatbot-friend-help-problems-comfort-6391616",
+      "summary": "Used carefully, generative artificial intelligence could help us become better at supporting one another, say psychology researchers.",
+      "source": "CNA",
+      "published": "Sun, 04 Oct 2026 06:00:00 +0800"
+    },
+    {
+      "title": "Houthis say Saudi Arabia launches dozens of strikes on Yemen capital",
+      "url": "https://www.channelnewsasia.com/world/houthis-say-saudi-arabia-launches-dozens-strikes-yemen-capital-6429646",
+      "summary": "Strikes hit both capitals as the Houthis report 26 Saudi raids on Sanaa and a fire breaks out at an Aramco facility near Riyadh.",
+      "source": "CNA",
+      "published": "Sun, 04 Oct 2026 05:55:00 +0800"
+    },
+    {
+      "title": "Protests over housing flare in Spain after relief measures rejected",
+      "url": "https://www.channelnewsasia.com/world/protests-over-housing-flare-in-spain-after-relief-measures-rejected-6429581",
+      "summary": "Spain housing protests swell after lawmakers reject tenant relief, with 70,000 to 500,000 marching as anger over soaring rents deepens.",
+      "source": "CNA",
+      "published": "Sun, 04 Oct 2026 00:37:00 +0800"
+    },
     {
       "title": "Two Iranians appear in UK court over alleged plot to target Jews",
       "url": "https://www.channelnewsasia.com/world/two-iranians-appear-in-uk-court-over-alleged-plot-target-jews-6429186",
@@ -122,9 +150,9 @@
       "published": "Sat, 03 Oct 2026 16:34:09 +0800"
     },
     {
-      "title": "Flydubai co-pilot attacked pilot with axe, attempted 'terrorist attack', UAE says",
+      "title": "UAE investigators say flydubai co-pilot was planning 'terrorist act'",
       "url": "https://www.channelnewsasia.com/world/flydubai-co-pilot-attempted-terrorist-attack-uae-6428876",
-      "summary": "Emirati authorities have not publicly identified the co-pilot, but Israeli officials have previously said he is an Omani national.",
+      "summary": "“The co-pilot had attempted to carry out a terrorist act,” UAE Attorney General Hamad Saif Al Shamsi says after the flydubai flight makes an emergency landing in Saudi Arabia.",
       "source": "CNA",
       "published": "Sat, 03 Oct 2026 16:12:00 +0800"
     },
@@ -183,36 +211,8 @@
       "summary": "",
       "source": "CNA",
       "published": "Sat, 03 Oct 2026 05:43:00 +0800"
-    },
-    {
-      "title": "Lula, Bolsonaro trade blows in final scramble for votes in Brazil",
-      "url": "https://www.channelnewsasia.com/world/lula-bolsonaro-trade-blows-in-final-scramble-votes-in-brazil-6428181",
-      "summary": "The US and Australia closed diplomatic services in Brazil because of security concerns ahead of the Brazilian election on Sunday.",
-      "source": "CNA",
-      "published": "Sat, 03 Oct 2026 04:32:00 +0800"
-    },
-    {
-      "title": "Israel top court puts Arab parties back on ballot",
-      "url": "https://www.channelnewsasia.com/world/israel-arab-ballot-election-court-6428141",
-      "summary": "Israel’s Supreme Court allowed two Arab parties and a Jewish politician to run in the upcoming election after they were banned by lawmakers.",
-      "source": "CNA",
-      "published": "Sat, 03 Oct 2026 04:00:00 +0800"
-    },
-    {
-      "title": "New York governor vows to close loophole after alleged Cornell gang rape",
-      "url": "https://www.channelnewsasia.com/world/cornell-gang-rape-cases-hochul-6428071",
-      "summary": "New York Governor Kathy Hochul wants to change the law to make rape cases involving intoxicated victims easier to prosecute after an alleged gang rape at Cornell University.",
-      "source": "CNA",
-      "published": "Sat, 03 Oct 2026 03:07:00 +0800"
-    },
-    {
-      "title": "Pakistan says Mecca pact members to hold emergency talks on engaging Houthis",
-      "url": "https://www.channelnewsasia.com/world/pakistan-mecca-defence-pact-houthis-6427571",
-      "summary": "Pakistan says Iran has suggested political talks with Yemen’s Houthis, which Saudi Arabia, Türkiye and Pakistan will discuss at an emergency meeting.",
-      "source": "CNA",
-      "published": "Sat, 03 Oct 2026 02:15:00 +0800"
     }
   ],
-  "generated_at": "2026-10-03T23:06:30+08:00",
+  "generated_at": "2026-10-04T08:35:32+08:00",
   "test_mode": false
 }
