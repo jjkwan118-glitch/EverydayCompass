@@ -1,6 +1,9 @@
 name: What's On Weekly Refresh
 
 on:
+  push:
+    paths:
+      - '.github/workflows/whats-on-weekly.yml'
   workflow_dispatch:
   schedule:
     # Monday 6:45 AM Singapore = Sunday 10:45 PM UTC
