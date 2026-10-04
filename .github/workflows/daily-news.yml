@@ -16,8 +16,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: everyday-compass-pages
@@ -26,9 +24,6 @@ concurrency:
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -79,15 +74,3 @@ jobs:
             git commit -m "Update Daily News"
             git push origin HEAD:main
           fi
-      - uses: actions/configure-pages@v5
-      - name: Prepare public site
-        run: |
-          mkdir _site
-          git archive HEAD | tar -x -C _site
-          rm -rf _site/.github _site/scripts
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      - name: Deploy GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
