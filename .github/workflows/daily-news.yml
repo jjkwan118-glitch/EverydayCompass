@@ -9,6 +9,10 @@ on:
     - cron: '45 22 * * *'
     - cron: '45 4 * * *'
     - cron: '45 10 * * *'
+    # Backup checks 30 minutes later; skip if that refresh window already completed.
+    - cron: '15 23 * * *'
+    - cron: '15 5 * * *'
+    - cron: '15 11 * * *'
 
 permissions:
   contents: write
@@ -32,9 +36,41 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Check whether backup refresh is needed
+        id: refresh_check
+        shell: python
+        run: |
+          import json, os
+          from datetime import datetime, timezone, timedelta
+
+          event = os.environ.get("GITHUB_EVENT_NAME", "")
+          scheduled = os.environ.get("GITHUB_EVENT_SCHEDULE", "")
+          backup_crons = {"15 23 * * *", "15 5 * * *", "15 11 * * *"}
+
+          needed = True
+          if event == "schedule" and scheduled in backup_crons:
+              sgt = timezone(timedelta(hours=8))
+              now = datetime.now(sgt)
+              targets = {
+                  "15 23 * * *": now.replace(hour=6, minute=45, second=0, microsecond=0),
+                  "15 5 * * *": now.replace(hour=12, minute=45, second=0, microsecond=0),
+                  "15 11 * * *": now.replace(hour=18, minute=45, second=0, microsecond=0),
+              }
+              try:
+                  with open("data/daily-news.json", encoding="utf-8") as fh:
+                      generated = datetime.fromisoformat(json.load(fh)["generated_at"])
+                  needed = generated < targets[scheduled]
+              except Exception:
+                  needed = True
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"needed={'true' if needed else 'false'}\n")
+
       - name: Generate latest Daily News
+        if: steps.refresh_check.outputs.needed == 'true'
         run: python scripts/update_news.py
       - name: Save generated news
+        if: steps.refresh_check.outputs.needed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
