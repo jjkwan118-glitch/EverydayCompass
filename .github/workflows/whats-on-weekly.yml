@@ -5,6 +5,8 @@ on:
   schedule:
     # Monday 6:45 AM Singapore = Sunday 10:45 PM UTC
     - cron: '45 22 * * 0'
+    # Backup check Monday 7:15 AM Singapore = Sunday 11:15 PM UTC.
+    - cron: '15 23 * * 0'
 
 permissions:
   contents: write
@@ -24,13 +26,38 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests beautifulsoup4 pytest
+      - name: Check whether backup refresh is needed
+        id: refresh_check
+        shell: python
+        run: |
+          import json, os
+          from datetime import datetime, timezone, timedelta
+
+          needed = True
+          if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and os.environ.get("GITHUB_EVENT_SCHEDULE") == "15 23 * * 0":
+              sgt = timezone(timedelta(hours=8))
+              now = datetime.now(sgt)
+              target = now.replace(hour=6, minute=45, second=0, microsecond=0)
+              try:
+                  with open("events.json", encoding="utf-8") as fh:
+                      updated = datetime.fromisoformat(json.load(fh)["updated_at"])
+                  needed = updated < target
+              except Exception:
+                  needed = True
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"needed={'true' if needed else 'false'}\n")
       - name: Safety tests
+        if: steps.refresh_check.outputs.needed == 'true'
         run: pytest -q
       - name: Dry run
+        if: steps.refresh_check.outputs.needed == 'true'
         run: python scripts/update_events.py --dry-run
       - name: Update feed
+        if: steps.refresh_check.outputs.needed == 'true'
         run: python scripts/update_events.py
       - name: Commit changed feed
+        if: steps.refresh_check.outputs.needed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
