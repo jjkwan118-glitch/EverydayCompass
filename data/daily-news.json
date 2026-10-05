@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "Birthday cakes, money bouquet among undeclared goods found at Singapore checkpoints",
+      "url": "https://www.channelnewsasia.com/singapore/travellers-fined-tax-evasion-checkpoints-police-ica-customs-cash-6433271",
+      "summary": "",
+      "source": "CNA",
+      "published": "Mon, 05 Oct 2026 21:35:00 +0800"
+    },
+    {
       "title": "ComChest disburses more than S$80 million in FY2025, benefitting over 130,000 individuals, families",
       "url": "https://www.channelnewsasia.com/singapore/community-chest-channels-80-million-sgd-340-social-programmes-6429071",
       "summary": "Around S$41 million went towards programmes addressing critical needs, including support for people with mental health needs, children with special needs and youth at risk.",
@@ -50,7 +57,7 @@
       "published": "Mon, 05 Oct 2026 13:44:35 +0800"
     },
     {
-      "title": "Air quality hits unhealthy range in central, western and eastern Singapore",
+      "title": "Air quality in all regions in Singapore hit unhealthy range",
       "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-unhealthy-psi-oct-5-6432266",
       "summary": "Dry conditions are expected to persist over southern Sumatra and Kalimantan and smoke haze could continue to drift towards Singapore, NEA said.",
       "source": "CNA",
@@ -97,13 +104,6 @@
       "summary": "Chng Hock Choon is accused of murdering Miskiman Maakip, then 67, on Sep 13, 2020 at Block 5, Beach Road.",
       "source": "CNA",
       "published": "Mon, 05 Oct 2026 12:11:00 +0800"
-    },
-    {
-      "title": "Driver in Tampines chain collision that killed 2 gets over 12 years' jail, banned from driving for life",
-      "url": "https://www.channelnewsasia.com/singapore/tampines-chain-collision-fatal-driver-sentenced-6432021",
-      "summary": "The judge said there were multiple victims, noting that the mother of the deceased student had suffered \"greatly\" and that other victims continued to bear emotional trauma from the deaths and injuries.",
-      "source": "CNA",
-      "published": "Mon, 05 Oct 2026 11:58:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Sun, 04 Oct 2026 16:38:00 +0800"
     }
   ],
-  "generated_at": "2026-10-05T21:04:05+08:00",
+  "generated_at": "2026-10-05T21:59:48+08:00",
   "test_mode": false
 }
