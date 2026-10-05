@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "ComChest disburses more than S$80 million in FY2025, benefitting over 130,000 individuals, families",
+      "url": "https://www.channelnewsasia.com/singapore/community-chest-channels-80-million-sgd-340-social-programmes-6429071",
+      "summary": "Around S$41 million went towards programmes addressing critical needs, including support for people with mental health needs, children with special needs and youth at risk.",
+      "source": "CNA",
+      "published": "Mon, 05 Oct 2026 19:30:59 +0800"
+    },
+    {
       "title": "After 7 deaths, MOM urges safety time-out, tightens enforcement in construction, transport",
       "url": "https://www.channelnewsasia.com/singapore/workplace-deaths-mom-safety-time-out-construction-transport-storage-6432756",
       "summary": "The latest measures include higher fines, longer stop-work orders and possible curbs on migrant-worker hiring for serious lapses.",
@@ -45,7 +52,7 @@
     {
       "title": "Air quality hits unhealthy range in central, western and eastern Singapore",
       "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-unhealthy-psi-oct-5-6432266",
-      "summary": "Smoke from southern Sumatra was drifting towards Singapore, with a continued risk of transboundary haze.",
+      "summary": "Dry conditions are expected to persist over southern Sumatra and Kalimantan and smoke haze could continue to drift towards Singapore, NEA said.",
       "source": "CNA",
       "published": "Mon, 05 Oct 2026 12:49:00 +0800"
     },
@@ -97,16 +104,30 @@
       "summary": "The judge said there were multiple victims, noting that the mother of the deceased student had suffered \"greatly\" and that other victims continued to bear emotional trauma from the deaths and injuries.",
       "source": "CNA",
       "published": "Mon, 05 Oct 2026 11:58:00 +0800"
-    },
-    {
-      "title": "Ive's Wonyoung will be in Singapore on Oct 11 for Tommy Hilfiger and Cadillac Formula 1 pop-up",
-      "url": "https://www.channelnewsasia.com/entertainment/wonyoung-singapore-tommy-hilfiger-cadillac-formula-1-6432081",
-      "summary": "K-pop sensation Wonyoung of Ive will be in Singapore on Oct 11.",
-      "source": "CNA",
-      "published": "Mon, 05 Oct 2026 11:29:51 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Congo river boat collision kills at least 30 as search continues for missing",
+      "url": "https://www.channelnewsasia.com/world/congo-river-boat-collision-kills-least-30-search-continues-missing-6433306",
+      "summary": "“Almost all the passengers on board were trapped underwater, and the boat itself also sank,” a security forces witness told The Associated Press after the collision.",
+      "source": "CNA",
+      "published": "Mon, 05 Oct 2026 20:49:37 +0800"
+    },
+    {
+      "title": "Hundreds of French high schools close as student protests continue",
+      "url": "https://www.channelnewsasia.com/world/france-high-schools-shut-protests-students-6433056",
+      "summary": "More than 400 out of France's 3,700 high schools were partially or totally closed on Monday morning, the education ministry said.",
+      "source": "CNA",
+      "published": "Mon, 05 Oct 2026 20:10:31 +0800"
+    },
+    {
+      "title": "Two dead, 11 rescued after ship catches fire and sinks in Black Sea, Romania says",
+      "url": "https://www.channelnewsasia.com/world/two-dead-11-rescued-after-ship-catches-fire-and-sinks-in-black-sea-romania-says-6433076",
+      "summary": "Romanian authorities did not specify what caused the fire aboard the commercial vessel in the Black Sea. Asked whether the ship may have been hit by a drone, Romania’s defence ministry did not respond to AFP.",
+      "source": "CNA",
+      "published": "Mon, 05 Oct 2026 19:51:00 +0800"
+    },
     {
       "title": "Spain PM calls early election after parliament rejects housing measures",
       "url": "https://www.channelnewsasia.com/world/spain-pm-sanchez-early-election-parliament-housing-measures-6432661",
@@ -190,29 +211,8 @@
       "summary": "",
       "source": "CNA",
       "published": "Sun, 04 Oct 2026 16:38:00 +0800"
-    },
-    {
-      "title": "Iranian UN delegation duo 'kicked out' of US: State Dept",
-      "url": "https://www.channelnewsasia.com/world/iran-delegates-unga-us-kick-out-6430311",
-      "summary": "",
-      "source": "CNA",
-      "published": "Sun, 04 Oct 2026 10:00:50 +0800"
-    },
-    {
-      "title": "Israel targets top Hamas leader in deadly Gaza strike on anniversary",
-      "url": "https://www.channelnewsasia.com/world/israel-hamas-gaza-conflict-6430286",
-      "summary": "The Israeli airstrike on an apartment building in Gaza killed five people, four of them women, local officials said.",
-      "source": "CNA",
-      "published": "Sun, 04 Oct 2026 08:48:22 +0800"
-    },
-    {
-      "title": "Tennessee prison chief resigns after failed execution",
-      "url": "https://www.channelnewsasia.com/world/christa-pike-execution-tennessee-prison-chief-resigns-6429626",
-      "summary": "The failed execution of convicted murderer Christa Pike was the second failed execution in Tennessee this year.",
-      "source": "CNA",
-      "published": "Sun, 04 Oct 2026 08:05:00 +0800"
     }
   ],
-  "generated_at": "2026-10-05T18:58:35+08:00",
+  "generated_at": "2026-10-05T21:04:05+08:00",
   "test_mode": false
 }
