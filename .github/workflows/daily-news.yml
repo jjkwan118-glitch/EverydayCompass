@@ -7,10 +7,14 @@ on:
     - cron: '45 22 * * *'
     - cron: '45 4 * * *'
     - cron: '45 10 * * *'
-    # Backup checks 2 hours later; skip if that refresh window already completed.
+    # Backup 1 checks 2 hours later; Backup 2 checks 3 hours later.
+    # Both skip if that refresh window already completed.
     - cron: '45 0 * * *'
     - cron: '45 6 * * *'
     - cron: '45 12 * * *'
+    - cron: '45 1 * * *'
+    - cron: '45 7 * * *'
+    - cron: '45 13 * * *'
 
 permissions:
   contents: write
@@ -38,7 +42,8 @@ jobs:
 
           event = os.environ.get("GITHUB_EVENT_NAME", "")
           scheduled = os.environ.get("GITHUB_EVENT_SCHEDULE", "")
-          backup_crons = {"45 0 * * *", "45 6 * * *", "45 12 * * *"}
+          backup_crons = {"45 0 * * *", "45 6 * * *", "45 12 * * *",
+                          "45 1 * * *", "45 7 * * *", "45 13 * * *"}
 
           needed = True
           if event == "schedule" and scheduled in backup_crons:
@@ -48,6 +53,9 @@ jobs:
                   "45 0 * * *": now.replace(hour=6, minute=45, second=0, microsecond=0),
                   "45 6 * * *": now.replace(hour=12, minute=45, second=0, microsecond=0),
                   "45 12 * * *": now.replace(hour=18, minute=45, second=0, microsecond=0),
+                  "45 1 * * *": now.replace(hour=6, minute=45, second=0, microsecond=0),
+                  "45 7 * * *": now.replace(hour=12, minute=45, second=0, microsecond=0),
+                  "45 13 * * *": now.replace(hour=18, minute=45, second=0, microsecond=0),
               }
               try:
                   with open("data/daily-news.json", encoding="utf-8") as fh:
