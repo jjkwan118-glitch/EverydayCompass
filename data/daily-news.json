@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "Teen investigated for allegedly throwing bag of ice cream off Cove LRT platform",
+      "url": "https://www.channelnewsasia.com/singapore/teen-investigated-allegedly-throwing-ice-cream-cove-lrt-platform-6436426",
+      "summary": "The incident happened at about 11pm on Sep 27, said the police.",
+      "source": "CNA",
+      "published": "Tue, 06 Oct 2026 20:32:00 +0800"
+    },
+    {
       "title": "Two men fined more than S$3.34 million each for evading tax on over 4.5 million litres of diesel from Malaysia",
       "url": "https://www.channelnewsasia.com/singapore/two-men-fined-evading-duty-diesel-malaysia-6436036",
       "summary": "",
@@ -97,16 +104,16 @@
       "summary": "The government will not leave affected businesses and residents to fend for themselves, says Transport Minister Jeffrey Siow.",
       "source": "CNA",
       "published": "Tue, 06 Oct 2026 12:01:00 +0800"
-    },
-    {
-      "title": "Dim sum restaurant Victor's Kitchen opens new outlet in Toa Payoh, following closure of Chinatown branch",
-      "url": "https://www.channelnewsasia.com/dining/victors-kitchen-toa-payoh-6434891",
-      "summary": "The eatery was started by a Hong Kong chef over 20 years ago at Sunshine Plaza.",
-      "source": "CNA",
-      "published": "Tue, 06 Oct 2026 10:55:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "US and China discuss reciprocal visits to nuclear sites: Reports",
+      "url": "https://www.channelnewsasia.com/asia/us-china-nuclear-sites-visits-6436266",
+      "summary": "The idea of reciprocal visits was initially raised by China in meetings with US officials this year and visits to US Department of Energy national laboratories and equivalent Chinese facilities were discussed, CNN said, citing a source familiar with the matter.",
+      "source": "CNA",
+      "published": "Tue, 06 Oct 2026 19:55:42 +0800"
+    },
     {
       "title": "Yemen's Houthis say they struck Riyadh airport, other Saudi sites",
       "url": "https://www.channelnewsasia.com/world/yemen-houthis-strike-saudi-riyadh-airport-6435476",
@@ -204,15 +211,8 @@
       "summary": "",
       "source": "CNA",
       "published": "Tue, 06 Oct 2026 05:44:52 +0800"
-    },
-    {
-      "title": "Trump says US moved bombers from UK base after 'threats'",
-      "url": "https://www.channelnewsasia.com/world/trump-us-bombers-threat-raf-fairford-uk-base-6434401",
-      "summary": "The bombers were moved after suspicious activity near the base led to a counter-terrorism investigation.",
-      "source": "CNA",
-      "published": "Tue, 06 Oct 2026 04:43:00 +0800"
     }
   ],
-  "generated_at": "2026-10-06T18:58:02+08:00",
+  "generated_at": "2026-10-06T21:00:58+08:00",
   "test_mode": false
 }
