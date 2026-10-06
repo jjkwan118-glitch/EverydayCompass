@@ -5,7 +5,7 @@
       "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-psi-oct-6-6434591",
       "summary": "In an update on Monday evening, the National Environment Agency said the 24-hour PSI for Singapore was forecast to be in the high moderate to mid unhealthy range.",
       "source": "CNA",
-      "published": "Tue, 06 Oct 2026 06:59:07 +0800"
+      "published": "Tue, 06 Oct 2026 06:59:00 +0800"
     },
     {
       "title": "Ageing pilgrims, fewer stalls: Kusu Island pilgrimage faces generational decline",
@@ -108,6 +108,27 @@
   ],
   "world": [
     {
+      "title": "In reversal, Trump to pay for political ads about himself",
+      "url": "https://www.channelnewsasia.com/world/donald-trump-pay-own-political-ads-taxpayer-money-6434701",
+      "summary": "",
+      "source": "CNA",
+      "published": "Tue, 06 Oct 2026 09:43:00 +0800"
+    },
+    {
+      "title": "Australian Army soldier dies and five others injured during training exercise",
+      "url": "https://www.channelnewsasia.com/world/australian-army-soldier-dies-during-training-exercise-6434811",
+      "summary": "",
+      "source": "CNA",
+      "published": "Tue, 06 Oct 2026 09:35:47 +0800"
+    },
+    {
+      "title": "Middle East war sharpens focus on ASEAN energy security plans",
+      "url": "https://www.channelnewsasia.com/asia/asean-energy-security-plans-focus-middle-east-war-oil-prices-6434631",
+      "summary": "Southeast Asian energy ministers meeting in Manila are expected to review regional fuel-security measures as the US-Israeli war against Iran drags on.",
+      "source": "CNA",
+      "published": "Tue, 06 Oct 2026 09:27:00 +0800"
+    },
+    {
       "title": "Dozens quarantined in Siberia after plague institute lab worker dies",
       "url": "https://www.channelnewsasia.com/world/russia-siberia-plague-lab-worker-dies-quarantined-6433201",
       "summary": "The World Health Organization said that based on available information, \"the public health risk to the general population appears to be low\".",
@@ -150,7 +171,7 @@
       "published": "Tue, 06 Oct 2026 01:53:00 +0800"
     },
     {
-      "title": "US approves $1 billion arms sale to UAE",
+      "title": "US approves US$1 billion arms sale to UAE",
       "url": "https://www.channelnewsasia.com/world/us-sale-uae-billion-military-arms-defence-6434011",
       "summary": "The US said the deal, which involves the sale of precision rocket guidance systems, would strengthen a key defence partner and advance US national security interests.",
       "source": "CNA",
@@ -190,29 +211,8 @@
       "summary": "More than 400 out of France's 3,700 high schools were partially or totally closed on Monday morning, the education ministry said.",
       "source": "CNA",
       "published": "Mon, 05 Oct 2026 20:10:00 +0800"
-    },
-    {
-      "title": "Two dead, 11 rescued after ship catches fire and sinks in Black Sea, Romania says",
-      "url": "https://www.channelnewsasia.com/world/two-dead-11-rescued-after-ship-catches-fire-and-sinks-in-black-sea-romania-says-6433076",
-      "summary": "Romanian authorities did not specify what caused the fire aboard the commercial vessel in the Black Sea. Asked whether the ship may have been hit by a drone, Romania’s defence ministry did not respond to AFP.",
-      "source": "CNA",
-      "published": "Mon, 05 Oct 2026 19:51:00 +0800"
-    },
-    {
-      "title": "Spain PM calls early election after parliament rejects housing measures",
-      "url": "https://www.channelnewsasia.com/world/spain-pm-sanchez-early-election-parliament-housing-measures-6432661",
-      "summary": "",
-      "source": "CNA",
-      "published": "Mon, 05 Oct 2026 15:50:56 +0800"
-    },
-    {
-      "title": "Japan leader voices outrage over alleged murder by US Marine",
-      "url": "https://www.channelnewsasia.com/east-asia/japan-takaichi-outrage-alleged-murder-us-marine-6432526",
-      "summary": "\"The occurrence of such a heinous crime is extremely regrettable,\" said Japan's Prime Minister Sanae Takaichi.",
-      "source": "CNA",
-      "published": "Mon, 05 Oct 2026 14:48:00 +0800"
     }
   ],
-  "generated_at": "2026-10-06T09:01:03+08:00",
+  "generated_at": "2026-10-06T09:53:39+08:00",
   "test_mode": false
 }
