@@ -1,7 +1,14 @@
 {
   "singapore": [
     {
-      "title": "'They think it's just a picnic spot': Kusu Island regulars lament its declining appeal among youth",
+      "title": "Air quality in unhealthy range across most of Singapore",
+      "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-psi-oct-6-6434591",
+      "summary": "In an update on Monday evening, the National Environment Agency said the 24-hour PSI for Singapore was forecast to be in the high moderate to mid unhealthy range.",
+      "source": "CNA",
+      "published": "Tue, 06 Oct 2026 06:59:07 +0800"
+    },
+    {
+      "title": "Ageing pilgrims, fewer stalls: Kusu Island pilgrimage faces generational decline",
       "url": "https://www.channelnewsasia.com/singapore/kusu-island-pilgrimage-sla-ferry-heritage-6421156",
       "summary": "About 15,500 people visited during the pilgrimage last year, roughly half the 30,000 recorded in 2019.",
       "source": "CNA",
@@ -22,7 +29,7 @@
       "published": "Tue, 06 Oct 2026 05:59:00 +0800"
     },
     {
-      "title": "1 dead, 1 injured after Telok Blangah Heights incident; man to face murder charge",
+      "title": "Man to be charged with murder after 73-year-old dies, another injured at Telok Blangah Heights",
       "url": "https://www.channelnewsasia.com/singapore/murder-telok-blangah-heights-man-charged-6433796",
       "summary": "Police said the man is believed to have acted alone and there is currently no evidence to suggest that it was a religiously motivated attack or an act of terror.",
       "source": "CNA",
@@ -97,16 +104,16 @@
       "summary": "The victim, a 15-year-old student at the time, suffered from nightmares and struggled to trust adults after what happened.",
       "source": "CNA",
       "published": "Mon, 05 Oct 2026 12:44:00 +0800"
-    },
-    {
-      "title": "CASE calls for mandatory prepayment safeguards after S$3.82 million in losses linked to fitness closures",
-      "url": "https://www.channelnewsasia.com/singapore/case-prepayment-safeguards-true-fitness-yoga-6432151",
-      "summary": "Consumers reported nearly S$6.7 million in prepayment losses from January to September, about 147 per cent more than for the whole of 2025.",
-      "source": "CNA",
-      "published": "Mon, 05 Oct 2026 12:38:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Dozens quarantined in Siberia after plague institute lab worker dies",
+      "url": "https://www.channelnewsasia.com/world/russia-siberia-plague-lab-worker-dies-quarantined-6433201",
+      "summary": "The World Health Organization said that based on available information, \"the public health risk to the general population appears to be low\".",
+      "source": "CNA",
+      "published": "Tue, 06 Oct 2026 07:03:00 +0800"
+    },
     {
       "title": "Commentary: Why a booming economy is not helping Trump",
       "url": "https://www.channelnewsasia.com/commentary/us-economy-donald-trump-midterm-elections-6432736",
@@ -204,15 +211,8 @@
       "summary": "\"The occurrence of such a heinous crime is extremely regrettable,\" said Japan's Prime Minister Sanae Takaichi.",
       "source": "CNA",
       "published": "Mon, 05 Oct 2026 14:48:00 +0800"
-    },
-    {
-      "title": "US accuses California woman of spying for China, surveilling Taiwan leader's son",
-      "url": "https://www.channelnewsasia.com/world/california-woman-spying-china-taiwan-leader-6432126",
-      "summary": "The 34-year-old woman was arrested before a planned departure to China.",
-      "source": "CNA",
-      "published": "Mon, 05 Oct 2026 11:27:00 +0800"
     }
   ],
-  "generated_at": "2026-10-06T06:53:38+08:00",
+  "generated_at": "2026-10-06T09:01:03+08:00",
   "test_mode": false
 }
