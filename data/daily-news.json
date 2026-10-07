@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "Girl, 7, who died after being hit by school bus might not have been visible to oncoming traffic: Coroner",
+      "url": "https://www.channelnewsasia.com/singapore/girl-in-school-bus-collision-nivya-rameshwar-6439146",
+      "summary": "Speaking to the media after the hearing, Nivya Rameshwar's mother said: \"It's painful, it's something that could've been prevented.\"",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 19:10:00 +0800"
+    },
+    {
+      "title": "Prosecution points to safety harness concerns, training gaps in trial over ACS(I) student's death",
+      "url": "https://www.channelnewsasia.com/singapore/acsi-student-death-adventure-course-safety-camelot-general-manager-trial-6439126",
+      "summary": "The 15-year-old student was suspended midair in his harness for more than half an hour before being lowered to safety.",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 19:06:00 +0800"
+    },
+    {
       "title": "‘Phenomenal’ amount of capital going into AI could be more spread out: Temasek CEO",
       "url": "https://www.channelnewsasia.com/singapore/temasek-invest-ai-chips-data-centre-6439061",
       "summary": "Temasek's Dilhan Pillay Sandrasegaran and DBS' Tan Su Shan spoke at the Forbes Global CEO Conference, where American billionaire investor Ray Dalio also warned of a \"classic bubble\".",
@@ -90,23 +104,23 @@
       "summary": "After she received the correction direction, Kokila Annamalai put up an article titled, \"I Defy: Why I am not complying with my POFMA Correction Direction\".",
       "source": "CNA",
       "published": "Wed, 07 Oct 2026 12:11:00 +0800"
-    },
-    {
-      "title": "No transition period for changes to P1 registration taking effect from 2027: Desmond Lee",
-      "url": "https://www.channelnewsasia.com/singapore/p1-registration-no-transition-period-start-2027-desmond-lee-moe-6438131",
-      "summary": "Several Members of Parliament called for a transition period as some families have made residential arrangements based on the existing framework.",
-      "source": "CNA",
-      "published": "Wed, 07 Oct 2026 11:27:00 +0800"
-    },
-    {
-      "title": "Bang Chan, leader of Stray Kids, will be in Singapore on Oct 10 for Breitling and Aston Martin F1 pop-up",
-      "url": "https://www.channelnewsasia.com/entertainment/bang-chan-stray-kids-singapore-6438126",
-      "summary": "The K-pop star will make an appearance at the pop-up, which is located at Raffles City Shopping Centre.",
-      "source": "CNA",
-      "published": "Wed, 07 Oct 2026 11:19:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Israel-Hamas war: 3 years on, Gaza peace remains elusive",
+      "url": "https://www.channelnewsasia.com/world/israel-hamas-war-3-years-gaza-peace-remains-elusive-6439131",
+      "summary": "Analysts say differences over disarmament, Israeli withdrawal and Palestinian statehood are among the factors holding back progress.",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 20:27:41 +0800"
+    },
+    {
+      "title": "CNA Explains: What are the grievances driving the expanding school protests in France?",
+      "url": "https://www.channelnewsasia.com/world/cna-explains-france-school-student-protest-unrest-demonstrations-6438771",
+      "summary": "A strike over working conditions and staff shortages at a high school in a Parisian suburb has morphed into nationwide demonstrations protesting the state of France’s education system.",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 19:34:33 +0800"
+    },
     {
       "title": "France suspends stun grenade use at student protests ahead of PM speech",
       "url": "https://www.channelnewsasia.com/world/france-student-protests-stun-grenade-schools-6438781",
@@ -197,22 +211,8 @@
       "summary": "\"We hope that France and Germany, as major economies in the world, will uphold openness, cooperation and free trade,\" China's commerce ministry said in a statement.",
       "source": "CNA",
       "published": "Wed, 07 Oct 2026 02:27:00 +0800"
-    },
-    {
-      "title": "White House denies Trump suggested Iran should 'take out' US cities",
-      "url": "https://www.channelnewsasia.com/world/trump-democrats-us-cities-la-san-diego-iran-6437256",
-      "summary": "US President Donald Trump faced criticism after saying Iran could “take out” Los Angeles and San Diego, with Democrats accusing him of encouraging attacks on the US cities.",
-      "source": "CNA",
-      "published": "Wed, 07 Oct 2026 01:59:00 +0800"
-    },
-    {
-      "title": "Russia denies imposing anti-plague measures after death of worker",
-      "url": "https://www.channelnewsasia.com/world/russia-plague-lab-worker-death-rubio-urge-info-6437211",
-      "summary": "Irkutsk Regional Governor Igor Kobzev said an inspection by health watchdog Rospotrebnadzor found that the woman died of pneumonia, as US Secretary of State Marco Rubio urged Russia to provide more information.",
-      "source": "CNA",
-      "published": "Wed, 07 Oct 2026 00:37:00 +0800"
     }
   ],
-  "generated_at": "2026-10-07T18:58:30+08:00",
+  "generated_at": "2026-10-07T21:04:54+08:00",
   "test_mode": false
 }
