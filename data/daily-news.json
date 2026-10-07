@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "Man charged with murdering 73-year-old man at Telok Blangah void deck",
+      "url": "https://www.channelnewsasia.com/singapore/32-man-charged-murder-73-telok-blangah-6437926",
+      "summary": "Gabriel Foong Shi Cheng will be remanded for a psychiatric assessment to determine if he had any abnormality of mind that substantially impaired his mental responsibility for the acts.",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 09:20:31 +0800"
+    },
+    {
       "title": "Air quality in parts of Singapore in unhealthy range",
       "url": "https://www.channelnewsasia.com/singapore/haze-psi-pm25-air-quality-oct-7-6437771",
       "summary": "24-hour PSI readings in central, eastern and western Singapore were in the unhealthy range at 8am, while 1-hour PM2.5 readings were also elevated in these regions.",
@@ -97,16 +104,23 @@
       "summary": "The grassroots mental wellness programme has reached more than 1,000 participants from ages 18 to 80.",
       "source": "CNA",
       "published": "Tue, 06 Oct 2026 14:55:28 +0800"
-    },
-    {
-      "title": "Singaporean footballer Hassan Sunny closes nasi padang stall Dapur Hassan, but plans to continue business",
-      "url": "https://www.channelnewsasia.com/dining/hassan-sunny-dapur-hassan-nasi-padang-stall-closes-6435386",
-      "summary": "The goalkeeper said that manpower – not rent – was behind the closure, and he has been learning his mother-in-law's recipes to take over the cooking.",
-      "source": "CNA",
-      "published": "Tue, 06 Oct 2026 14:45:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "In interview, US Vice President Vance says Iran must cut enrichment to end war",
+      "url": "https://www.channelnewsasia.com/world/jd-vance-iran-cut-nuclear-enrichment-end-war-6437781",
+      "summary": "Vance said any agreement would require Iran to reduce its nuclear enrichment capacity, rather than offer assurances of future drawdowns.",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 09:36:00 +0800"
+    },
+    {
+      "title": "North Korea's Kim pledges 'invariable support' in Putin birthday letter",
+      "url": "https://www.channelnewsasia.com/east-asia/north-korea-kim-support-putin-birthday-letter-6437946",
+      "summary": "North Korean leader Kim Jong Un wrote that he is \"firmly convinced that the Russian people's sacred war of justice ... will surely end with their victory\".",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 09:24:00 +0800"
+    },
     {
       "title": "Commentary: Keep medicine out of the US-China tech war",
       "url": "https://www.channelnewsasia.com/commentary/us-china-tech-war-pharmaceutical-novel-medicine-6435801",
@@ -197,22 +211,8 @@
       "summary": "",
       "source": "CNA",
       "published": "Tue, 06 Oct 2026 12:23:05 +0800"
-    },
-    {
-      "title": "Tens of thousands expected in Paris for high school protests",
-      "url": "https://www.channelnewsasia.com/world/france-high-school-protests-paris-6435081",
-      "summary": "",
-      "source": "CNA",
-      "published": "Tue, 06 Oct 2026 12:11:11 +0800"
-    },
-    {
-      "title": "South Korea's Lee says AI appears to have been used in bank hacks",
-      "url": "https://www.channelnewsasia.com/east-asia/south-korea-ai-bank-hanks-data-breach-6434861",
-      "summary": "South Korea's police have launched a full-scale investigation into the hacking attacks against commercial banks that led to a breach of customers' personal information.",
-      "source": "CNA",
-      "published": "Tue, 06 Oct 2026 11:02:00 +0800"
     }
   ],
-  "generated_at": "2026-10-07T09:03:54+08:00",
+  "generated_at": "2026-10-07T09:55:16+08:00",
   "test_mode": false
 }
