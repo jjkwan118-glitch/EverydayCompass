@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "COVID-19 vaccination to be added to Singapore’s national immunisation schedules from Oct 12",
+      "url": "https://www.channelnewsasia.com/singapore/covid-19-vaccination-national-immunisation-schedule-cda-6438661",
+      "summary": "COVID-19 vaccination has been offered under the National Vaccination Programme since 2020 to facilitate uptake of the vaccine during the pandemic.",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 15:26:00 +0800"
+    },
+    {
       "title": "49 schools to get new principals in 2027",
       "url": "https://www.channelnewsasia.com/singapore/49-new-school-principals-2027-moe-6437961",
       "summary": "Of these, 13 are newly appointed principals, MOE said in a press release on Wednesday (Oct 7).",
@@ -95,13 +102,6 @@
       "title": "Commentary: ‘Below the threshold of war’ is where Singapore’s new navy patrol vessels operate",
       "url": "https://www.channelnewsasia.com/commentary/singapore-navy-opv-offshore-patrol-vessels-maritime-threats-6435941",
       "summary": "What makes the new Offshore Patrol Vessels (OPVs) useful is how they offer room for calibrated responses at a time when threats at sea are less conventional, says Collin Koh from the S Rajaratnam School of International Studies.",
-      "source": "CNA",
-      "published": "Wed, 07 Oct 2026 06:00:00 +0800"
-    },
-    {
-      "title": "Relief, frustration among Punggol East Container Park tenants over lease extension offer",
-      "url": "https://www.channelnewsasia.com/singapore/punggol-east-container-park-closing-6436061",
-      "summary": "Some had already paid deposits and begun renovations at new premises, while others say the one-year extension gives them time to plan their next move.",
       "source": "CNA",
       "published": "Wed, 07 Oct 2026 06:00:00 +0800"
     }
@@ -213,6 +213,6 @@
       "published": "Tue, 06 Oct 2026 19:55:42 +0800"
     }
   ],
-  "generated_at": "2026-10-07T15:01:22+08:00",
+  "generated_at": "2026-10-07T15:56:09+08:00",
   "test_mode": false
 }
