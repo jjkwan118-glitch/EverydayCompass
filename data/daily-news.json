@@ -1,9 +1,37 @@
 {
   "singapore": [
     {
-      "title": "COVID-19 vaccination to be added to Singapore’s national immunisation schedules from Oct 12",
+      "title": "‘Phenomenal’ amount of capital going into AI could be more spread out: Temasek CEO",
+      "url": "https://www.channelnewsasia.com/singapore/temasek-invest-ai-chips-data-centre-6439061",
+      "summary": "Temasek's Dilhan Pillay Sandrasegaran and DBS' Tan Su Shan spoke at the Forbes Global CEO Conference, where American billionaire investor Ray Dalio also warned of a \"classic bubble\".",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 18:22:00 +0800"
+    },
+    {
+      "title": "MPs back tighter data centre regulations but raise questions on competitiveness, sustainability",
+      "url": "https://www.channelnewsasia.com/singapore/data-centre-regulations-digital-infrastructure-bill-6438941",
+      "summary": "A law was passed in parliament requiring operators of data centres in Singapore with a critical IT load of at least 3 megawatts to be licensed.",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 17:54:56 +0800"
+    },
+    {
+      "title": "Man gets jail, caning for human trafficking after tricking Singaporean woman into sex work in Dubai",
+      "url": "https://www.channelnewsasia.com/singapore/italian-man-jail-caning-trafficking-singaporean-woman-dubai-6438696",
+      "summary": "The woman thought Achraf Arjaouy was a wealthy pilot who wanted to marry her, and engaged in sex work to raise funds so she could go with him to Qatar.",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 16:24:00 +0800"
+    },
+    {
+      "title": "COE premiums close mostly lower in latest bidding exercise",
+      "url": "https://www.channelnewsasia.com/singapore/coe-premiums-oct-7-bidding-exercise-6438691",
+      "summary": "Only open category premiums did not decrease, closing unchanged at S$137,000.",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 16:16:00 +0800"
+    },
+    {
+      "title": "COVID-19 vaccination to become part of Singapore’s national immunisation schedules from Oct 12",
       "url": "https://www.channelnewsasia.com/singapore/covid-19-vaccination-national-immunisation-schedule-cda-6438661",
-      "summary": "COVID-19 vaccination has been offered under the National Vaccination Programme since 2020 to facilitate uptake of the vaccine during the pandemic.",
+      "summary": "COVID-19 vaccination will be recommended for people aged 60 and above, medically vulnerable people aged six months and above, and residents of aged care facilities.",
       "source": "CNA",
       "published": "Wed, 07 Oct 2026 15:26:00 +0800"
     },
@@ -34,6 +62,13 @@
       "summary": "Among other expectations, financial institutions will be accountable for AI used in delivered services, including AI developed, operated or provided by third parties.",
       "source": "CNA",
       "published": "Wed, 07 Oct 2026 13:27:30 +0800"
+    },
+    {
+      "title": "Singapore to push for deeper ASEAN integration, wider partnerships as bloc chair in 2027: Vivian Balakrishnan",
+      "url": "https://www.channelnewsasia.com/singapore/vivian-balakrishnan-milken-asean-integration-chair-ai-agents-6437041",
+      "summary": "Speaking at the Milken Institute Asia Summit, the foreign affairs minister also discussed navigating the US-China rivalry and warned of the risks posed by increasingly autonomous AI agents.",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 13:03:00 +0800"
     },
     {
       "title": "Singapore government running trials to understand how to implement AI agents responsibly: Tan Kiat How",
@@ -69,44 +104,16 @@
       "summary": "The K-pop star will make an appearance at the pop-up, which is located at Raffles City Shopping Centre.",
       "source": "CNA",
       "published": "Wed, 07 Oct 2026 11:19:00 +0800"
-    },
-    {
-      "title": "Singapore contacts Thai authorities, importers over planned egg export cuts: SFA",
-      "url": "https://www.channelnewsasia.com/singapore/egg-supply-thailand-sfa-local-importers-6437996",
-      "summary": "Thailand accounts for less than 15 per cent of Singapore's egg supply, the agency said.",
-      "source": "CNA",
-      "published": "Wed, 07 Oct 2026 10:31:00 +0800"
-    },
-    {
-      "title": "Hyrox Youngstars for children aged 8 to 15 to make Asian debut in Singapore this November",
-      "url": "https://www.channelnewsasia.com/wellness/hyrox-youngstars-singapore-asia-6437921",
-      "summary": "Like the original Hyrox competition for adults, Hyrox Youngstars features eight exercise stations.",
-      "source": "CNA",
-      "published": "Wed, 07 Oct 2026 10:08:00 +0800"
-    },
-    {
-      "title": "Man charged with murdering 73-year-old man at Telok Blangah void deck",
-      "url": "https://www.channelnewsasia.com/singapore/32-man-charged-murder-73-telok-blangah-6437926",
-      "summary": "Gabriel Foong Shi Cheng will be remanded for a psychiatric assessment to determine if he had any abnormality of mind that substantially impaired his mental responsibility for the acts.",
-      "source": "CNA",
-      "published": "Wed, 07 Oct 2026 09:20:00 +0800"
-    },
-    {
-      "title": "Air quality turns unhealthy across Singapore",
-      "url": "https://www.channelnewsasia.com/singapore/haze-psi-pm25-air-quality-oct-7-6437771",
-      "summary": "The 24-hour Pollutant Standards Index (PSI) readings climbed through Wednesday morning.",
-      "source": "CNA",
-      "published": "Wed, 07 Oct 2026 07:17:00 +0800"
-    },
-    {
-      "title": "Commentary: ‘Below the threshold of war’ is where Singapore’s new navy patrol vessels operate",
-      "url": "https://www.channelnewsasia.com/commentary/singapore-navy-opv-offshore-patrol-vessels-maritime-threats-6435941",
-      "summary": "What makes the new Offshore Patrol Vessels (OPVs) useful is how they offer room for calibrated responses at a time when threats at sea are less conventional, says Collin Koh from the S Rajaratnam School of International Studies.",
-      "source": "CNA",
-      "published": "Wed, 07 Oct 2026 06:00:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "France suspends stun grenade use at student protests ahead of PM speech",
+      "url": "https://www.channelnewsasia.com/world/france-student-protests-stun-grenade-schools-6438781",
+      "summary": "",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 16:12:06 +0800"
+    },
     {
       "title": "Chinese fitness influencer apologises after being caught riding bicycle during Berlin Marathon",
       "url": "https://www.channelnewsasia.com/wellness/abeeeer-chinese-fitness-influencer-cheating-berlin-marathon-6438256",
@@ -204,15 +211,8 @@
       "summary": "Irkutsk Regional Governor Igor Kobzev said an inspection by health watchdog Rospotrebnadzor found that the woman died of pneumonia, as US Secretary of State Marco Rubio urged Russia to provide more information.",
       "source": "CNA",
       "published": "Wed, 07 Oct 2026 00:37:00 +0800"
-    },
-    {
-      "title": "US and China discuss reciprocal visits to nuclear sites: Reports",
-      "url": "https://www.channelnewsasia.com/asia/us-china-nuclear-sites-visits-6436266",
-      "summary": "The idea of reciprocal visits was initially raised by China in meetings with US officials this year and visits to US Department of Energy national laboratories and equivalent Chinese facilities were discussed, CNN said, citing a source familiar with the matter.",
-      "source": "CNA",
-      "published": "Tue, 06 Oct 2026 19:55:42 +0800"
     }
   ],
-  "generated_at": "2026-10-07T15:56:09+08:00",
+  "generated_at": "2026-10-07T18:58:30+08:00",
   "test_mode": false
 }
