@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "Air quality in parts of Singapore in unhealthy range",
+      "url": "https://www.channelnewsasia.com/singapore/haze-psi-pm25-air-quality-oct-7-6437771",
+      "summary": "24-hour PSI readings in central, eastern and western Singapore were in the unhealthy range at 8am, while 1-hour PM2.5 readings were also elevated in these regions.",
+      "source": "CNA",
+      "published": "Wed, 07 Oct 2026 07:17:00 +0800"
+    },
+    {
       "title": "Commentary: ‘Below the threshold of war’ is where Singapore’s new navy patrol vessels operate",
       "url": "https://www.channelnewsasia.com/commentary/singapore-navy-opv-offshore-patrol-vessels-maritime-threats-6435941",
       "summary": "What makes the new Offshore Patrol Vessels (OPVs) useful is how they offer room for calibrated responses at a time when threats at sea are less conventional, says Collin Koh from the S Rajaratnam School of International Studies.",
@@ -61,7 +68,7 @@
       "url": "https://www.channelnewsasia.com/singapore/tampines-crash-victim-accident-family-grief-6436016",
       "summary": "The driver who caused the 2024 Tampines collision that killed his 17-year-old niece has been sentenced, but the family’s grief remains profound, her uncle says.",
       "source": "CNA",
-      "published": "Tue, 06 Oct 2026 17:50:55 +0800"
+      "published": "Tue, 06 Oct 2026 17:50:00 +0800"
     },
     {
       "title": "Man gets jail for insulting religious beliefs by leaving pork with offensive note outside woman's flat",
@@ -97,13 +104,6 @@
       "summary": "The goalkeeper said that manpower – not rent – was behind the closure, and he has been learning his mother-in-law's recipes to take over the cooking.",
       "source": "CNA",
       "published": "Tue, 06 Oct 2026 14:45:00 +0800"
-    },
-    {
-      "title": "OldTown White Coffee's last Singapore outlet at Kallang Wave Mall to close after Oct 11",
-      "url": "https://www.channelnewsasia.com/dining/oldtown-white-coffee-last-singapore-outlet-closes-6435166",
-      "summary": "The halal-certified chain is known for its Ipoh-style white coffee and Malaysian favourites including nasi lemak, kaya toast and noodles.",
-      "source": "CNA",
-      "published": "Tue, 06 Oct 2026 13:12:15 +0800"
     }
   ],
   "world": [
@@ -138,16 +138,16 @@
     {
       "title": "Hundreds arrested in French school protests as Macron summons ministers",
       "url": "https://www.channelnewsasia.com/world/france-protests-arrests-macron-trump-schools-6437491",
-      "summary": "The interior ministry said 256,000 people protested nationwide, while US President Donald Trump blamed the unrest in France on “mass migration.”",
+      "summary": "The interior ministry said 256,000 people protested nationwide, while US President Donald Trump blamed the unrest in France on “mass migration”.",
       "source": "CNA",
-      "published": "Wed, 07 Oct 2026 03:46:39 +0800"
+      "published": "Wed, 07 Oct 2026 03:46:00 +0800"
     },
     {
       "title": "China warns France, Germany against 'protectionist' trade tools",
       "url": "https://www.channelnewsasia.com/world/china-france-germany-trade-eu-economy-6437411",
       "summary": "\"We hope that France and Germany, as major economies in the world, will uphold openness, cooperation and free trade,\" China's commerce ministry said in a statement.",
       "source": "CNA",
-      "published": "Wed, 07 Oct 2026 02:27:28 +0800"
+      "published": "Wed, 07 Oct 2026 02:27:00 +0800"
     },
     {
       "title": "White House denies Trump suggested Iran should 'take out' US cities",
@@ -161,7 +161,7 @@
       "url": "https://www.channelnewsasia.com/world/russia-plague-lab-worker-death-rubio-urge-info-6437211",
       "summary": "Irkutsk Regional Governor Igor Kobzev said an inspection by health watchdog Rospotrebnadzor found that the woman died of pneumonia, as US Secretary of State Marco Rubio urged Russia to provide more information.",
       "source": "CNA",
-      "published": "Wed, 07 Oct 2026 00:37:48 +0800"
+      "published": "Wed, 07 Oct 2026 00:37:00 +0800"
     },
     {
       "title": "US and China discuss reciprocal visits to nuclear sites: Reports",
@@ -213,6 +213,6 @@
       "published": "Tue, 06 Oct 2026 11:02:00 +0800"
     }
   ],
-  "generated_at": "2026-10-07T06:53:51+08:00",
+  "generated_at": "2026-10-07T09:03:54+08:00",
   "test_mode": false
 }
