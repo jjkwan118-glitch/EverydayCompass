@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Story 2: Ethan, the maximiser | Everyday Compass</title>
+<meta name="description" content="A plain-English guide to using your CPF (Central Provident Fund) to prepare your wealth and retirement, for adults and seniors in Singapore.">
+<style>
+  :root {
+    --ink: #12343b;
+    --ink-soft: #3d5a60;
+    --sun: #ffc145;
+    --sun-deep: #b87900;
+    --mint: #ddf1ec;
+    --sky: #eef7f6;
+    --paper: #ffffff;
+    --line: #c9dfdb;
+    --coral: #d9534f;
+    --bg: #f7fbfa;
+    --radius: 18px;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #e8f4f2; --ink-soft: #b4cdc9; --sky: #17353a; --mint: #1d4045;
+      --paper: #12292d; --line: #2c4f55; --bg: #0c1c1f; --sun-deep: #ffc145;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #e8f4f2; --ink-soft: #b4cdc9; --sky: #17353a; --mint: #1d4045;
+    --paper: #12292d; --line: #2c4f55; --bg: #0c1c1f; --sun-deep: #ffc145;
+  }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); scroll-behavior: smooth; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px; line-height: 1.65;
+  }
+  h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; line-height: 1.2; margin: 0 0 .5em; }
+  h1 { font-size: clamp(2rem, 6vw, 3.4rem); }
+  h2 { font-size: clamp(1.5rem, 4.2vw, 2.1rem); }
+  h3 { font-size: 1.2rem; }
+  p { margin: 0 0 1em; max-width: 68ch; }
+  a { color: inherit; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+  section { padding: 56px 0; }
+  .topbar { padding: 14px 0; border-bottom: 1px solid var(--line); background: var(--paper); }
+  .topbar .wrap { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .topbar a { font-weight: 600; text-decoration: none; padding: 8px 4px; }
+  .topbar a:hover { text-decoration: underline; }
+
+  .translate { display: inline-flex; align-items: center; gap: 8px; }
+  .translate label { font-weight: 600; font-size: .95rem; }
+  .translate select { font: inherit; font-size: .95rem; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); min-height: 40px; }
+  .topbar .note { display: none; }
+
+  /* Hero */
+  .hero { background: #12343b; color: #f2fbf9; padding: 64px 0 72px; position: relative; overflow: hidden; }
+  .hero .wrap { display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px; align-items: center; }
+  .hero p { color: #cfe6e2; font-size: 1.1rem; }
+  .hero h1 { color: #fff; }
+  .btn {
+    display: inline-block; background: var(--sun); color: #12343b; font-weight: 700;
+    padding: 14px 22px; border-radius: 999px; text-decoration: none; border: 0; cursor: pointer; font-size: 1rem;
+  }
+  .btn:hover { filter: brightness(1.06); }
+  .btn.ghost { background: transparent; color: #f2fbf9; border: 2px solid #5f8a8a; margin-left: 8px; }
+  .btn:focus-visible, a:focus-visible, button:focus-visible { outline: 3px solid var(--sun); outline-offset: 3px; }
+  .compass { width: 100%; max-width: 300px; margin: 0 auto; }
+  .needle { transform-origin: 100px 100px; animation: settle 2.2s ease-out 1 both; }
+  @keyframes settle { 0% { transform: rotate(-150deg); } 60% { transform: rotate(18deg); } 100% { transform: rotate(0deg); } }
+  @media (prefers-reduced-motion: reduce) { .needle { animation: none; } html { scroll-behavior: auto; } }
+
+  /* Story */
+  .story { background: var(--sky); }
+  .story-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 28px 0; }
+  .person .big { font-size: 2rem; }
+  .person.top3 { border-width: 3px; }
+  .person { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
+  .person.win { border: 2px solid var(--sun); }
+  .person .tag { display: inline-block; font-weight: 700; font-size: .9rem; padding: 2px 12px; border-radius: 999px; background: var(--mint); margin-bottom: 10px; }
+  .person.win .tag { background: var(--sun); color: #12343b; }
+  .big { font-family: Georgia, serif; font-size: 2.4rem; font-weight: 700; line-height: 1.1; }
+  .big small { font-size: 1rem; font-weight: 400; font-family: inherit; }
+  .gap {
+    background: #12343b; color: #fff; border-radius: var(--radius); padding: 24px 28px; margin-top: 8px;
+  }
+  .gap strong { color: var(--sun); }
+  .note { font-size: .92rem; color: var(--ink-soft); }
+
+  .compound { background: var(--paper); border: 2px solid var(--sun); border-radius: var(--radius); padding: 24px; margin-top: 26px; }
+  .compound ul { padding-left: 1.2em; margin: 18px 0; }
+  .compound li { margin-bottom: .6em; }
+  tr.hl td { background: var(--mint); }
+  /* Safety net section */
+  .net { background: #12343b; color: #f2fbf9; }
+  .net h2 { color: #fff; font-size: clamp(1.7rem, 5vw, 2.6rem); }
+  .net p { color: #cfe6e2; }
+  .net .lead { font-size: 1.15rem; }
+  .layers { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 28px 0; }
+  .layer { background: #1c4a52; border: 1px solid #3b6b72; border-radius: var(--radius); padding: 22px; }
+  .layer h3 { color: var(--sun); margin-bottom: .3em; }
+  .layer p { margin: 0 0 .6em; color: #e4f3f0; font-size: .98rem; }
+  .layer .pay { color: #fff; font-weight: 700; margin: 0; }
+  .net .use { background: #f2fbf9; color: #12343b; border-radius: var(--radius); padding: 24px; margin-top: 8px; }
+  .net .use h3 { color: #12343b; }
+  .net .use ul { padding-left: 1.2em; margin: 10px 0 0; }
+  .net .use li { margin-bottom: .6em; }
+  .net .use p, .net .fine { color: #12343b; }
+  .net .fine { font-size: .92rem; opacity: .85; margin: 18px 0 0; color: #cfe6e2; }
+  @media (max-width: 760px) { .layers { grid-template-columns: 1fr; } }
+
+  /* Second story: the maximiser */
+  .max { background: var(--paper); }
+  .bars { margin: 26px 0; display: grid; gap: 18px; }
+  .bar-label { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-weight: 700; margin-bottom: 6px; }
+  .bar-track { background: var(--mint); border-radius: 999px; height: 34px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 999px; background: #8bb8d9; }
+  .bar-fill.top { background: var(--sun); }
+  .toolkit { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 22px 0; }
+  .tool { background: var(--sky); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .tool h3 { font-size: 1.05rem; margin-bottom: .3em; }
+  .tool p { margin: 0; font-size: .97rem; }
+  .tool.skip { opacity: .85; border-style: dashed; }
+  .toolkit .tool:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .timeline { list-style: none; padding: 0; margin: 20px 0; border-left: 4px solid var(--sun); }
+  .timeline li { padding: 0 0 18px 20px; position: relative; }
+  .timeline li::before { content: ""; position: absolute; left: -11px; top: 6px; width: 18px; height: 18px; border-radius: 50%; background: var(--sun); border: 3px solid var(--paper); }
+  .timeline strong { font-family: Georgia, serif; font-size: 1.1rem; }
+  .assume { background: var(--sky); border-radius: var(--radius); padding: 20px 22px; margin-top: 20px; }
+  .assume ul { margin: 0; padding-left: 1.2em; }
+  .assume li { margin-bottom: .5em; font-size: .97rem; }
+
+  /* Numbers */
+  .nums { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0; }
+  .num { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
+  .num .amt { font-family: Georgia, serif; font-size: 1.9rem; font-weight: 700; }
+  .num .pay { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line); }
+  .num.mid { border: 2px solid var(--sun); }
+
+  /* Accounts */
+  .accts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 20px; }
+  .acct { background: var(--paper); border-left: 8px solid var(--sun); border-radius: 12px; padding: 18px 20px; border-top: 1px solid var(--line); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .acct.ma { border-left-color: #4aa8a0; }
+  .acct.ra { border-left-color: #12343b; }
+  .acct.oa { border-left-color: #8bb8d9; }
+
+  /* Steps */
+  .steps { counter-reset: s; list-style: none; padding: 0; margin: 24px 0 0; display: grid; gap: 14px; }
+  .steps li { counter-increment: s; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 20px 20px 76px; position: relative; }
+  .steps li::before {
+    content: counter(s); position: absolute; left: 18px; top: 18px; width: 40px; height: 40px; border-radius: 50%;
+    background: var(--sun); color: #12343b; font-weight: 700; display: grid; place-items: center; font-family: Georgia, serif; font-size: 1.2rem;
+  }
+  .steps h3 { margin-bottom: .2em; }
+
+  /* Tabs */
+  .tabs { display: flex; gap: 8px; margin: 20px 0 0; flex-wrap: wrap; }
+  .tab { font: inherit; font-weight: 700; padding: 12px 20px; border-radius: 999px; border: 2px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; }
+  .tab[aria-selected="true"] { background: var(--ink); color: var(--bg); }
+  .panel { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; margin-top: 14px; }
+  .panel[hidden] { display: none; }
+  .panel ul { padding-left: 1.2em; margin: 0; }
+  .panel li { margin-bottom: .7em; }
+
+  /* Table */
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; min-width: 520px; background: var(--paper); }
+  th, td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--mint); }
+
+  .callout { background: var(--mint); border-radius: var(--radius); padding: 22px 24px; margin-top: 20px; }
+  .warn { background: var(--paper); border: 2px solid var(--coral); border-radius: var(--radius); padding: 22px 24px; }
+  .cta { background: #12343b; color: #f2fbf9; text-align: center; }
+  .cta p { margin-left: auto; margin-right: auto; color: #cfe6e2; }
+  .links li { margin-bottom: .6em; word-break: break-word; }
+  footer { padding: 32px 0 48px; font-size: .9rem; color: var(--ink-soft); border-top: 1px solid var(--line); }
+
+  @media (max-width: 760px) {
+    body { font-size: 17px; }
+    .hero .wrap, .story-grid, .nums, .accts { grid-template-columns: 1fr; }
+    .compass { max-width: 200px; order: -1; }
+    .btn.ghost { margin-left: 0; margin-top: 10px; }
+    section { padding: 40px 0; }
+  }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="wrap">
+    <a href="index.html">&larr; Back to Everyday Compass</a>
+    <span class="translate"><label for="tr-lang">🌍 Translate</label><select id="tr-lang" aria-describedby="tr-note"><option value="">Select language…</option><option value="ms">Bahasa Melayu</option><option value="zh-CN">中文（简体）</option><option value="zh-TW">中文（繁體）</option><option value="ta">தமிழ்</option><option value="id">Bahasa Indonesia</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="th">ไทย</option><option value="vi">Tiếng Việt</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="es">Español</option></select></span>
+    <span class="note" id="tr-note" style="display:block;flex-basis:100%;font-size:.85rem">Last checked: 8 October 2026. Translation opens in a new tab.</span>
+  </div>
+</div>
+
+<section class="max" id="maximiser">
+  <div class="wrap">
+    <h2>The second story: Ethan uses every lever, from his first pay cheque to 65</h2>
+    <p><em>Another made-up person, with a worked example. The rules and rates are the 2026 ones; the result is a projection, not a promise.</em></p>
+    <p>Ethan starts his first job at 22 on $5,000 a month. Nothing fancy. In this example he never gets a pay rise, so at 55 he earns exactly the same $5,000 a month as Mdm Lim, Mr Tan and Mr Ong in the first story. His friend, "Default Dan", earns the same and does only what is automatic: his employer and he pay CPF every month, and that is it. Ethan decides to use every CPF option open to him, every year, for 43 years.</p>
+
+    <h3>Ethan's toolkit</h3>
+    <div class="toolkit">
+      <div class="tool"><h3>1. Cash top-up to his Special Account</h3><p>$8,000 a year under the Retirement Sum Topping-Up Scheme (RSTU), the amount that qualifies for income tax relief.</p></div>
+      <div class="tool"><h3>2. Move his Ordinary Account savings to his Special Account</h3><p>Every year he transfers his OA savings into the SA (4% a year, instead of 2.5% in the OA), up to the Full Retirement Sum.</p></div>
+      <div class="tool"><h3>3. Fill the Retirement Account to the Enhanced Retirement Sum</h3><p>At 55 he tops up his new Retirement Account with OA savings and cash, up to $440,800 (the 2026 Enhanced Retirement Sum).</p></div>
+      <div class="tool"><h3>4. Keep topping up after 55</h3><p>If there is room under the limit, he adds more each year until 65.</p></div>
+      <div class="tool skip"><h3>Also available, but not counted in his Retirement Account</h3><p>MediSave top-ups (they share the same $8,000 tax relief cap), and top-ups to his parents' accounts (another $8,000 of tax relief).</p></div>
+    </div>
+
+    <h3>Ethan's road to 65</h3>
+    <ul class="timeline">
+      <li><strong>Age 22.</strong> First job. He starts the cash top-ups and yearly OA-to-SA transfers straight away.</li>
+      <li><strong>About age 30.</strong> His Special Account reaches the Full Retirement Sum ($220,400 in 2026 terms). Interest keeps growing it at 4% a year.</li>
+      <li><strong>Age 55, on his birthday.</strong> His Special Account closes. His savings move into a new Retirement Account up to the Full Retirement Sum, and he tops it up straight away to the Enhanced Retirement Sum: <strong>$440,800</strong>. This is exactly where Mr Ong is at 55.</li>
+      <li><strong>Age 55 to 65.</strong> No more room to add, so interest does the work at 4% a year.</li>
+      <li><strong>Age 65.</strong> His Retirement Account is worth about <strong>$652,000</strong>, the same as Mr Ong's.</li>
+    </ul>
+
+    <div class="bars" role="img" aria-label="Retirement Account at 65: Default Dan about 326,000 dollars, Ethan about 652,000 dollars">
+      <div>
+        <div class="bar-label"><span>Default Dan: automatic contributions only</span><span>about $326,000</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:50%"></div></div>
+      </div>
+      <div>
+        <div class="bar-label"><span>Ethan: every lever, every year</span><span>about $652,000</span></div>
+        <div class="bar-track"><div class="bar-fill top" style="width:100%"></div></div>
+      </div>
+    </div>
+
+    <div class="gap">
+      <p style="margin-bottom:.4em">Same salary. Same job. Ethan ends up with about <strong>$326,000 more</strong> in his Retirement Account at 65, exactly double Dan's.</p>
+      <p style="margin:0">And in this example, the only <strong>cash he adds from his own pocket is about $70,000 over his whole career</strong>. The rest comes from moving money he already has in his CPF to where it earns more.</p>
+    </div>
+
+    <p style="margin-top:18px"><strong>Why Ethan's monthly payout at 65 is the same as Mr Ong's, about $3,440:</strong> the Enhanced Retirement Sum is the most CPF lets you set aside, and both men have it in their Retirement Accounts from age 55. So their balances at 65 are the same ($652,492 in this example) and so are their estimated payouts. Ethan's advantage is not a bigger payout at 65. It is that he got there with about $70,100 of his own cash over 33 years of work, instead of finding a large sum late, and that he can still choose to wait until 70 for more (see below). Use the CPF Board's Retirement Payout Planner to see what a balance like his could pay each month.</p>
+
+    <div class="compound">
+      <h3>Ethan's bonus option: wait until 70</h3>
+      <p>CPF lets you start your CPF LIFE monthly payouts anywhere from 65 to 70. Each year you wait, your monthly payout can rise by up to 7%, and your Retirement Account keeps earning 4% interest while you wait. If you do nothing, payouts begin by themselves at 70.</p>
+      <p>Say Ethan keeps working or living on other savings until 70, and does not touch his Retirement Account.</p>
+      <div class="scroll">
+        <table>
+          <thead><tr><th></th><th>Start payouts at 65</th><th>Start payouts at 70</th></tr></thead>
+          <tbody>
+            <tr><td>Retirement Account balance</td><td>$652,492</td><td>about $793,900</td></tr>
+            <tr><td>Interest earned in total</td><td>$445,700</td><td>about $587,100 (74% of the balance)</td></tr>
+            <tr><td><strong>Estimated monthly payout for life</strong></td><td><strong>about $3,440</strong></td><td><strong>about $4,600</strong></td></tr>
+            <tr class="hl"><td><strong>Difference</strong></td><td colspan="2"><strong>about $1,160 more every month, roughly $13,900 more a year, for life (about 34% more)</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul>
+        <li><strong>Five more years of compounding:</strong> waiting adds about $141,400 of interest to his Retirement Account, without him adding a cent.</li>
+        <li><strong>The official benchmark:</strong> for a 55-year-old man with the Full Retirement Sum ($220,400) on the CPF LIFE Standard Plan, CPF says starting at 70 gives $2,380 a month instead of $1,780 at 65, which is $600 more.</li>
+        <li><strong>The catch:</strong> Ethan gives up five years of payouts, about $206,000 at the lower amount. At roughly $13,900 extra a year, he would only come out ahead if he lives to about 85 or beyond. CPF itself says deferring pays off only if you live long enough, and that he needs another source of income from 65 to 70.</li>
+      </ul>
+      <p class="note" style="margin:0">How we worked this out: Ethan's payout figures are our estimates, not CPF's. Ethan sets aside the same $440,800 at 55 as Mr Ong, so we use the same figure SmartWealth reports for the Enhanced Retirement Sum, about $3,440 a month. The age-70 figure applies the same 34% uplift CPF shows for the Full Retirement Sum. Real payouts depend on your gender, your CPF LIFE plan and your balance, and CPF says the rise is "up to" 7% a year. Money Ethan adds between 65 and 70 is left out. Use the CPF Board's monthly payout estimator for your own numbers.</p>
+    </div>
+
+    <div class="assume">
+      <h3>How we worked this out, and what it leaves out</h3>
+      <ul>
+        <li><strong>Salary:</strong> $5,000 a month, no pay rises, from age 22 to 65. At 55 this is the same $5,000 a month that Mdm Lim, Mr Tan and Mr Ong earn in the first story. CPF rates and allocation by age are the official 2026 ones.</li>
+        <li><strong>Interest:</strong> 4% a year on the Special and Retirement Accounts and 2.5% on the Ordinary Account. These are the lowest rates CPF currently guarantees, so real results could be higher. The extra interest on the first $60,000 is left out.</li>
+        <li><strong>Retirement sums:</strong> held at the 2026 amounts. If they keep rising by about 3.5% a year, as they did for 2026 and 2027, the same method gives roughly $1.95 million for Ethan against about $1.02 million for Dan, but those are future dollars with less buying power. We have not tried to predict this.</li>
+        <li><strong>Housing:</strong> neither man uses his Ordinary Account for a home. Most people do, which would lower both results. Moving OA savings to the Special Account cannot be undone, and top-up cash cannot be taken back.</li>
+        <li><strong>Left out:</strong> MediSave balances, tax savings, and money left in the Ordinary Account after Ethan's Retirement Account is full.</li>
+        <li>This is a worked example from public rules, not a forecast and not advice. Check your own numbers with the CPF Board's calculators.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>Want the full picture?</h2>
+    <p>Read the three-neighbours story, or the complete guide with all the numbers and sources.</p>
+    <p><a class="btn" href="story1.html">Read your story</a> <a class="btn ghost" href="cpf-guide.html">Read the full CPF guide</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p style="margin:0">Part of Everyday Compass. General information only, not financial, legal or tax advice. The people in these stories are fictional and used only to illustrate the figures. Sources are listed in the <a href="cpf-guide.html#sources">full CPF guide</a>.</p>
+  </div>
+</footer>
+<script>
+  (function () {
+    var sel = document.getElementById('tr-lang');
+    if (!sel) return;
+    sel.addEventListener('change', function () {
+      var lang = sel.value; if (!lang) return;
+      var page = (location.protocol === 'http:' || location.protocol === 'https:') ? location.href.split('#')[0] : 'https://jjkwan118-glitch.github.io/EverydayCompass/story2.html';
+      window.open('https://translate.google.com/translate?sl=en&tl=' + encodeURIComponent(lang) + '&u=' + encodeURIComponent(page), '_blank', 'noopener,noreferrer');
+      sel.value = '';
+    });
+  })();
+</script>
+</body>
+</html>
