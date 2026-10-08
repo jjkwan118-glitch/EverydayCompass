@@ -1,11 +1,18 @@
 {
   "singapore": [
     {
+      "title": "7 drivers caught providing illegal cross-border ride-hailing services, vehicles impounded",
+      "url": "https://www.channelnewsasia.com/singapore/illegal-cross-border-taxi-services-drivers-caught-cars-impounded-6442631",
+      "summary": "A total of 254 cars have been impounded since July 2025, said Senior Minister of State for Transport Sun Xueling.",
+      "source": "CNA",
+      "published": "Thu, 08 Oct 2026 20:42:00 +0800"
+    },
+    {
       "title": "Landmark ASEAN digital pact will guide region on AI, digital economy: Marcos",
       "url": "https://www.channelnewsasia.com/asia/philippine-president-ferdinand-marcos-jr-forbes-asean-6442061",
       "summary": "Parties are also making “good progress” on the code of conduct for the South China Sea, Philippine President Ferdinand Marcos Jr said at a forum in Singapore.",
       "source": "CNA",
-      "published": "Thu, 08 Oct 2026 18:36:14 +0800"
+      "published": "Thu, 08 Oct 2026 18:36:00 +0800"
     },
     {
       "title": "Man sexually abused 4 of his 5 daughters and stepdaughters, gets jail and caning",
@@ -97,13 +104,6 @@
       "summary": "Some hotel rooms are going for more than seven times their usual rates, amid a packed calendar of over 40 business conferences and gatherings around the Formula 1 period.",
       "source": "CNA",
       "published": "Thu, 08 Oct 2026 12:54:30 +0800"
-    },
-    {
-      "title": "Driver wins appeal after judge finds cyclist's negligence contributed to accident",
-      "url": "https://www.channelnewsasia.com/singapore/cyclist-driver-accident-zebra-crossing-appeal-6441426",
-      "summary": "The High Court found that the victim breached two obligations in his conduct as a cyclist by failing to travel at a speed that would allow him to stop at the zebra crossing involved and not stopping to check for oncoming traffic.",
-      "source": "CNA",
-      "published": "Thu, 08 Oct 2026 12:54:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Thu, 08 Oct 2026 00:38:00 +0800"
     }
   ],
-  "generated_at": "2026-10-08T18:58:33+08:00",
+  "generated_at": "2026-10-08T21:05:04+08:00",
   "test_mode": false
 }
