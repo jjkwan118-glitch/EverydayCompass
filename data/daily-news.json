@@ -108,6 +108,13 @@
   ],
   "world": [
     {
+      "title": "Britain says consulate in Jerusalem to remain open as a UK Mission",
+      "url": "https://www.channelnewsasia.com/world/britain-consulate-jerusalem-open-sanctions-west-bank-6441541",
+      "summary": "Israel ordered the British consulate in East Jerusalem to close after London announced plans to impose sanctions on settlements in the West Bank.",
+      "source": "CNA",
+      "published": "Thu, 08 Oct 2026 15:05:18 +0800"
+    },
+    {
       "title": "US opens direct talks with Myanmar's generals, reversing years of isolation",
       "url": "https://www.channelnewsasia.com/asia/us-direct-talks-myanmar-generals-6441696",
       "summary": "",
@@ -204,15 +211,8 @@
       "summary": "Analysts say differences over disarmament, Israeli withdrawal and Palestinian statehood are among the factors holding back progress.",
       "source": "CNA",
       "published": "Wed, 07 Oct 2026 20:27:41 +0800"
-    },
-    {
-      "title": "CNA Explains: What are the grievances driving the expanding school protests in France?",
-      "url": "https://www.channelnewsasia.com/world/cna-explains-france-school-student-protest-unrest-demonstrations-6438771",
-      "summary": "A strike over working conditions and staff shortages at a high school in a Parisian suburb has morphed into nationwide demonstrations protesting the state of France’s education system.",
-      "source": "CNA",
-      "published": "Wed, 07 Oct 2026 19:34:33 +0800"
     }
   ],
-  "generated_at": "2026-10-08T15:02:54+08:00",
+  "generated_at": "2026-10-08T15:57:21+08:00",
   "test_mode": false
 }
