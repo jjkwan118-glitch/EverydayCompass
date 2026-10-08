@@ -108,6 +108,13 @@
   ],
   "world": [
     {
+      "title": "Russian strike on buses kills 30 in Ukraine's frontline city of Kramatorsk",
+      "url": "https://www.channelnewsasia.com/world/russian-strike-buses-kills-30-in-ukraines-frontline-city-kramatorsk-6443076",
+      "summary": "Ukraine's President Volodymyr Zelensky vowed that the attack \"will not go unanswered\" after photos posted by local authorities showed the burnt-out metal shell of the vehicles, with bodies and debris strewn across the road.",
+      "source": "CNA",
+      "published": "Thu, 08 Oct 2026 21:46:38 +0800"
+    },
+    {
       "title": "South Korea says to recall ambassador from Ukraine",
       "url": "https://www.channelnewsasia.com/east-asia/south-korea-recall-ambassador-ukraine-6442176",
       "summary": "",
@@ -204,15 +211,8 @@
       "summary": "Ukrainian President Volodymyr Zelenskyy described the attack as “one of the most vile strikes” of the nearly five-year conflict.",
       "source": "CNA",
       "published": "Thu, 08 Oct 2026 02:19:00 +0800"
-    },
-    {
-      "title": "Belgian students rally over education costs in protests echoing France",
-      "url": "https://www.channelnewsasia.com/world/belgium-student-protests-education-france-arrests-6440236",
-      "summary": "Local media reported that 107 people were arrested in Belgium in recent days.",
-      "source": "CNA",
-      "published": "Thu, 08 Oct 2026 00:38:00 +0800"
     }
   ],
-  "generated_at": "2026-10-08T21:05:04+08:00",
+  "generated_at": "2026-10-08T21:58:20+08:00",
   "test_mode": false
 }
