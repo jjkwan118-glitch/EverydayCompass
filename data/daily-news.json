@@ -1,6 +1,27 @@
 {
   "singapore": [
     {
+      "title": "Singapore's air quality remains in unhealthy range",
+      "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-unhealthy-oct-10-6446631",
+      "summary": "The 1-hour PM2.5 readings were in the elevated band across Singapore at 6am.",
+      "source": "CNA",
+      "published": "Sat, 10 Oct 2026 06:51:47 +0800"
+    },
+    {
+      "title": "Commentary: Rules preventing public servants’ misuse of confidential information must be stricter – for their own good",
+      "url": "https://www.channelnewsasia.com/commentary/public-servants-property-mrt-locations-misuse-information-rules-declare-6445691",
+      "summary": "Amid checks on whether public servants used insider information for personal benefit, it should be stressed that no illegality has yet been uncovered. But the idea that it might have taken place unbeknown to anyone is galling, says veteran newspaper editor Han Fook Kwang.",
+      "source": "CNA",
+      "published": "Sat, 10 Oct 2026 06:00:00 +0800"
+    },
+    {
+      "title": "Verstappen continues resurgence with pole for Singapore sprint",
+      "url": "https://www.channelnewsasia.com/sport/verstappen-continues-resurgence-pole-singapore-sprint-6446551",
+      "summary": "",
+      "source": "CNA",
+      "published": "Fri, 09 Oct 2026 23:00:44 +0800"
+    },
+    {
       "title": "N95 masks to be distributed to more vulnerable individuals once 24-hour PSI exceeds 200: Haze Task Force",
       "url": "https://www.channelnewsasia.com/singapore/haze-psi-nea-task-force-air-quality-n95-mask-distribution-6445376",
       "summary": "School closures will be considered when the air quality forecast for the next day exceeds a 24-hour PSI of 300.",
@@ -71,7 +92,7 @@
       "published": "Fri, 09 Oct 2026 14:30:00 +0800"
     },
     {
-      "title": "Singapore haze: Air quality may reach Very Unhealthy range as F1 weekend gets underway",
+      "title": "Singapore haze as it happened: Air quality may reach Very Unhealthy range as F1 weekend gets underway",
       "url": "https://www.channelnewsasia.com/singapore/singapore-haze-air-quality-unhealthy-psi-live-6445146",
       "summary": "The 24-hour PSI climbed to 192 in the central region at 5pm - the highest reading of this year's haze season.",
       "source": "CNA",
@@ -83,30 +104,79 @@
       "summary": "The gastroenteritis incident at River Valley Primary School in January left dozens of students ill.",
       "source": "CNA",
       "published": "Fri, 09 Oct 2026 12:32:00 +0800"
-    },
-    {
-      "title": "What went into SIA's new Pazzion cabin crew shoes after 31 months of development",
-      "url": "https://www.channelnewsasia.com/style-beauty/singapore-airlines-pazzion-cabin-crew-shoes-2027-6442046",
-      "summary": "Developed through multiple rounds of fittings, wear-testing and onboard trials, the new batik-inspired shoes incorporate feedback from female cabin crew to improve comfort, fit and durability.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 10:25:35 +0800"
-    },
-    {
-      "title": "Lawyer Lim Tean returns to court to face fresh charges over alleged abscondment",
-      "url": "https://www.channelnewsasia.com/singapore/lim-tean-fresh-charges-alleged-abscondment-6443016",
-      "summary": "The opposition politician appeared via videolink to receive the charges.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 10:04:00 +0800"
-    },
-    {
-      "title": "24-hour PSI rises to 181 in central region, highest in this haze season",
-      "url": "https://www.channelnewsasia.com/singapore/haze-air-quality-unhealthy-psi-pm25-oct-9-6444671",
-      "summary": "At 12pm, the 24-hour PSI was in the unhealthy range across Singapore, with the 1-hour PM2.5 in the high band in the central region.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 06:44:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "France students plan more protests, UN 'concerned' over violence",
+      "url": "https://www.channelnewsasia.com/world/france-students-plan-more-protests-un-concerned-over-violence-6447841",
+      "summary": "",
+      "source": "CNA",
+      "published": "Sat, 10 Oct 2026 05:53:49 +0800"
+    },
+    {
+      "title": "Trump says Putin agrees to major release of diesel to US, global markets",
+      "url": "https://www.channelnewsasia.com/world/trump-russia-diesel-putin-global-markets-6447926",
+      "summary": "US President Donald Trump said Russia would initially supply more than 300,000 tonnes of diesel, followed by further shipments in November and the months ahead.",
+      "source": "CNA",
+      "published": "Sat, 10 Oct 2026 04:53:46 +0800"
+    },
+    {
+      "title": "US announces sanctions on ICC, hours after Nobel award to former judge",
+      "url": "https://www.channelnewsasia.com/world/us-icc-sanctions-rubio-nobel-prize-6447851",
+      "summary": "UN Secretary-General Antonio Guterres called the sanctions “a serious blow to our collective pursuit of international criminal justice,” while the ICC warned that “history will judge this moment.”",
+      "source": "CNA",
+      "published": "Sat, 10 Oct 2026 04:18:40 +0800"
+    },
+    {
+      "title": "China agrees to 'moderate' car exports to Europe: EU commerce chief",
+      "url": "https://www.channelnewsasia.com/world/china-agrees-moderate-car-exports-europe-eu-commerce-chief-6447791",
+      "summary": "The European Automobile Manufacturers’ Association called the agreement “a positive step in easing trade tensions.”",
+      "source": "CNA",
+      "published": "Sat, 10 Oct 2026 03:13:54 +0800"
+    },
+    {
+      "title": "Navi Pillay: S.Africa's global rights activist and Nobel winner",
+      "url": "https://www.channelnewsasia.com/world/navi-pillay-nobel-peace-prize-winner-activist-6447036",
+      "summary": "International Court of Justice judge and former UN human rights chief Navi Pillay has been awarded the 2026 Nobel Peace Prize.",
+      "source": "CNA",
+      "published": "Sat, 10 Oct 2026 00:56:35 +0800"
+    },
+    {
+      "title": "Outrage over US military plan to livestream firing squad execution",
+      "url": "https://www.channelnewsasia.com/world/outrage-over-us-military-plan-livestream-firing-squad-execution-6446971",
+      "summary": "Representative Adam Smith, the top Democrat on the House Armed Services Committee, said the plan is \"disturbing and makes a mockery of our legal system.\"",
+      "source": "CNA",
+      "published": "Sat, 10 Oct 2026 00:23:24 +0800"
+    },
+    {
+      "title": "Saudi Arabia says three killed at airport as Yemen war expands",
+      "url": "https://www.channelnewsasia.com/world/saudi-arabia-says-three-killed-airport-yemen-war-expands-6446871",
+      "summary": "",
+      "source": "CNA",
+      "published": "Fri, 09 Oct 2026 23:28:25 +0800"
+    },
+    {
+      "title": "Talks with Iran can only succeed without threats, president says",
+      "url": "https://www.channelnewsasia.com/world/talks-iran-can-only-succeed-without-threats-president-says-6446851",
+      "summary": "",
+      "source": "CNA",
+      "published": "Fri, 09 Oct 2026 23:13:17 +0800"
+    },
+    {
+      "title": "Verstappen continues resurgence with pole for Singapore sprint",
+      "url": "https://www.channelnewsasia.com/sport/verstappen-continues-resurgence-pole-singapore-sprint-6446551",
+      "summary": "",
+      "source": "CNA",
+      "published": "Fri, 09 Oct 2026 23:00:44 +0800"
+    },
+    {
+      "title": "OpenAI denies firing researchers over AI safety warnings",
+      "url": "https://www.channelnewsasia.com/world/openai-denies-firing-researchers-over-ai-safety-warnings-6446751",
+      "summary": "",
+      "source": "CNA",
+      "published": "Fri, 09 Oct 2026 22:50:11 +0800"
+    },
     {
       "title": "South African judge Navi Pillay wins Nobel Peace Prize",
       "url": "https://www.channelnewsasia.com/world/nobel-peace-prize-navi-pillay-south-africa-6445566",
@@ -141,78 +211,8 @@
       "summary": "The eight-episode series will pick up after the events of the 2018 Singapore-set romantic comedy, with production beginning in 2027.",
       "source": "CNA",
       "published": "Fri, 09 Oct 2026 11:55:00 +0800"
-    },
-    {
-      "title": "Protesters stage 'I Am Jane Doe' rally in New York City against sexual violence",
-      "url": "https://www.channelnewsasia.com/world/cornell-gang-rape-jane-doe-rally-new-york-6444941",
-      "summary": "",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 10:38:16 +0800"
-    },
-    {
-      "title": "France pledges more teachers after school students vow no let-up",
-      "url": "https://www.channelnewsasia.com/world/france-pledges-more-teachers-school-protests-6444911",
-      "summary": "High school students across France are complaining of absent teachers, overloaded timetables, dilapidated classrooms and buildings that cannot cope with rising temperatures.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 10:19:00 +0800"
-    },
-    {
-      "title": "Putin offers help to Iran to end Middle East war ahead of summit",
-      "url": "https://www.channelnewsasia.com/world/putin-iran-middle-east-war-cis-summit-6444901",
-      "summary": "",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 10:12:00 +0800"
-    },
-    {
-      "title": "Trump rules out new Iran attack before US midterm elections",
-      "url": "https://www.channelnewsasia.com/world/trump-rules-out-iran-attack-us-midterm-election-6444841",
-      "summary": "Polls suggest that US voters are strongly dissatisfied over rising fuel prices, linked to the conflict launched by the United States and Israel against Iran in February.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 09:58:00 +0800"
-    },
-    {
-      "title": "Hong Kong rejects US downgrade to lowest tier in human trafficking report",
-      "url": "https://www.channelnewsasia.com/east-asia/hong-kong-rejects-us-downgrade-human-trafficking-report-6444856",
-      "summary": "Hong Kong has been moved to the bottom tier in the US' annual human trafficking report, joining the likes of China, Macau, North Korea, Russia, Iran and Afghanistan.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 09:47:00 +0800"
-    },
-    {
-      "title": "Canadian writer Anne Carson wins 2026 Nobel Prize in Literature",
-      "url": "https://www.channelnewsasia.com/world/anne-carson-wins-2026-nobel-prize-literature-6442521",
-      "summary": "Canadian poet Anne Carson blends poetry, prose, dialogue and translation in her literary works. Her writing draws heavily on classical Greek literature and includes the 1998 verse novel Autobiography Of Red.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 08:22:00 +0800"
-    },
-    {
-      "title": "US military to livestream firing squad execution of Fort Hood shooter",
-      "url": "https://www.channelnewsasia.com/world/us-army-livestream-execution-firing-squad-fort-hood-shooter-6444611",
-      "summary": "Nidal Hassan, who killed 13 people at Fort Hood in 2009, is set to become the first person to be executed by firing squad by the US military since 1945.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 07:57:00 +0800"
-    },
-    {
-      "title": "Commentary: 'Pervert' eyewear or innovation? Norway's proposed ban lays down a line for AI glasses",
-      "url": "https://www.channelnewsasia.com/commentary/norway-temporary-ban-ai-smart-glasses-eu-6442121",
-      "summary": "The proposed ban will be a test case for broad restrictions on the eyewear after fierce backlash over their use, says Richard Milne for the Financial Times.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 05:59:00 +0800"
-    },
-    {
-      "title": "Russia says all clear after contact tracing in reported plague case",
-      "url": "https://www.channelnewsasia.com/world/russia-plague-contact-clear-lab-worker-died-6444601",
-      "summary": "Russia has not confirmed that the woman died of plague, saying she had \"community-acquired pneumonia\" instead.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 05:54:00 +0800"
-    },
-    {
-      "title": "Venezuela's Maduro, wife hit with new US torture charges",
-      "url": "https://www.channelnewsasia.com/world/maduro-wife-flores-venezuela-torture-charges-6444506",
-      "summary": "The US filed new torture charges against former Venezuelan president Nicolás Maduro and his wife Cilia Flores, accusing them of involvement in torture and abuse of detainees.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 04:59:00 +0800"
     }
   ],
-  "generated_at": "2026-10-09T21:58:45+08:00",
+  "generated_at": "2026-10-10T06:56:06+08:00",
   "test_mode": false
 }
