@@ -1,11 +1,25 @@
 {
   "singapore": [
     {
+      "title": "Around 500 new jobs to be created as ST Engineering opens new aircraft maintenance facility",
+      "url": "https://www.channelnewsasia.com/singapore/airplane-maintenance-aviation-st-engineering-6445166",
+      "summary": "The Changi Creek facility will use drones and autonomous mobile robots to support operations.",
+      "source": "CNA",
+      "published": "Fri, 09 Oct 2026 14:30:06 +0800"
+    },
+    {
+      "title": "Haze persists across Singapore with air quality at unhealthy levels",
+      "url": "https://www.channelnewsasia.com/singapore/singapore-haze-air-quality-unhealthy-psi-6445146",
+      "summary": "The 24-hour PSI hit 186 in the central region at 2pm - the highest in this haze season.",
+      "source": "CNA",
+      "published": "Fri, 09 Oct 2026 12:54:00 +0800"
+    },
+    {
       "title": "Caterer Gourmetz fined S$13,000 for breaches linked to River Valley gastroenteritis incident",
       "url": "https://www.channelnewsasia.com/singapore/gourmetz-fined-food-safety-river-valley-6445116",
-      "summary": "The gastroenteritis incident at River Valley Primary School in January left 60 students ill.",
+      "summary": "The gastroenteritis incident at River Valley Primary School in January left dozens of students ill.",
       "source": "CNA",
-      "published": "Fri, 09 Oct 2026 12:32:46 +0800"
+      "published": "Fri, 09 Oct 2026 12:32:00 +0800"
     },
     {
       "title": "What went into SIA's new Pazzion cabin crew shoes after 31 months of development",
@@ -90,23 +104,30 @@
       "summary": "Singapore bank stocks tumbled for the second day in a row after a Citi report downgraded OCBC to a “sell” rating, saying it expected the bank's third-quarter earnings to be flat from a year earlier.",
       "source": "CNA",
       "published": "Thu, 08 Oct 2026 17:40:34 +0800"
-    },
-    {
-      "title": "Proposed COE changes could better separate luxury, mass-market models but may not lower prices",
-      "url": "https://www.channelnewsasia.com/singapore/coe-changes-merge-categories-prices-6441681",
-      "summary": "Academics also weigh in on how some other ideas in the consultation, including a surcharge on multiple-car ownership, might work in practice.",
-      "source": "CNA",
-      "published": "Thu, 08 Oct 2026 17:00:23 +0800"
-    },
-    {
-      "title": "LTA proposes merging COE car categories, with fees and rebates for different models",
-      "url": "https://www.channelnewsasia.com/singapore/car-coe-merge-category-fee-rebate-lta-proposal-consultation-6436626",
-      "summary": "Buyers of higher-end cars could pay up to S$30,000 more than mass-market buyers.",
-      "source": "CNA",
-      "published": "Thu, 08 Oct 2026 17:00:00 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Okinawa resolution calls for revision of US forces pact after murder",
+      "url": "https://www.channelnewsasia.com/asia/okinawa-lawmakers-marine-murder-us-pact-6445296",
+      "summary": "A US Marine stationed on Okinawa was arrested on suspicion of killing a 39-year-old woman at a hotel in the city of Naha and stealing her wallet.",
+      "source": "CNA",
+      "published": "Fri, 09 Oct 2026 14:04:24 +0800"
+    },
+    {
+      "title": "New York City man shot in car with child present by ICE agents: Mayor",
+      "url": "https://www.channelnewsasia.com/world/new-york-city-man-shot-car-ice-agents-mamdani-6445246",
+      "summary": "",
+      "source": "CNA",
+      "published": "Fri, 09 Oct 2026 13:19:43 +0800"
+    },
+    {
+      "title": "Russian fake think-tank with real employees exposed in 'most complex' influence operation attempt, OpenAI says",
+      "url": "https://www.channelnewsasia.com/world/openai-russia-iran-chatgpt-influence-fake-front-6444996",
+      "summary": "A separate Iran-origin campaign used ChatGPT to edit and pitch nearly 100 articles that were published by real media outlets – under fake journalist bylines.",
+      "source": "CNA",
+      "published": "Fri, 09 Oct 2026 13:18:36 +0800"
+    },
     {
       "title": "Crazy Rich Asians returns as HBO series with Michelle Yeoh, Henry Golding, Ronny Chieng and Constance Wu",
       "url": "https://www.channelnewsasia.com/entertainment/crazy-rich-asians-hbo-sequel-series-original-cast-6445076",
@@ -190,29 +211,8 @@
       "summary": "Doctors had planned to remove her life support before she unexpectedly woke up and began talking, according to her lawyers, who added that \"there could be some permanent damage\".",
       "source": "CNA",
       "published": "Fri, 09 Oct 2026 04:21:00 +0800"
-    },
-    {
-      "title": "High school students to turn out for new protests across France",
-      "url": "https://www.channelnewsasia.com/world/french-student-protests-school-teachers-strike-6443671",
-      "summary": "Teachers’ unions also called for a strike, while the French prime minister promised to address students’ concerns by the end of October.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 02:30:00 +0800"
-    },
-    {
-      "title": "WTO hikes 2026 trade growth forecast on AI boom",
-      "url": "https://www.channelnewsasia.com/world/wto-trade-growth-forecast-ai-boom-6443491",
-      "summary": "",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 00:56:00 +0800"
-    },
-    {
-      "title": "Trump administration freezes green cards for Microsoft, IT firms, probes universities",
-      "url": "https://www.channelnewsasia.com/business/us-trump-green-card-freeze-microsoft-it-firms-universities-6443266",
-      "summary": "The move may affect thousands of foreign tech workers seeking permanent residency in the US, but current H-1B visa holders are not directly affected.",
-      "source": "CNA",
-      "published": "Thu, 08 Oct 2026 22:37:00 +0800"
     }
   ],
-  "generated_at": "2026-10-09T12:54:06+08:00",
+  "generated_at": "2026-10-09T15:03:21+08:00",
   "test_mode": false
 }
