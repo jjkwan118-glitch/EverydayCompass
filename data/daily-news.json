@@ -5,12 +5,12 @@
       "url": "https://www.channelnewsasia.com/singapore/airplane-maintenance-aviation-st-engineering-6445166",
       "summary": "The Changi Creek facility will use drones and autonomous mobile robots to support operations.",
       "source": "CNA",
-      "published": "Fri, 09 Oct 2026 14:30:06 +0800"
+      "published": "Fri, 09 Oct 2026 14:30:00 +0800"
     },
     {
       "title": "Haze persists across Singapore with air quality at unhealthy levels",
       "url": "https://www.channelnewsasia.com/singapore/singapore-haze-air-quality-unhealthy-psi-6445146",
-      "summary": "The 24-hour PSI hit 186 in the central region at 2pm - the highest in this haze season.",
+      "summary": "The 24-hour PSI hit 189 in the central region at 3pm - the highest in this haze season.",
       "source": "CNA",
       "published": "Fri, 09 Oct 2026 12:54:00 +0800"
     },
@@ -213,6 +213,6 @@
       "published": "Fri, 09 Oct 2026 04:21:00 +0800"
     }
   ],
-  "generated_at": "2026-10-09T15:03:21+08:00",
+  "generated_at": "2026-10-09T15:57:19+08:00",
   "test_mode": false
 }
