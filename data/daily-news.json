@@ -1,6 +1,27 @@
 {
   "singapore": [
     {
+      "title": "2026 F1 Singapore Grand Prix exempted from charging 10-cent BCRS deposit: NEA",
+      "url": "https://www.channelnewsasia.com/singapore/f1-beverage-10-cent-deposit-bcrs-6446016",
+      "summary": "Visitors will not have to pay the 10-cent deposit on regulated beverage containers sold within the Circuit Park.",
+      "source": "CNA",
+      "published": "Fri, 09 Oct 2026 20:20:28 +0800"
+    },
+    {
+      "title": "Singaporeans mask up, cut back on outdoor activities as haze level hits season high",
+      "url": "https://www.channelnewsasia.com/singapore/haze-f1-race-concert-mask-air-purifier-6445881",
+      "summary": "But others are continuing their normal activities, including turning up for the Formula 1 Singapore Grand Prix and its activities.",
+      "source": "CNA",
+      "published": "Fri, 09 Oct 2026 20:02:15 +0800"
+    },
+    {
+      "title": "At least S$185,000 lost to phishing scams involving hotel bookings since January",
+      "url": "https://www.channelnewsasia.com/singapore/phishing-scams-hotel-booking-platforms-police-6445966",
+      "summary": "In some cases, the messages contain legitimate details of the victims' hotel reservations, making the scam appear more convincing, police say.",
+      "source": "CNA",
+      "published": "Fri, 09 Oct 2026 19:27:00 +0800"
+    },
+    {
       "title": "Proposed S$15,000 COE surcharge too low to deter luxury car buyers, some dealers say",
       "url": "https://www.channelnewsasia.com/singapore/car-coe-price-affordable-expensive-surcharge-rebate-open-market-value-6445581",
       "summary": "Some prospective buyers of mass-market cars are holding off on purchases as the Land Transport Authority conducts a public consultation on merging COE categories A and B.",
@@ -43,7 +64,7 @@
       "published": "Fri, 09 Oct 2026 14:30:00 +0800"
     },
     {
-      "title": "Singapore haze: Air quality worsens, schools adjust activities as F1 weekend gets underway",
+      "title": "Singapore haze: Air quality may reach Very Unhealthy range, N95 masks to be distributed if PSI exceeds 200",
       "url": "https://www.channelnewsasia.com/singapore/singapore-haze-air-quality-unhealthy-psi-6445146",
       "summary": "The 24-hour PSI climbed to 192 in the central region at 5pm - the highest reading of this year's haze season.",
       "source": "CNA",
@@ -83,27 +104,6 @@
       "summary": "Gladys Lam races production cars across the region, while 16-year-old Kareen Kaur is Singapore’s first female Formula 4 driver. Their routes to the grid could hardly be more different.",
       "source": "CNA",
       "published": "Fri, 09 Oct 2026 06:09:00 +0800"
-    },
-    {
-      "title": "Parents welcome more job support for people with disabilities, but say ‘real test’ is staying employed",
-      "url": "https://www.channelnewsasia.com/singapore/job-training-employment-support-people-disabilities-6435116",
-      "summary": "Employment support also must account for the wide range of abilities and needs among people with disabilities, say parents in response to recent recommendations by a government task force.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 06:00:00 +0800"
-    },
-    {
-      "title": "‘No boom is forever’: Singapore must seize AI opportunity before correction, says PM Wong",
-      "url": "https://www.channelnewsasia.com/singapore/lawrence-wong-forbes-dialogue-6441711",
-      "summary": "Speaking at the Forbes Global CEO Conference, Prime Minister Lawrence Wong also touched on how countries should deal with the risk of powerful and autonomous artificial intelligence (AI) systems going rogue.",
-      "source": "CNA",
-      "published": "Thu, 08 Oct 2026 22:45:00 +0800"
-    },
-    {
-      "title": "7 drivers caught providing illegal cross-border ride-hailing services, vehicles impounded",
-      "url": "https://www.channelnewsasia.com/singapore/illegal-cross-border-taxi-services-drivers-caught-cars-impounded-6442631",
-      "summary": "A total of 254 cars have been impounded since July 2025, said Senior Minister of State for Transport Sun Xueling.",
-      "source": "CNA",
-      "published": "Thu, 08 Oct 2026 20:42:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Fri, 09 Oct 2026 04:59:00 +0800"
     }
   ],
-  "generated_at": "2026-10-09T18:58:48+08:00",
+  "generated_at": "2026-10-09T21:03:46+08:00",
   "test_mode": false
 }
