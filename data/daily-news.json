@@ -3,9 +3,9 @@
     {
       "title": "Singapore's air quality remains in unhealthy range",
       "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-unhealthy-oct-10-6446631",
-      "summary": "The 1-hour PM2.5 readings were in the elevated band across Singapore at 6am.",
+      "summary": "The 24-hour PSI readings eased overnight after reaching new highs for this year's haze season on Friday.",
       "source": "CNA",
-      "published": "Sat, 10 Oct 2026 06:51:47 +0800"
+      "published": "Sat, 10 Oct 2026 06:51:00 +0800"
     },
     {
       "title": "Commentary: Rules preventing public servants’ misuse of confidential information must be stricter – for their own good",
@@ -110,16 +110,16 @@
     {
       "title": "France students plan more protests, UN 'concerned' over violence",
       "url": "https://www.channelnewsasia.com/world/france-students-plan-more-protests-un-concerned-over-violence-6447841",
-      "summary": "",
+      "summary": "Tens of thousands have taken to the streets across France since students in late September began blocking entrances to high schools, which led to squads of riot police being deployed.",
       "source": "CNA",
-      "published": "Sat, 10 Oct 2026 05:53:49 +0800"
+      "published": "Sat, 10 Oct 2026 05:53:00 +0800"
     },
     {
       "title": "Trump says Putin agrees to major release of diesel to US, global markets",
       "url": "https://www.channelnewsasia.com/world/trump-russia-diesel-putin-global-markets-6447926",
       "summary": "US President Donald Trump said Russia would initially supply more than 300,000 tonnes of diesel, followed by further shipments in November and the months ahead.",
       "source": "CNA",
-      "published": "Sat, 10 Oct 2026 04:53:46 +0800"
+      "published": "Sat, 10 Oct 2026 04:53:00 +0800"
     },
     {
       "title": "US announces sanctions on ICC, hours after Nobel award to former judge",
@@ -145,9 +145,9 @@
     {
       "title": "Outrage over US military plan to livestream firing squad execution",
       "url": "https://www.channelnewsasia.com/world/outrage-over-us-military-plan-livestream-firing-squad-execution-6446971",
-      "summary": "Representative Adam Smith, the top Democrat on the House Armed Services Committee, said the plan is \"disturbing and makes a mockery of our legal system.\"",
+      "summary": "Representative Adam Smith, the top Democrat on the House Armed Services Committee, said the plan is \"disturbing and makes a mockery of our legal system\".",
       "source": "CNA",
-      "published": "Sat, 10 Oct 2026 00:23:24 +0800"
+      "published": "Sat, 10 Oct 2026 00:23:00 +0800"
     },
     {
       "title": "Saudi Arabia says three killed at airport as Yemen war expands",
@@ -213,6 +213,6 @@
       "published": "Fri, 09 Oct 2026 11:55:00 +0800"
     }
   ],
-  "generated_at": "2026-10-10T06:56:06+08:00",
+  "generated_at": "2026-10-10T09:04:37+08:00",
   "test_mode": false
 }
