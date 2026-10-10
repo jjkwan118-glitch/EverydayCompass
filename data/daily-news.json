@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "IMH to be expanded, redeveloped by 2040 as Singapore boosts mental health capacity",
+      "url": "https://www.channelnewsasia.com/singapore/imh-expand-redevelop-ong-ye-kung-6448376",
+      "summary": "The Institute of Mental Health will also be redesignated as a national specialty centre and renamed the National Centre for Mental Health Singapore in 2027.",
+      "source": "CNA",
+      "published": "Sat, 10 Oct 2026 12:05:25 +0800"
+    },
+    {
+      "title": "Singapore ‘stands ready’ to assist Indonesia on forest fires amid haze: Grace Fu",
+      "url": "https://www.channelnewsasia.com/singapore/singapore-indonesia-haze-support-grace-fu-6447076",
+      "summary": "\"We are concerned about the well-being of our people. We are on top of the situation,\" says Singapore's Minister for Sustainability and the Environment.",
+      "source": "CNA",
+      "published": "Sat, 10 Oct 2026 09:52:00 +0800"
+    },
+    {
       "title": "Singapore's air quality remains in unhealthy range",
       "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-unhealthy-oct-10-6446631",
       "summary": "The 24-hour PSI readings eased overnight after reaching new highs for this year's haze season on Friday.",
@@ -90,20 +104,6 @@
       "summary": "The Changi Creek facility will use drones and autonomous mobile robots to support operations.",
       "source": "CNA",
       "published": "Fri, 09 Oct 2026 14:30:00 +0800"
-    },
-    {
-      "title": "Singapore haze as it happened: Air quality may reach Very Unhealthy range as F1 weekend gets underway",
-      "url": "https://www.channelnewsasia.com/singapore/singapore-haze-air-quality-unhealthy-psi-live-6445146",
-      "summary": "The 24-hour PSI climbed to 192 in the central region at 5pm - the highest reading of this year's haze season.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 12:54:00 +0800"
-    },
-    {
-      "title": "Caterer Gourmetz fined S$13,000, warned over breaches linked to River Valley gastroenteritis incident",
-      "url": "https://www.channelnewsasia.com/singapore/gourmetz-fined-food-safety-river-valley-6445116",
-      "summary": "The gastroenteritis incident at River Valley Primary School in January left dozens of students ill.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 12:32:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Fri, 09 Oct 2026 11:55:00 +0800"
     }
   ],
-  "generated_at": "2026-10-10T09:55:33+08:00",
+  "generated_at": "2026-10-10T12:54:03+08:00",
   "test_mode": false
 }
