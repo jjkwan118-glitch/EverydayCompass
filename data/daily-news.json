@@ -1,11 +1,18 @@
 {
   "singapore": [
     {
+      "title": "Riverdale star Cole Sprouse and Japanese actress Kiko Mizuhara coming to Singapore for SGIFF 2026",
+      "url": "https://www.channelnewsasia.com/entertainment/cole-sprouse-kiko-mizuhara-singapore-sgiff-2026-6448486",
+      "summary": "The two actors will attend an In Conversation With session on Oct 31 alongside director Eugene Kotlyarenko, ahead of the Asian premiere of their film Vintage Violence on Nov 1.",
+      "source": "CNA",
+      "published": "Sat, 10 Oct 2026 14:22:00 +0800"
+    },
+    {
       "title": "IMH to be expanded, redeveloped by 2040 as Singapore boosts mental health capacity",
       "url": "https://www.channelnewsasia.com/singapore/imh-expand-redevelop-ong-ye-kung-6448376",
       "summary": "The Institute of Mental Health will also be redesignated as a national specialty centre and renamed the National Centre for Mental Health Singapore in 2027.",
       "source": "CNA",
-      "published": "Sat, 10 Oct 2026 12:05:25 +0800"
+      "published": "Sat, 10 Oct 2026 12:05:00 +0800"
     },
     {
       "title": "Singapore ‘stands ready’ to assist Indonesia on forest fires amid haze: Grace Fu",
@@ -97,13 +104,6 @@
       "summary": "Here's a quick refresher to get you up to speed. And can you use your old stash of N95 masks?",
       "source": "CNA",
       "published": "Fri, 09 Oct 2026 16:01:00 +0800"
-    },
-    {
-      "title": "Around 500 new jobs to be created as ST Engineering opens new aircraft maintenance facility",
-      "url": "https://www.channelnewsasia.com/singapore/airplane-maintenance-aviation-st-engineering-6445166",
-      "summary": "The Changi Creek facility will use drones and autonomous mobile robots to support operations.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 14:30:00 +0800"
     }
   ],
   "world": [
@@ -213,6 +213,6 @@
       "published": "Fri, 09 Oct 2026 11:55:00 +0800"
     }
   ],
-  "generated_at": "2026-10-10T12:54:03+08:00",
+  "generated_at": "2026-10-10T14:59:21+08:00",
   "test_mode": false
 }
