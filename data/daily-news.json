@@ -1,7 +1,7 @@
 {
   "singapore": [
     {
-      "title": "Motor racing-Verstappen wins Singapore sprint after chaotic start in wet conditions",
+      "title": "Verstappen wins Singapore sprint after chaotic start in wet conditions",
       "url": "https://www.channelnewsasia.com/sport/f1-singapore-grand-prix-sprint-verstappen-win-6448701",
       "summary": "",
       "source": "CNA",
@@ -10,9 +10,9 @@
     {
       "title": "'Beyond the uniform': Singapore, Brunei officers share stories of lasting friendships as defence ties turn 50",
       "url": "https://www.channelnewsasia.com/singapore/brunei-singapore-officers-50-years-defence-ties-6448251",
-      "summary": "\"We encouraged each other, learned from one another and, most importantly, knew that we were not navigating those challenges alone,\" says one Brunei air force officer.",
+      "summary": "\"We encouraged each other, learned from one another and, most importantly, knew that we were not navigating those challenges alone,\" says a Royal Brunei Air Force officer.",
       "source": "CNA",
-      "published": "Sat, 10 Oct 2026 18:30:51 +0800"
+      "published": "Sat, 10 Oct 2026 18:30:00 +0800"
     },
     {
       "title": "People’s Association to launch bite-sized AI courses for seniors and homemakers unfamiliar with tech",
@@ -57,9 +57,9 @@
       "published": "Sat, 10 Oct 2026 09:52:00 +0800"
     },
     {
-      "title": "Singapore's air quality remains in unhealthy range",
+      "title": "Singapore air quality expected to be in ‘unhealthy’ to ‘high unhealthy’ range on Oct 11",
       "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-unhealthy-oct-10-6446631",
-      "summary": "The 1-hour PM2.5 reading in the central region jumped into the high band at 3pm but fell to the elevated band an hour later.",
+      "summary": "While some showers are forecast over Singapore and parts of the surrounding region, dry conditions are expected to continue over parts of southern Sumatra and Kalimantan, says NEA.",
       "source": "CNA",
       "published": "Sat, 10 Oct 2026 06:51:00 +0800"
     },
@@ -213,6 +213,6 @@
       "published": "Fri, 09 Oct 2026 11:55:00 +0800"
     }
   ],
-  "generated_at": "2026-10-10T18:55:53+08:00",
+  "generated_at": "2026-10-10T21:00:38+08:00",
   "test_mode": false
 }
