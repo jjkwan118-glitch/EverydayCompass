@@ -1,6 +1,13 @@
 {
   "singapore": [
     {
+      "title": "Singapore to roll out haze subsidies at GP clinics, polyclinics from Oct 12",
+      "url": "https://www.channelnewsasia.com/singapore/haze-subsidy-scheme-gp-clinics-polyclinics-moh-6449066",
+      "summary": "Eligible Singaporeans will pay no more than S$10 for treatment of haze-related conditions, said the Ministry of Health.",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 10:01:00 +0800"
+    },
+    {
       "title": "Air quality remains unhealthy across Singapore amid haze",
       "url": "https://www.channelnewsasia.com/singapore/haze-persists-singapore-air-quality-6449771",
       "summary": "The 24-hour PSI is expected to be in the \"unhealthy\" to \"high unhealthy\" range on Sunday, NEA said on Saturday evening.",
@@ -97,16 +104,23 @@
       "summary": "Amid checks on whether public servants used insider information for personal benefit, it should be stressed that no illegality has yet been uncovered. But the idea that it might have taken place unbeknown to anyone is galling, says veteran newspaper editor Han Fook Kwang.",
       "source": "CNA",
       "published": "Sat, 10 Oct 2026 06:00:00 +0800"
-    },
-    {
-      "title": "Verstappen continues resurgence with pole for Singapore sprint",
-      "url": "https://www.channelnewsasia.com/sport/verstappen-continues-resurgence-pole-singapore-sprint-6446551",
-      "summary": "",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 23:00:44 +0800"
     }
   ],
   "world": [
+    {
+      "title": "Nepal urges villagers to evacuate after flood triggered by landslide",
+      "url": "https://www.channelnewsasia.com/asia/nepal-villagers-landslide-evacuation-flood-6449926",
+      "summary": "Authorities said several houses and two suspension bridges had been swept away, and a hydroelectric project was damaged by the flood.",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 11:55:52 +0800"
+    },
+    {
+      "title": "WHO unsure what caused pneumonia that killed plague-lab worker in Russia",
+      "url": "https://www.channelnewsasia.com/world/who-russia-plague-lab-worker-pneumonia-6449906",
+      "summary": "The lab worker fell ill and died in undisclosed circumstances on Oct 2, prompting authorities to quarantine about 200 people and causing public health fears on social media.",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 11:03:18 +0800"
+    },
     {
       "title": "Commentary: What’s in the melting Russian permafrost may be scarier than plague",
       "url": "https://www.channelnewsasia.com/commentary/russia-siberia-plague-lab-researcher-death-permafrost-6445626",
@@ -150,7 +164,7 @@
       "published": "Sun, 11 Oct 2026 02:02:00 +0800"
     },
     {
-      "title": "At least 12 dead in Riyadh airport attack: Saudi officials",
+      "title": "Airport strike in Riyadh kills 12, Saudi coalition vows 'decisive' response",
       "url": "https://www.channelnewsasia.com/world/riyadh-airport-attack-12-killed-6449071",
       "summary": "The attack prompted Saudi health officials to activate a rare mass call-up of doctors to deal with the \"serious emergency\", a medical source said.",
       "source": "CNA",
@@ -197,22 +211,8 @@
       "summary": "Representative Adam Smith, the top Democrat on the House Armed Services Committee, said the plan is \"disturbing and makes a mockery of our legal system\".",
       "source": "CNA",
       "published": "Sat, 10 Oct 2026 00:23:00 +0800"
-    },
-    {
-      "title": "Saudi Arabia says three killed at airport as Yemen war expands",
-      "url": "https://www.channelnewsasia.com/world/saudi-arabia-says-three-killed-airport-yemen-war-expands-6446871",
-      "summary": "",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 23:28:25 +0800"
-    },
-    {
-      "title": "Talks with Iran can only succeed without threats, president says",
-      "url": "https://www.channelnewsasia.com/world/talks-iran-can-only-succeed-without-threats-president-says-6446851",
-      "summary": "",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 23:13:17 +0800"
     }
   ],
-  "generated_at": "2026-10-11T09:55:02+08:00",
+  "generated_at": "2026-10-11T12:53:32+08:00",
   "test_mode": false
 }
