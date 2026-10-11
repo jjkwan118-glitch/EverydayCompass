@@ -1,6 +1,20 @@
 {
   "singapore": [
     {
+      "title": "Air quality remains unhealthy across Singapore amid haze",
+      "url": "https://www.channelnewsasia.com/singapore/haze-persists-singapore-air-quality-6449771",
+      "summary": "The 24-hour PSI is expected to be in the \"unhealthy\" to \"high unhealthy\" range on Sunday, NEA said on Saturday evening.",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 07:12:00 +0800"
+    },
+    {
+      "title": "She turned her kids’ old clothes into keepsakes – now it’s a thriving home business",
+      "url": "https://www.channelnewsasia.com/women/childrens-old-clothes-keepsakes-bears-quilts-6401706",
+      "summary": "Siti Nur’ain Awari turned them into bears and quilts her children could keep. That idea grew into Patchwork Handmade Keepsakes, where the mum of four has transformed other kids' clothes, from baby onesies to school uniforms, into treasured mementos.",
+      "source": "CNA",
+      "published": "Sun, 11 Oct 2026 06:54:36 +0800"
+    },
+    {
       "title": "Odette’s longtime wine director Vincent Tan is leaving after 10 years to join Park90",
       "url": "https://www.channelnewsasia.com/people/odette-wine-director-vincent-tan-park90-6441436",
       "summary": "Vincent Tan, who helped shape the three-Michelin-starred restaurant’s wine programme, is taking on a new group role at Park90 as it expands across Southeast Asia.",
@@ -90,20 +104,6 @@
       "summary": "",
       "source": "CNA",
       "published": "Fri, 09 Oct 2026 23:00:44 +0800"
-    },
-    {
-      "title": "N95 masks to be distributed to more vulnerable individuals once 24-hour PSI exceeds 200: Haze Task Force",
-      "url": "https://www.channelnewsasia.com/singapore/haze-psi-nea-task-force-air-quality-n95-mask-distribution-6445376",
-      "summary": "School closures will be considered when the air quality forecast for the next day exceeds a 24-hour PSI of 300.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 21:22:00 +0800"
-    },
-    {
-      "title": "2026 F1 Singapore Grand Prix exempted from charging 10-cent BCRS deposit: NEA",
-      "url": "https://www.channelnewsasia.com/singapore/f1-beverage-10-cent-deposit-bcrs-6446016",
-      "summary": "Visitors will not have to pay the 10-cent deposit on regulated beverage containers sold within the Circuit Park.",
-      "source": "CNA",
-      "published": "Fri, 09 Oct 2026 20:20:28 +0800"
     }
   ],
   "world": [
@@ -150,8 +150,8 @@
       "published": "Sun, 11 Oct 2026 02:02:00 +0800"
     },
     {
-      "title": "Suspected Houthi attack on Riyadh airport kills 12, wounds hundreds",
-      "url": "https://www.channelnewsasia.com/world/suspected-houthi-attack-riyadh-airport-kills-12-wounds-hundreds-6449071",
+      "title": "At least 12 dead in Riyadh airport attack: Saudi officials",
+      "url": "https://www.channelnewsasia.com/world/riyadh-airport-attack-12-killed-6449071",
       "summary": "The attack prompted Saudi health officials to activate a rare mass call-up of doctors to deal with the \"serious emergency\", a medical source said.",
       "source": "CNA",
       "published": "Sun, 11 Oct 2026 01:33:00 +0800"
@@ -213,6 +213,6 @@
       "published": "Fri, 09 Oct 2026 23:13:17 +0800"
     }
   ],
-  "generated_at": "2026-10-11T06:54:23+08:00",
+  "generated_at": "2026-10-11T09:03:36+08:00",
   "test_mode": false
 }
